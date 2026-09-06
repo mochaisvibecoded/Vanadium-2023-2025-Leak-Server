@@ -1,0 +1,1830 @@
+[
+  {
+    "Key": "Screens.ForceVerification",
+    "Value": "1"
+  },
+  {
+    "Key": "Screens.ForceWaitlist",
+    "Value": "false"
+  },
+  {
+    "Key": "splitTestSoftOverrides",
+    "Value": ""
+  },
+  {
+    "Key": "Door.Creative.Query",
+    "Value": "^CreativeCampus | ^RecRoomGallery"
+  },
+  {
+    "Key": "Door.Creative.Title",
+    "Value": "Creative Campus"
+  },
+  {
+    "Key": "Door.Featured.Query",
+    "Value": "#featured"
+  },
+  {
+    "Key": "Door.Featured.Title",
+    "Value": "Featured"
+  },
+  {
+    "Key": "Door.Quests.Query",
+    "Value": "#quest #rro"
+  },
+  {
+    "Key": "Door.Quests.Title",
+    "Value": "QUESTS"
+  },
+  {
+    "Key": "Door.Shooters.Query",
+    "Value": "#pvp"
+  },
+  {
+    "Key": "Door.Shooters.Title",
+    "Value": "PvP"
+  },
+  {
+    "Key": "Door.Sports.Query",
+    "Value": "#sport #rro | #pvp #rro"
+  },
+  {
+    "Key": "Door.Sports.Title",
+    "Value": "SPORTS \u0026 PVP"
+  },
+  {
+    "Key": "Screens.ForceRegistrationPS4",
+    "Value": "true"
+  },
+  {
+    "Key": "splitTestHardOverrides",
+    "Value": "IOSAppPermissions_2019_10_02=Immediate;GottaGoFastNUX_2020_09_04=Off;RecNetImageCacheRefCount_2020_09_18=On;Curated_Rooms_2020_08_06=On;PlayMenuRRUI_2021_01_11=On;PlayMenuRRUI_HotRoomsCarousel_2021_02_09=On;PlayMenuRRUI_CarouselOrdering_2021_02_09=PlayMenuCarouselOrdering_1;CreationCommands_2021_02_16=Off;RecRoomPlus_DormMirrorButton_2021_03_09=ButtonOn;CurrentContestWinnersCarouselVisibility_2021_04_15=Off;MutualFriends_2021_04_22=On;PlayMenuRRUI_DefaultTab_2021_05_13=Highlight;DefaultNewPlayersToPlayMenu_2021_05_24=On;ShowNewRRPlusIcon_2021_06_01=NewIcon;ParallelNetworkingInitialRoomLoad_2021_06_28=ParallelLoad;ShowNewRRPlusBenefitsPage_2021_06_14=OldPage;WatchStoreHomepageLayout_2021_06_14=OldStoreLayout;NotificationPermissionsExplanationText_2021_06_25=Control;PlayMenuRRUI_TopCreatorsCarousel_2021_09_01=Off;UseSets_2021_08_06=UseSets;RoomSimilarities_2021_10_29=On;ProfileOnClick_2021_04_30=On;RoomRecommendations_2020_05_06=On;FriendImportLogin_2021_09_23=On;RudderStackAnalyticsDestinations_2022_02_10=RudderStackOnly;ObjectModel_EnableForRoom_2022_07_01=Allowed;PlayMenuCarouselOrdering_2021_11_01=PlayMenuCarouselOrdering_1;PlayMenuBanner_2021_11_01=Off;"
+  },
+  {
+    "Key": "GASamplingRatio",
+    "Value": "0.02"
+  },
+  {
+    "Key": "splitTestsAvailable",
+    "Value": "RoomRecommendations_2020_05_06=On,Off;Curated_Rooms_2020_08_06=Off,On;RecNetImageCacheRefCount_2020_09_18=On,Off;GottaGoFastNUX_2020_09_04=Off,On;Curated_Rooms_Tab_Placement_2020_09_22=First,Second;PlayMenuRRUI_2021_01_11=Off,On;PlayMenuRRUI_HotRoomsCarousel_2021_02_09=Off,On;PlayMenuRRUI_CarouselOrdering_2021_02_09=PlayMenuCarouselOrdering_1,PlayMenuCarouselOrdering_2,PlayMenuCarouselOrdering_3;CreationCommands_2021_02_16=Off,On;RecRoomPlus_DormMirrorButton_2021_03_09=ButtonOn,ButtonOff;CurrentContestWinnersCarouselVisibility_2021_04_15=Off,On;MutualFriends_2021_04_22=Off,On;ProfileOnClick_2021_04_30=Off,On;PlayMenuRRUI_DefaultTab_2021_05_13=Highlight,RRO,Hot;DefaultNewPlayersToPlayMenu_2021_05_24=Off,On;ShowNewRRPlusIcon_2021_06_01=OldIcon,NewIcon;ShowNewRRPlusBenefitsPage_2021_06_14=OldPage,NewPage;WatchStoreHomepageLayout_2021_06_14=OldStoreLayout,NewStoreLayout;NotificationPermissionsExplanationText_2021_06_25=Control,SpecificValueText;ParallelNetworkingInitialRoomLoad_2021_06_28=SequentialLoad,ParallelLoad;UseSets_2021_08_06=IgnoreSets,UseSets;PlayMenuRRUI_TopCreatorsCarousel_2021_09_01=Off,On;FriendImportLogin_2021_09_23=Off,On;Purchase_Campaigns_AB_2021_09_13=Purchase_Campaign_AB_A,Purchase_Campaign_AB_B;Purchase_Campaigns_ABCD_2021_09_13=Purchase_Campaign_ABCD_A,Purchase_Campaign_ABCD_B,Purchase_Campaign_ABCD_C,Purchase_Campaign_ABCD_D;RoomSimilarities_2021_10_29=On,Off;PlayMenuBanner_2021_11_01=Off,On;PlayMenuCarouselOrdering_2021_11_01=PlayMenuCarouselOrdering_1,PlayMenuCarouselOrdering_2,PlayMenuCarouselOrdering_3;RudderStackAnalyticsDestinations_2022_02_10=Disabled,RudderStackOnly,Both;ObjectModel_EnableForRoom_2022_07_01=Disallowed,Allowed;"
+  },
+  {
+    "Key": "splitTestSegmentProbabilities",
+    "Value": "{\u0022RoomRecommendations_2020_05_06\u0022:[{\u0022SegmentName\u0022:\u0022On\u0022,\u0022Probability\u0022:0.25},{\u0022SegmentName\u0022:\u0022Off\u0022,\u0022Probability\u0022:0.75}],\u0022CurrentContestWinnersCarouselVisibility_2021_04_15\u0022:[{\u0022SegmentName\u0022:\u0022Off\u0022,\u0022Probability\u0022:1.0},{\u0022SegmentName\u0022:\u0022On\u0022,\u0022Probability\u0022:0.0}],\u0022PlayMenuBanner_2021_11_01\u0022:[{\u0022SegmentName\u0022:\u0022Off\u0022,\u0022Probability\u0022:0.5},{\u0022SegmentName\u0022:\u0022On\u0022,\u0022Probability\u0022:0.5}],\u0022FriendImportLogin_2021_09_23\u0022:[{\u0022SegmentName\u0022:\u0022Off\u0022,\u0022Probability\u0022:0.5},{\u0022SegmentName\u0022:\u0022On\u0022,\u0022Probability\u0022:0.5}],\u0022PlayMenuCarouselOrdering_2021_11_01\u0022:[{\u0022SegmentName\u0022:\u0022PlayMenuCarouselOrdering_1\u0022,\u0022Probability\u0022:0.33},{\u0022SegmentName\u0022:\u0022PlayMenuCarouselOrdering_2\u0022,\u0022Probability\u0022:0.33},{\u0022SegmentName\u0022:\u0022PlayMenuCarouselOrdering_3\u0022,\u0022Probability\u0022:0.34}]}"
+  },
+  {
+    "Key": "Friends.PostGamePromptUnderFriendCount",
+    "Value": "10"
+  },
+  {
+    "Key": "Friends.SuggestFriendCodeOnFriendsScreenCount",
+    "Value": "25"
+  },
+  {
+    "Key": "runningNetworkTimeout",
+    "Value": "30"
+  },
+  {
+    "Key": "loadingNetworkTimeout",
+    "Value": "180"
+  },
+  {
+    "Key": "SynchronizedField.RemoveDefaultEntries",
+    "Value": "true"
+  },
+  {
+    "Key": "Rewards.SelectionTimeout",
+    "Value": "1800"
+  },
+  {
+    "Key": "Rewards.UseRewardSelection",
+    "Value": "true"
+  },
+  {
+    "Key": "RoomDetails.PhotoRollEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "Rendering.DisableSrpBatcher",
+    "Value": ""
+  },
+  {
+    "Key": "Backtrace.config",
+    "Value": "0|0.05|0|20|50|1|0|0|1000"
+  },
+  {
+    "Key": "Backtrace.enabledLikelihood",
+    "Value": "1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0"
+  },
+  {
+    "Key": "RoomScaleMotionCheatDetector.MinHmdSpeedAboveTriggerCount",
+    "Value": "6"
+  },
+  {
+    "Key": "RoomScaleMotionCheatDetector.ShouldBootToDormWhenDetected.PlayStation",
+    "Value": "false"
+  },
+  {
+    "Key": "RoomScaleMotionCheatDetector.ShouldBootToDormWhenDetected.Steam",
+    "Value": "true"
+  },
+  {
+    "Key": "RoomScaleMotionCheatDetector.ShouldBootToDormWhenDetected.Oculus",
+    "Value": "true"
+  },
+  {
+    "Key": "PlayMenuCarouselOrdering_3",
+    "Value": "hotrooms=14;new=13;recroomoriginals=12;continueplaying=11;myfavorites=10;friendsplaying=9;recommended=8;mysubscriptions=7;staffcurated=6;featured=5;myclubhouses=4;myevents=3;topcreators=2;discoverability=1;hiddenworldscontest=0"
+  },
+  {
+    "Key": "PlayMenuCarouselOrdering_2",
+    "Value": "continueplaying=14;hotrooms=13;new=12;recroomoriginals=11;myfavorites=10;friendsplaying=9;recommended=8;mysubscriptions=7;staffcurated=6;featured=5;myclubhouses=4;myevents=3;topcreators=2;discoverability=1;hiddenworldscontest=0"
+  },
+  {
+    "Key": "PlayMenuCarouselOrdering_1",
+    "Value": "foryou=25;hotrooms=24;new=23;recroomoriginals=22;continueplaying=21;rising=20;myfavorites=19;friendsplaying=18;topearning=17;mysubscriptions=16;earnroomcurrency_algo=14;roleplay_algoendpoint=13;casual_algoendpoint=12;horror_algoendpoint=11;battle_algoendpoint=10;explore_algoendpoint=9;quests_algoendpoint=8;hangout_algoendpoint=7;inkshowcase=6;featured=5"
+  },
+  {
+    "Key": "Backtrace.versionRegex",
+    "Value": ".*"
+  },
+  {
+    "Key": "Backtrace.messageRegex",
+    "Value": "^Cannot set the parent of the GameObject .* while its new parent|^\\\u003E\\x2010x\\:\\x20|\\\u0027LabelTheme\\\u0027 contains missing PaletteTheme reference on"
+  },
+  {
+    "Key": "RoomScaleMotionCheatDetector.MaxAllowedAverageHmdSpeed",
+    "Value": "3"
+  },
+  {
+    "Key": "RoomScaleMotionCheatDetector.MeasurementPeriodInSeconds",
+    "Value": "1"
+  },
+  {
+    "Key": "RoomScaleMotionCheatDetector.TriggerHmdSpeed",
+    "Value": "3"
+  },
+  {
+    "Key": "GDK_Enable_RRPlus",
+    "Value": "true"
+  },
+  {
+    "Key": "Door.StuntRunner.Title",
+    "Value": "COMMUNITY"
+  },
+  {
+    "Key": "Door.StuntRunner.Query",
+    "Value": "#stuntrunner #community"
+  },
+  {
+    "Key": "UGC.EnableRRUIConfigMenu",
+    "Value": "true"
+  },
+  {
+    "Key": "Growth.EnableProfilePhoneButton",
+    "Value": "true"
+  },
+  {
+    "Key": "Growth.FriendFestPromosActive",
+    "Value": "false"
+  },
+  {
+    "Key": "Backtrace.stopTimeUTC",
+    "Value": "9999-09-28 23:55"
+  },
+  {
+    "Key": "OldStoreLayout",
+    "Value": "banner=12;storecampaigns=11;tokenpack=10;allskus=9;hotitem=8;hotinvention=7;newitem=6;mysubscriptioninvention=5;rrplusitem=4;fivestaritem=3;skinsitem=2;hairdyeitem=1;"
+  },
+  {
+    "Key": "NewStoreLayout",
+    "Value": "banner=9;hotitem=7;hotinvention=8;newitem=6;mysubscriptioninvention=5;rrplusitem=4;fivestaritem=3;skinsitem=2;hairdyeitem=1;"
+  },
+  {
+    "Key": "UGC.ForbiddenSavedSpawnableTools",
+    "Value": ""
+  },
+  {
+    "Key": "MobileNotifications.UseFirebasePushNotifications",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.MaxChipsVisible",
+    "Value": "5000"
+  },
+  {
+    "Key": "UGC.MaxChipsUnculled",
+    "Value": "200"
+  },
+  {
+    "Key": "MagicDoor.NewDestinationText",
+    "Value": "Magic Door"
+  },
+  {
+    "Key": "UGC.Persistence.Enabled",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.Persistence.AutosaveIntervalSeconds",
+    "Value": "300"
+  },
+  {
+    "Key": "MagicDoor.DestinationRefreshingText",
+    "Value": "New Room in"
+  },
+  {
+    "Key": "CannedChatAnalyticsSampleRate",
+    "Value": ".25"
+  },
+  {
+    "Key": "UGC.CV2.CooldownBeforeSubscriptionCheckSeconds",
+    "Value": "240"
+  },
+  {
+    "Key": "RRUI.UseRRUIHomeScreen",
+    "Value": "true"
+  },
+  {
+    "Key": "SafePlaySFXAudioSourceSounds",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ScreenSharing.EnabledForMultiInstanceEvents",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ScreenSharing.CompressionQualityMultiplier",
+    "Value": "1.0"
+  },
+  {
+    "Key": "UGC.ScreenSharing.EnableZipCompression",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ScreenSharing.MaxFragmentBytes",
+    "Value": "15360"
+  },
+  {
+    "Key": "UGC.ScreenSharing.RefreshHzMultiplier",
+    "Value": "30.0"
+  },
+  {
+    "Key": "UGC.ScreenSharing.ResolutionMultiplier",
+    "Value": "1.0"
+  },
+  {
+    "Key": "BroadcastManager.VoiceRolloffMaxDistance",
+    "Value": "500"
+  },
+  {
+    "Key": "BroadcastManager.IsRoomChatBroadcastSupported",
+    "Value": "true"
+  },
+  {
+    "Key": "BroadcastManager.RoomChatMaxMessagesPerTrackingPeriod",
+    "Value": "1"
+  },
+  {
+    "Key": "Growth.EnableInfluencerProgram",
+    "Value": "true"
+  },
+  {
+    "Key": "Growth.EnableSMSInvites",
+    "Value": "false"
+  },
+  {
+    "Key": "MobileNotifications.AndroidPushNotificationsEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "PlatformNotifications.AndroidPushNotificationsEnabled\t",
+    "Value": "true"
+  },
+  {
+    "Key": "PlatformNotifications.UseFirebasePushNotifications\t",
+    "Value": "true"
+  },
+  {
+    "Key": "PlatformNotifications.ActiveHoursStartLocalTime",
+    "Value": "9"
+  },
+  {
+    "Key": "AndroidMobile.runFileWatcher",
+    "Value": "0"
+  },
+  {
+    "Key": "AndroidMobile.runHashCheck",
+    "Value": "0"
+  },
+  {
+    "Key": "OculusQuest.runHashCheck",
+    "Value": "0"
+  },
+  {
+    "Key": "ToxMod.Enabled",
+    "Value": "false"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.Chips",
+    "Value": "50000"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.CloudValues",
+    "Value": "500"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.CloudValuesAutosaveSeconds",
+    "Value": "20"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.Compute",
+    "Value": "8000000"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.InkPerChip",
+    "Value": "8"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.Network",
+    "Value": "[ { \u0022NumPlayersForActivation\u0022: 0, \u0022Bytes\u0022: 3072, \u0022Rpcs\u0022: 15 }, { \u0022NumPlayersForActivation\u0022: 13, \u0022Bytes\u0022: 2048, \u0022Rpcs\u0022: 10 }, { \u0022NumPlayersForActivation\u0022: 25, \u0022Bytes\u0022: 1024, \u0022Rpcs\u0022: 5 } ]"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.UnculledChips",
+    "Value": "500"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.VisibleChips",
+    "Value": "40000"
+  },
+  {
+    "Key": "Growth.Mic_SCO_AccountCreationCutOff",
+    "Value": "2021-11-10 00:00"
+  },
+  {
+    "Key": "AndroidMobile.enforceFileWatcher",
+    "Value": "0"
+  },
+  {
+    "Key": "AndroidMobile.enforceHashCheck",
+    "Value": "0"
+  },
+  {
+    "Key": "OculusQuest.enforceFileWatcher",
+    "Value": "0"
+  },
+  {
+    "Key": "OculusQuest.enforceHashCheck",
+    "Value": "0"
+  },
+  {
+    "Key": "RRUIRouteChangeSampleRate",
+    "Value": "0.01"
+  },
+  {
+    "Key": "PlatformNotifications.AndroidPushNotificationsEnabled",
+    "Value": "True"
+  },
+  {
+    "Key": "PlatformNotifications.UseFirebasePushNotifications",
+    "Value": "True"
+  },
+  {
+    "Key": "Growth.DeepLinks",
+    "Value": "[   {     \u0022Link\u0022: \u0022recroom://testlink\u0022,     \u0022Action\u0022: \u0022GoToRoom\u0022,     \u0022Data\u0022: {       \u0022RoomName\u0022: \u0022Festival\u0022     }   },   {     \u0022Link\u0022: \u0022recroom://solus\u0022,     \u0022Action\u0022: \u0022GoToRoom\u0022,     \u0022Data\u0022: {       \u0022RoomName\u0022: \u0022TestRoom\u0022     }   },   {     \u0022Link\u0022: \u0022recroom://winterwonderland\u0022,     \u0022Action\u0022: \u0022GoToRoom\u0022,     \u0022Data\u0022: {       \u0022RoomName\u0022: \u0022RecHolidayMarket\u0022     }   },   {     \u0022Link\u0022: \u0022recroom://reccenter\u0022,     \u0022Action\u0022: \u0022GoToRoom\u0022,     \u0022Data\u0022: {       \u0022RoomName\u0022: \u0022RecCenter\u0022     }   } ]"
+  },
+  {
+    "Key": "UGC.RoomReloadTimeout",
+    "Value": "30"
+  },
+  {
+    "Key": "Growth.RoomJackpotAccountCreationCutoff",
+    "Value": "2022-05-27 00:00"
+  },
+  {
+    "Key": "Growth.ShowShuffleChip",
+    "Value": "true"
+  },
+  {
+    "Key": "Growth.SCO_HasMicTestDependency",
+    "Value": "false"
+  },
+  {
+    "Key": "Friendotron_AllowSelfGifting",
+    "Value": "True"
+  },
+  {
+    "Key": "Friendotron_MaxUsersPerSession",
+    "Value": "2"
+  },
+  {
+    "Key": "Debug.Watchdog.CorruptRoomDetectionProbability",
+    "Value": "0"
+  },
+  {
+    "Key": "Debug.Watchdog.CorruptRoomDetectionTimeSeconds",
+    "Value": "900"
+  },
+  {
+    "Key": "LogRoomLoadSnapshots",
+    "Value": "true"
+  },
+  {
+    "Key": "RRUI.MaxActiveHiddenPages",
+    "Value": "5"
+  },
+  {
+    "Key": "Mitigation.IgnoreSendingRoomUpdatesOnAppQuit",
+    "Value": "true"
+  },
+  {
+    "Key": "Mitigation.DisconnectPhotonOnAppQuit",
+    "Value": "true"
+  },
+  {
+    "Key": "ToxMod.Rooms",
+    "Value": "^PrideMonth,^RecRoomGallery"
+  },
+  {
+    "Key": "Mitigation.FixBrokenLobbies",
+    "Value": "true"
+  },
+  {
+    "Key": "Debug.Watchdog.AdditionalLogTraceSizeForLoading",
+    "Value": "0"
+  },
+  {
+    "Key": "Debug.AdditionalLogFlags",
+    "Value": "CircuitsV2Lifecycle"
+  },
+  {
+    "Key": "Debug.AdditionalTraceFlags",
+    "Value": "None"
+  },
+  {
+    "Key": "Debug.Watchdog.AdditionalTraceFlagsForLoading",
+    "Value": "None"
+  },
+  {
+    "Key": "Debug.Watchdog.LoadBacktraceProbability",
+    "Value": "0"
+  },
+  {
+    "Key": "Debug.Watchdog.LoadBacktraceTimeoutSeconds",
+    "Value": "0"
+  },
+  {
+    "Key": "Debug.Watchdog.LoadLogTimesSeconds",
+    "Value": "[40, 60, 120, 180, 240]"
+  },
+  {
+    "Key": "Debug.Watchdog.LoadTimeoutSeconds",
+    "Value": "0"
+  },
+  {
+    "Key": "Debug.Watchdog.LogLoadComplete",
+    "Value": "false"
+  },
+  {
+    "Key": "TerminateLoadForMasterTransition",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.AllowBetaInvertedTubeCreation",
+    "Value": "false"
+  },
+  {
+    "Key": "UGC.AllowNonBetaInvertedTubeCreation",
+    "Value": "true"
+  },
+  {
+    "Key": "MobileHome.ChatEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "UseRRUICreateScreen",
+    "Value": "true"
+  },
+  {
+    "Key": "Growth.RoomCategorySelectAccountCreationCutoff",
+    "Value": "2022-06-28 00:00"
+  },
+  {
+    "Key": "Growth.IsEmailMandatory_Jr",
+    "Value": "false"
+  },
+  {
+    "Key": "Growth.IsEmailMandatory_NonJr",
+    "Value": "false"
+  },
+  {
+    "Key": "Growth.IsPhoneMandatory_NonJr",
+    "Value": "false"
+  },
+  {
+    "Key": "Growth.EmailPromptFrequencyHours",
+    "Value": "120"
+  },
+  {
+    "Key": "Debug.TraceProbability",
+    "Value": "0"
+  },
+  {
+    "Key": "Voice.UseLegacyUnityAudioOut",
+    "Value": "false"
+  },
+  {
+    "Key": "Statsig.Enabled",
+    "Value": "false"
+  },
+  {
+    "Key": "UseRRUIEventsScreen",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.Shapes.OptimizedCollidersDefaultForExisting",
+    "Value": "false"
+  },
+  {
+    "Key": "LeagueOfHeroesEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.CircuitsV2.DisablePlayerBoardRooms",
+    "Value": "[]"
+  },
+  {
+    "Key": "UGC.MakerPen_CreationMode.Default.Screen",
+    "Value": "Scale"
+  },
+  {
+    "Key": "RRUI.UseNewProfile",
+    "Value": "false"
+  },
+  {
+    "Key": "PlayerRelationships.NumFriendsWarningThreshold",
+    "Value": "3000"
+  },
+  {
+    "Key": "Growth.RoomCategoriesJson",
+    "Value": "[{ \u0022Tag\u0022: \u0022PVP\u0022, \u0022ImageName\u0022: \u0022roomCatSelect_pvp.jpg\u0022 }, { \u0022Tag\u0022: \u0022Quest\u0022, \u0022ImageName\u0022: \u0022roomCatSelect_quest.jpg\u0022 }, { \u0022Tag\u0022: \u0022Horror\u0022, \u0022ImageName\u0022: \u0022roomCatSelect_horror.jpg\u0022 }, { \u0022Tag\u0022: \u0022Hangout\u0022, \u0022ImageName\u0022: \u0022roomCatSelect_hangout.jpg\u0022 }, { \u0022Tag\u0022: \u0022Art\u0022, \u0022ImageName\u0022: \u0022roomCatSelect_art.jpg\u0022 }]"
+  },
+  {
+    "Key": "Growth.RoomCategorySelect_StraightToRandomRoom_TakeFirstRoom",
+    "Value": "false"
+  },
+  {
+    "Key": "Growth.ShowRoomCategorySelectChip",
+    "Value": "true"
+  },
+  {
+    "Key": "RecNet.JsonParserType",
+    "Value": "1"
+  },
+  {
+    "Key": "NewPlayerChallenges_InventionTower_Screen",
+    "Value": "InkInc"
+  },
+  {
+    "Key": "NewPlayerChallenges_InventionTower_VR",
+    "Value": "InkInc"
+  },
+  {
+    "Key": "NewPlayerChallenges_LaunchDateTime",
+    "Value": "03/24/1922 12:00:00 "
+  },
+  {
+    "Key": "NewPlayerChallenges_MaxDisplayedFamilies",
+    "Value": "3"
+  },
+  {
+    "Key": "Growth.QuickOrientationEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "AppleMusicPromo.Description",
+    "Value": "\u0026lt;align=\u0026quot;center\u0026quot;\u0026gt;Access over 90 million songs, over 30,000 playlists, and original content from your favorite artists all ad-free with Apple Music.\u0026lt;/align\u0026gt;"
+  },
+  {
+    "Key": "AppleMusicPromo.Title",
+    "Value": "Get up to 2 months of Apple Music free! "
+  },
+  {
+    "Key": "AppleMusicPromo.TOC",
+    "Value": "\u0026lt;size=70%\u0026gt;Code expires on June 30, 2022.\u0026lt;br\u0026gt;This is a promotional code and is not for resale, has no cash value, and will not be replaced if lost or stolen.  Valid only for Apple Music in the United States. Requires Apple ID with payment method on file. After promotional period ends, subscription will auto-renew at $9.99/month until cancelled. Payment will be billed to the payment method on file and can be cancelled anytime at least a day before each renewal date at Settings \u0026gt; Apple ID. Terms and Apple Privacy Policy apply; see the applicable terms for your country at https://www.apple.com/legal/internet-services/itunes/ww. Cannot be combined with other offers providing access to the same service. Must be of the minimum age set forth in the subscription registration process for your country and in the country that matches the store front on which you are redeeming the code. Compatible products and services required.\u0026lt;br\u0026gt;Apple Music is a registered trademark of Apple Inc. Apple is not a sponsor of this promotion.\u0026lt;/size\u0026gt;"
+  },
+  {
+    "Key": "RRUI.EnableUIAnchors",
+    "Value": "true"
+  },
+  {
+    "Key": "Growth.MakerPenIntroCreationCutoff",
+    "Value": "9999-05-11 00:00"
+  },
+  {
+    "Key": "Growth.MakerPenIntroDormOnly",
+    "Value": "true"
+  },
+  {
+    "Key": "Social.ClubChatEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.RoomSavingEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "Video.MaxVideoDesyncSeconds",
+    "Value": "3.0"
+  },
+  {
+    "Key": "Video.PS5IsPlaybackSupported",
+    "Value": "true"
+  },
+  {
+    "Key": "Video.PlaystationIsRemotePlaybackSupported",
+    "Value": "false"
+  },
+  {
+    "Key": "Video.IOSSeekCooldownSeconds",
+    "Value": "2.0"
+  },
+  {
+    "Key": "NewPlayerChallenges_MaxPlayerPromptCount",
+    "Value": "3"
+  },
+  {
+    "Key": "Social.TimedFlowSampleRate",
+    "Value": "0.05"
+  },
+  {
+    "Key": "Debug.Photon.ConnectionFailure.Exception.SampleRate",
+    "Value": "0.01"
+  },
+  {
+    "Key": "AutoClickerCheatDetector.Enabled",
+    "Value": "true"
+  },
+  {
+    "Key": "AutoClickerCheatDetector.NumberOfActionsAllowed_ScreenPress",
+    "Value": "3000"
+  },
+  {
+    "Key": "AutoClickerCheatDetector.NumberOfActionsAllowed_TriggerPress",
+    "Value": "3000"
+  },
+  {
+    "Key": "RoomJoinV2.Detailed",
+    "Value": "1"
+  },
+  {
+    "Key": "PhotonClient.Detailed",
+    "Value": "0.05"
+  },
+  {
+    "Key": "RoomJoinV2.PathDepth",
+    "Value": "999"
+  },
+  {
+    "Key": "Growth.RoomJackpotPlaylists_Screens",
+    "Value": "[ { \u0022PlaylistType\u0022: \u0022HotRooms\u0022, \u0022DisplayType\u0022: \u0022Always\u0022, \u0022ShuffleType\u0022: \u0022MixWithOthersAndShuffle\u0022, \u0022MaxTopRoomsCountLimit\u0022: 20 }, { \u0022PlaylistType\u0022: \u0022RRO\u0022, \u0022DisplayType\u0022: \u0022Always\u0022, \u0022ShuffleType\u0022: \u0022MixWithOthersAndShuffle\u0022, \u0022MaxTopRoomsCountLimit\u0022: 5 }, { \u0022PlaylistType\u0022: \u0022Featured\u0022, \u0022DisplayType\u0022: \u0022Always\u0022, \u0022ShuffleType\u0022: \u0022MixWithOthersAndShuffle\u0022, \u0022MaxTopRoomsCountLimit\u0022: 5 } ]"
+  },
+  {
+    "Key": "Growth.RoomJackpotPlaylists_Touch",
+    "Value": "[ { \u0022PlaylistType\u0022: \u0022HotRooms\u0022, \u0022DisplayType\u0022: \u0022Always\u0022, \u0022ShuffleType\u0022: \u0022MixWithOthersAndShuffle\u0022, \u0022MaxTopRoomsCountLimit\u0022: 20 }, { \u0022PlaylistType\u0022: \u0022RRO\u0022, \u0022DisplayType\u0022: \u0022Always\u0022, \u0022ShuffleType\u0022: \u0022MixWithOthersAndShuffle\u0022, \u0022MaxTopRoomsCountLimit\u0022: 5 }, { \u0022PlaylistType\u0022: \u0022Featured\u0022, \u0022DisplayType\u0022: \u0022Always\u0022, \u0022ShuffleType\u0022: \u0022MixWithOthersAndShuffle\u0022, \u0022MaxTopRoomsCountLimit\u0022: 5 } ]"
+  },
+  {
+    "Key": "Growth.RoomJackpotPlaylists_VR",
+    "Value": "[ { \u0022PlaylistType\u0022: \u0022HotRooms\u0022, \u0022DisplayType\u0022: \u0022Always\u0022, \u0022ShuffleType\u0022: \u0022MixWithOthersAndShuffle\u0022, \u0022MaxTopRoomsCountLimit\u0022: 20 }, { \u0022PlaylistType\u0022: \u0022RRO\u0022, \u0022DisplayType\u0022: \u0022Always\u0022, \u0022ShuffleType\u0022: \u0022MixWithOthersAndShuffle\u0022, \u0022MaxTopRoomsCountLimit\u0022: 5 }, { \u0022PlaylistType\u0022: \u0022Featured\u0022, \u0022DisplayType\u0022: \u0022Always\u0022, \u0022ShuffleType\u0022: \u0022MixWithOthersAndShuffle\u0022, \u0022MaxTopRoomsCountLimit\u0022: 5 } ]"
+  },
+  {
+    "Key": "Growth.ForceQuickOrientationCreationCutoff",
+    "Value": "9999-06-17 00:00"
+  },
+  {
+    "Key": "UGC.DetailedRoomLoadLogs",
+    "Value": "true"
+  },
+  {
+    "Key": "RoomLoad.BufferedEventTimeoutSeconds",
+    "Value": "180"
+  },
+  {
+    "Key": "RoomLoad.PostDownloadTimeoutSeconds",
+    "Value": "240"
+  },
+  {
+    "Key": "UGC.DetailedRoomLoadLogsForDevs",
+    "Value": "true"
+  },
+  {
+    "Key": "CustomAvatarItems.CustomShirtId",
+    "Value": "2184"
+  },
+  {
+    "Key": "UGC.LoadingScreenProgressBar",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.SceneSpawnManager.TotalPlayerSpawnTimeoutSeconds",
+    "Value": "150"
+  },
+  {
+    "Key": "Experience.GameLogTool.HideForJunior",
+    "Value": "true"
+  },
+  {
+    "Key": "Experience.GameLogTool.HideTool",
+    "Value": "false"
+  },
+  {
+    "Key": "Experience.GameLogTool.UseBugWording",
+    "Value": "true"
+  },
+  {
+    "Key": "Social.DisablePhotoRollPrintingWhenMakerPenDisabled",
+    "Value": "true"
+  },
+  {
+    "Key": "RoomLoad.BlockedRoomNamesOnLowMemoryDevices",
+    "Value": "0Project29,Showdown"
+  },
+  {
+    "Key": "UGC.CircuitsV2.SnapshotThresholdBytes",
+    "Value": "204000"
+  },
+  {
+    "Key": "RoomLoad.DownloadAssetBundleTimeoutSeconds",
+    "Value": "900"
+  },
+  {
+    "Key": "RoomLoad.DownloadTimeoutSeconds",
+    "Value": "900"
+  },
+  {
+    "Key": "Growth.SupportInfluencerConfirmMessage",
+    "Value": "When you support a player, you show that you like them."
+  },
+  {
+    "Key": "ToxMod.EnableUGCRoomVoiceModeration",
+    "Value": "False"
+  },
+  {
+    "Key": "RoomJoinV2.AlwaysLogPaths",
+    "Value": "StackTimer;StackTimer.ConnectToRoomAndRunLoadLogic;StackTimer.ConnectToRoomAndRunLoadLogic.RunRoomLoadLogic;StackTimer.ConnectToRoomAndRunLoadLogic.RunRoomLoadLogic.InitialRoomLoad;StackTimer.ConnectToRoomAndRunLoadLogic.RunRoomLoadLogic.InitialRoomLoad.LoadRoomLocal;StackTimer.ConnectToRoomAndRunLoadLogic.RunRoomLoadLogic.InitialRoomLoad.LoadRoomLocal.Downloading Data;StackTimer.ConnectToRoomAndRunLoadLogic.RunRoomLoadLogic.InitialRoomLoad.LoadRoomLocal.Downloading Data.AssetBundle_Download"
+  },
+  {
+    "Key": "PlayMenuCuratedCarouselsMap",
+    "Value": "inkincroomhighlights=73682475;topearning=65380152;inkshowcase=52548973;quest=17859348;battle=17859349;horror=17859352;casualplay=17859347;roleplay=17859346;hangout=17859350;explore=17859351"
+  },
+  {
+    "Key": "RoomJoinV2.TimeClampMax",
+    "Value": "900"
+  },
+  {
+    "Key": "RRUI.PlayHittingEndsSFX",
+    "Value": "false"
+  },
+  {
+    "Key": "MetaHardware.ApplyJuniorRestrictions",
+    "Value": "true"
+  },
+  {
+    "Key": "Growth.ForcedPostOrientationCategorySelectDuration",
+    "Value": "1440"
+  },
+  {
+    "Key": "Econ.EnableTryingBundleItems",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.Allowed",
+    "Value": "true"
+  },
+  {
+    "Key": "ProgressionEvents.EventInfoFirstPanelBody",
+    "Value": "Collecting Science Cores in highlighted Rooms will award XP. Some rooms now have multiple Cores! Once you collect all Cores of one color, new ones may appear. You can also earn XP in public rooms or by collecting Cores with friends."
+  },
+  {
+    "Key": "ProgressionEvents.EventInfoFirstPanelTitle",
+    "Value": "Collect Science Cores for XP!"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialFirstIntro_PressFeaturedRoomButton_NewWatch",
+    "Value": "We need help... Collect the Core in ^TheScienceDepartment for more information!"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialFirstIntro_PressChallengesButton_OldWatch",
+    "Value": "We need help..."
+  },
+  {
+    "Key": "ProgressionEvents.EventInfoSecondPanelBody",
+    "Value": "Use the Boost to level up faster! The Boost will multiply the XP you have gained from recent time spent in Rec Room. 900 XP is the max amount that can be gained by purchasing the Boost."
+  },
+  {
+    "Key": "ProgressionEvents.EventInfoSecondPanelTitle",
+    "Value": "Speed Up Progress"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialFirstIntro_PressTodaysRoom_OldWatch",
+    "Value": "Our radars suggest that there is a Core in this room. Can you find it?"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialReward_PressChallengesButton_NewWatch",
+    "Value": "We\u0027ll add XP to your balance for each Core you collect. This XP doesn\u0027t count towards your regular XP limits! You\u0027ve proven your competence, let us share more details!"
+  },
+  {
+    "Key": "ProgressionEvents.EventInfoThirdPanelBody",
+    "Value": "Use Event Credits to unlock special offers in ^TheScienceDepartment room.\r\n\r\nEvent Credits can be used until 24 hours after the event ends."
+  },
+  {
+    "Key": "ProgressionEvents.EventInfoThirdPanelTitle",
+    "Value": "Spend Credits"
+  },
+  {
+    "Key": "ProgressionEvents.ExplorePageBanner_DescriptionText",
+    "Value": "Collect ALL the Cores!"
+  },
+  {
+    "Key": "ProgressionEvents.HoursBeforeShowingBackupTutorial",
+    "Value": "72"
+  },
+  {
+    "Key": "ProgressionEvents.HubRoomName",
+    "Value": "TheScienceDepartment"
+  },
+  {
+    "Key": "ProgressionEvents.ProgressionEventCurrencyName",
+    "Value": "Credit"
+  },
+  {
+    "Key": "ProgressionEvents.MinimumAccountAgeToShowTutorial",
+    "Value": "3"
+  },
+  {
+    "Key": "ProgressionEvents.RoomCarousel_PremiumRoomsHeader",
+    "Value": "Bonus Rooms - Science Exo Arms (Restoration)*|Bonus Rooms - Science Chainsaw (Restoration)*|Bonus Rooms - Vigilante Utility Belt (White)"
+  },
+  {
+    "Key": "ProgressionEvents.RoomCarousel_RegularRoomsHeader",
+    "Value": "Restoration Rooms: Science Cores located here!"
+  },
+  {
+    "Key": "ProgressionEvents.MainPage_EventEnded_SpendCurrencyBeforeTimeRunsOutPrompt",
+    "Value": "Spend your credits in ^TheScienceDepartment before time runs out."
+  },
+  {
+    "Key": "ProgressionEvents.MainPage_EventEnded_SpendCurrencyButtonText",
+    "Value": "Spend Credits"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialReward_PressViewAllRoomsButton_NewWatch\t",
+    "Value": "There are more Power Cores across the Room-i-verse in rooms created by your fellow creators.\r\n\r\n\r\nAs we discover the locations of more Power Cores, we\u0027ll add them to your list here. Don\u0027t forget to check back regularly!"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialReward_ClaimReward_NewWatch",
+    "Value": "You can collect event rewards here! \r\n\r\nCredits can be used to unlock items in the Science Department."
+  },
+  {
+    "Key": "ProgressionEvents.TutorialRewardBackup_PressChallengesButton_NewWatch\t",
+    "Value": "We\u0027ll add XP to your balance for each Power Core you collect. This XP doesn\u0027t count towards your regular XP limits!\r\n\r\nYou\u0027ve proven your competence, let us share more details!"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialRewardBackup_PressViewAllRoomsButton_NewWatch",
+    "Value": "There are more Power Cores across the Room-i-verse in rooms created by your fellow creators.\r\n\r\n\r\nAs we discover the locations of more Power Cores, we\u0027ll add them to your list here. Don\u0027t forget to check back regularly!"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialRewardBackup_PressBackButton_NewWatch",
+    "Value": "As a thank you, we have special offers for you in the Science Department!"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialRewardBackup_ClaimReward_NewWatch\t",
+    "Value": "You can collect event rewards here!\r\n\r\nCredits can be used to unlock items in the Science Department."
+  },
+  {
+    "Key": "ProgressionEvents.TutorialBackup_PressChallengesButton_NewWatch",
+    "Value": "Psst... there are Cores for you to find.\r\n\r\nWe could use your help!"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialBackup_PressTodaysRoomButton_NewWatch",
+    "Value": "Our radars suggest that there is a Core in this room. Can you find it?"
+  },
+  {
+    "Key": "ProgressionEvents.TutorialReward_PressBackButton_NewWatch",
+    "Value": "As a thank you, we have special offers for you in the Science Department!"
+  },
+  {
+    "Key": "ProgressionEvents.MainPage_EventEnded_SpendCurrencyBonusRewardsText",
+    "Value": "Make sure to collect and spend all of your credits before the event ends!"
+  },
+  {
+    "Key": "UGC.InventionSpawningEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "AntiHile.DC",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.GunHandle.ShowReloadOnFullAmmo",
+    "Value": "true"
+  },
+  {
+    "Key": "Econ.ShowPartiallyOwnedBundles",
+    "Value": "true"
+  },
+  {
+    "Key": "CCT.RRCA.CampusRoomId",
+    "Value": "77471693"
+  },
+  {
+    "Key": "CCT.RRCA.TutorialRooms.Building",
+    "Value": "688282368967907215,399286008370399908,2767464404937978317"
+  },
+  {
+    "Key": "CCT.RRCA.TutorialRooms.Circuits",
+    "Value": "5533753109055429437,367323597097954194,6805637954817370678"
+  },
+  {
+    "Key": "CCT.RRCA.TutorialRooms.Creation",
+    "Value": ""
+  },
+  {
+    "Key": "UGC.Roles.SetPlayerRolesAnalyticsThresholdMs",
+    "Value": "-1.0"
+  },
+  {
+    "Key": "CCT.RRCA.TutorialRooms.LearnToCreate",
+    "Value": "3406864552519591337,688282368967907215,5533753109055429437,5894707241498355365,2331615644215560745"
+  },
+  {
+    "Key": "Lifecycle.PlayMenuNegativeTestsCutoff",
+    "Value": "2018-01-01 00:00"
+  },
+  {
+    "Key": "UGC.EnableLocText",
+    "Value": "true"
+  },
+  {
+    "Key": "RoomLoad.PreDownloadTimeoutSeconds",
+    "Value": "120"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Analytics.HeartbeatInterval",
+    "Value": "0"
+  },
+  {
+    "Key": "DataCollection.OneTimeData.Enabled",
+    "Value": "true"
+  },
+  {
+    "Key": "Backtrace.deobfuscationRate",
+    "Value": "1.0"
+  },
+  {
+    "Key": "ProgressionEvents.GiftDropIdToRoomIdMapping",
+    "Value": "4953=76890764"
+  },
+  {
+    "Key": "ProgressionEvents.RoomCarousel_PremiumRoomsDesc",
+    "Value": "Unlock with Science Exo Arms (Restoration)*!|Unlock with Science Chainsaw (Restoration)*!|Unlock with Vigilante Utility Belt (White)!"
+  },
+  {
+    "Key": "ProgressionEvents.RoomCarousel_RegularRoomsDesc",
+    "Value": "Collect Science Cores in these Rooms!"
+  },
+  {
+    "Key": "Lifecycle.PlayMenuCardSizesAccountCreationCutoff",
+    "Value": "2017-01-01 00:01"
+  },
+  {
+    "Key": "ShowPurchasePromptCV2.RateLimitMaxInvocations",
+    "Value": "10"
+  },
+  {
+    "Key": "ShowPurchasePromptCV2.RateLimitTimeInverval\t",
+    "Value": "60"
+  },
+  {
+    "Key": "CameraFade.TimeoutSeconds",
+    "Value": "60"
+  },
+  {
+    "Key": "CameraFade.TimeoutTrackingEnabled\t",
+    "Value": "true"
+  },
+  {
+    "Key": "Experience.iOSQueuedBgTaskDelay",
+    "Value": "-1"
+  },
+  {
+    "Key": "AntiHile.LPD",
+    "Value": "true"
+  },
+  {
+    "Key": "Gamesight.PauseGamesightEvents",
+    "Value": "true"
+  },
+  {
+    "Key": "Lifecycle.PlayMenuCarouselHighlighting",
+    "Value": "all=Favorites:highlight_scale_75\t"
+  },
+  {
+    "Key": "Lifecycle.PlayMenuCarouselHighlightingCutoff",
+    "Value": "2017-01-01 00:01"
+  },
+  {
+    "Key": "MatchmakingUI.BlockedRooms",
+    "Value": "[170126]"
+  },
+  {
+    "Key": "MatchmakingUI.EligibleRooms",
+    "Value": ""
+  },
+  {
+    "Key": "MatchmakingUI.FailedStateContinuePlayingButtonText",
+    "Value": "Continue Playing"
+  },
+  {
+    "Key": "MatchmakingUI.FailedStateInviteFriendsButtonText",
+    "Value": "Invite Friends"
+  },
+  {
+    "Key": "MatchmakingUI.FailedStateSubtitle",
+    "Value": "Keep playing while we continue searching in the background..."
+  },
+  {
+    "Key": "MatchmakingUI.FailedStateTitle",
+    "Value": "This is taking longer than expected!"
+  },
+  {
+    "Key": "MatchmakingUI.MinRoomSize",
+    "Value": "2"
+  },
+  {
+    "Key": "MatchmakingUI.ShowIfEveryoneLeaves",
+    "Value": "true"
+  },
+  {
+    "Key": "MatchmakingUI.SucceededStateAutoDismissTimeout",
+    "Value": "5"
+  },
+  {
+    "Key": "MatchmakingUI.SucceededStateTitle",
+    "Value": "Another player has joined you!"
+  },
+  {
+    "Key": "MatchmakingUI.WaitingStateCountdown",
+    "Value": "10"
+  },
+  {
+    "Key": "MatchmakingUI.WaitingStateSubtitle",
+    "Value": "Scouting the Room-i-verse..."
+  },
+  {
+    "Key": "MatchmakingUI.WaitingStateTitle",
+    "Value": "Finding Players To Join You"
+  },
+  {
+    "Key": "MatchmakingUI.HideWhileInParty",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.MaxInkResources",
+    "Value": "900000"
+  },
+  {
+    "Key": "Lifecycle.InRoomChat.AccountCreationCutoff",
+    "Value": "2023-06-06 07:10"
+  },
+  {
+    "Key": "Lifecycle.NoOrientation.Platforms",
+    "Value": "mobile"
+  },
+  {
+    "Key": "Lifecycle.NoOrientation.DestinationRoomId",
+    "Value": "170126"
+  },
+  {
+    "Key": "Lifecycle.NoOrientation.AccountCreationCutoff",
+    "Value": "9999-06-06 15:30"
+  },
+  {
+    "Key": "ProgressionEvents.UpsellDialogText",
+    "Value": "You\u0027ll need an item to find the research core in this room."
+  },
+  {
+    "Key": "PlayMenuRoomBanner",
+    "Value": ""
+  },
+  {
+    "Key": "lifecycle.room_feedback.daily_cap",
+    "Value": "2"
+  },
+  {
+    "Key": "lifecycle.room_feedback.hide_skip_button_when_rating_selected",
+    "Value": "false"
+  },
+  {
+    "Key": "lifecycle.room_feedback.negative_canned_options",
+    "Value": "[ \u0022Negative Players\u0022, \u0022Bugs/Technical Issues\u0022, \u0022Poor Experience\u0022, \u0022No Other Players\u0022, \u0022Cheating\u0022, \u0022Inappropriate Content\u0022 ]"
+  },
+  {
+    "Key": "lifecycle.room_feedback.negative_canned_question_text",
+    "Value": "Select one or more issues (Up to 3)"
+  },
+  {
+    "Key": "lifecycle.room_feedback.negative_rating_text",
+    "Value": "Dislike"
+  },
+  {
+    "Key": "lifecycle.room_feedback.neutral_canned_options",
+    "Value": "[ \u0022Negative Players\u0022, \u0022Bugs/Technical Issues\u0022, \u0022Poor Experience\u0022, \u0022No Other Players\u0022, \u0022Cheating\u0022, \u0022Inappropriate Content\u0022 ]"
+  },
+  {
+    "Key": "lifecycle.room_feedback.neutral_canned_question_text",
+    "Value": "Select one or more issues (Up to 3)"
+  },
+  {
+    "Key": "lifecycle.room_feedback.neutral_rating_text",
+    "Value": "Like"
+  },
+  {
+    "Key": "lifecycle.room_feedback.number_of_ratings",
+    "Value": "2"
+  },
+  {
+    "Key": "lifecycle.room_feedback.playlists",
+    "Value": "{17859340 : 0}"
+  },
+  {
+    "Key": "lifecycle.room_feedback.positive_canned_options",
+    "Value": "[ \u0022Fun With Friends\u0022, \u0022Awesome Visuals\u0022, \u0022Immersive Experience\u0022, \u0022Exciting Events\u0022, \u0022Amazing Gameplay\u0022, \u0022Very Challenging\u0022, \u0022Cool Soundtrack\u0022, \u0022Unique Adventure\u0022 ]"
+  },
+  {
+    "Key": "lifecycle.room_feedback.positive_canned_question_text",
+    "Value": "What did you LOVE about it? (Up to 3)"
+  },
+  {
+    "Key": "lifecycle.room_feedback.positive_rating_text",
+    "Value": "Love"
+  },
+  {
+    "Key": "lifecycle.room_feedback.reverse_ratings",
+    "Value": "false"
+  },
+  {
+    "Key": "lifecycle.room_feedback.show_skip_button_on_thank_you_page",
+    "Value": "false"
+  },
+  {
+    "Key": "lifecycle.room_feedback.survey_question",
+    "Value": "What do you think of the quality of ^{0}?"
+  },
+  {
+    "Key": "lifecycle.room_feedback.title_first_line_text",
+    "Value": "\uD83D\uDC4B  We\u0027re listening!"
+  },
+  {
+    "Key": "UGC.LimitsV2.UI.Triangles.Max",
+    "Value": "500000"
+  },
+  {
+    "Key": "RoomJoinV2.SuccessTiming",
+    "Value": "1"
+  },
+  {
+    "Key": "RoomJoinV2.FailureTracking",
+    "Value": "1"
+  },
+  {
+    "Key": "MobileHome.DiscoverySections",
+    "Value": "[{\u0022title\u0022:\u0022Friends\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022friends\u0022},{\u0022title\u0022:\u0022Continue Playing\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022recent\u0022},{\u0022title\u0022:\u0022Rec Room Originals\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022hotList\u0022,\u0022sourceMetadata\u0022:\u0022rro\u0022},{\u0022title\u0022:\u0022Hot List\u0022,\u0022isHorizontal\u0022:false,\u0022source\u0022:\u0022hotList\u0022}]"
+  },
+  {
+    "Key": "UseNewPhotonAuthToken",
+    "Value": "false"
+  },
+  {
+    "Key": "Player.ShouldWaitForCameraFirstSpawn",
+    "Value": "false"
+  },
+  {
+    "Key": "Player.WaitForLoadingScreen",
+    "Value": "false"
+  },
+  {
+    "Key": "RoomLoad.RoomLoadCameraTimeoutSeconds",
+    "Value": "45"
+  },
+  {
+    "Key": "Lifecycle.PlayMenu.RoomCollectionsCarousel.AccountCreationCutoff",
+    "Value": "2017-01-01 00:00"
+  },
+  {
+    "Key": "Lifecycle.PlayMenu.RoomCollectionsCarousel.CardCountLimit",
+    "Value": "0"
+  },
+  {
+    "Key": "Lifecycle.PlayMenu.RoomCollectionsCarousel.Enabled",
+    "Value": "false"
+  },
+  {
+    "Key": "Lifecycle.PlayMenu.RoomCollectionsCarousel.Theme",
+    "Value": "#recroomoriginal=bg#EF6825,txt#FFFFFF;#action=bg#DE8C90,txt#FFFFFF;#art=bg#75B0BD,txt#FFFFFF;#backrooms=bg#5F4949,txt#FFFFFF;#beta=bg#8689A7,txt#FFFFFF;#fnaf=bg#C1BF6C,txt#FFFFFF;#fun=bg#DE9812,txt#FFFFFF;#game=bg#4191A7,txt#FFFFFF;#hangout=bg#8F9953,txt#FFFFFF;#hiddenworlds=bg#B4A1D2,txt#FFFFFF;#horror=bg#7B4257,txt#FFFFFF;#military=bg#5C5F49,txt#FFFFFF;#obby=bg#CF7293,txt#FFFFFF;#parkour=bg#EB7B05,txt#FFFFFF;#playtime=bg#EF9C73,txt#FFFFFF;#playtime_friend=bg#579255,txt#FFFFFF;#playtime_visit=bg#895129,txt#FFFFFF;#prettycolors=bg#BD6060,txt#FFFFFF;#puzzle=bg#526FBA,txt#FFFFFF;#pvp=bg#DA9BC4,txt#FFFFFF;#quest=bg#C77337,txt#FFFFFF;#roleplay=bg#89AEDA,txt#FFFFFF;#rp=bg#A78480,txt#FFFFFF;#rrstudio=bg#4E548C,txt#FFFFFF;#scary=bg#786C9B,txt#FFFFFF;#simulator=bg#899AC5,txt#FFFFFF;#story=bg#75BDAB,txt#FFFFFF;#treasurehunt=bg#EBB64E,txt#FFFFFF;#tutorial=bg#7F96A4,txt#FFFFFF;#wonderland=bg#B0608C,txt#FFFFFF;#3dcharades=bg#BE86DB,txt#FFFFFF;#janrrmonthly=bg#469068,txt#FFFFFF;#febrrmonthly=bg#469068,txt#FFFFFF;#marrrmonthly=bg#469068,txt#FFFFFF;#aprrrmonthly=bg#469068,txt#FFFFFF;#mayrrmonthly=bg#469068,txt#FFFFFF;#junrrmonthly=bg#469068,txt#FFFFFF;#julrrmonthly=bg#469068,txt#FFFFFF;#augrrmonthly=bg#469068,txt#FFFFFF;#seprrmonthly=bg#469068,txt#FFFFFF;#octrrmonthly=bg#469068,txt#FFFFFF;#novrrmonthly=bg#469068,txt#FFFFFF;#decrrmonthly=bg#469068,txt#FFFFFF;#januaryrrmonthly=bg#469068,txt#FFFFFF;#februaryrrmonthly=bg#469068,txt#FFFFFF;#marchrrmonthly=bg#469068,txt#FFFFFF;#aprilrrmonthly=bg#469068,txt#FFFFFF;#junerrmonthly=bg#469068,txt#FFFFFF;#julyrrmonthly=bg#469068,txt#FFFFFF;#augustrrmonthly=bg#469068,txt#FFFFFF;#septemberrrmonthly=bg#469068,txt#FFFFFF;#octoberrrmonthly=bg#469068,txt#FFFFFF;#novemberrrmonthly=bg#469068,txt#FFFFFF;#decemberrrmonthly=bg#469068,txt#FFFFFF;#mayrrrmonthly=bg#469068,txt#FFFFFF;#septrrmonthly=bg#469068,txt#FFFFFF"
+  },
+  {
+    "Key": "Lifecycle.PlayMenu.TrendingTags.WrappableNames",
+    "Value": "#recroomoriginal = #Rec[]Room[]Original\r\n#beta = #Beta\r\n#hangout = #hang[]out\r\n#hiddenworlds = #hidden[]worlds\r\n#3dcharades = #3d[]charades\r\n#prettycolors = #pretty[]colors\r\n#treasurehunt = #treasure[]\u200Bhunt\r\n#wonderland = #wonder[]land\r\n#roleplay = #role[]play\r\n#playtime = #play[]time\r\n#rrstudio = #RR[]studio\r\n#hangout = #hang[]out\r\n#parkour = #parkour\r\n#military = #mili[]tary\r\n#playtime_visit = #play[]time_[]visit\r\n#playtime_friend = #play[]time_[]friend\r\n#backrooms = #back[]rooms\r\n#simulator = #simu[]lator\r\n#janrrmonthly = #jan[]RR[]monthly\r\n#febrrmonthly = #feb[]RR[]monthly\r\n#marrrmonthly = #mar[]RR[]monthly\r\n#aprrrmonthly = #apr[]RR[]monthly\r\n#mayrrmonthly = #may[]RR[]monthly\r\n#junrrmonthly = #jun[]RR[]monthly\r\n#julrrmonthly = #jul[]RR[]monthly\r\n#augrrmonthly = #aug[]RR[]monthly\r\n#seprrmonthly = #sep[]RR[]monthly\r\n#octrrmonthly = #oct[]RR[]monthly\r\n#novrrmonthly = #nov[]RR[]monthly\r\n#decrrmonthly = #dec[]RR[]monthly\r\n#januaryrrmonthly = #jan[]uary[]RR[]monthly\r\n#februaryrrmonthly= #feb[]ruary[]RR[]monthly\r\n#marchrrmonthly = #march[]RR[]monthly\r\n#aprilrrmonthly = #april[]RR[]monthly\r\n#junerrmonthly = #june[]RR[]monthly\r\n#julyrrmonthly = #july[]RR[]monthly\r\n#augustrrmonthly = #august[]RR[]monthly\r\n#septemberrrmonthly = #september[]RR[]monthly\r\n#octoberrrmonthly = #oct[]ober[]RR[]monthly\r\n#novemberrrmonthly = #november[]RR[]monthly\r\n#decemberrrmonthly = #december[]RR[]monthly\r\n#mayrrrmonthly = #may[]RR[]monthly\r\n#septrrmonthly = #sept[]RR[]monthly"
+  },
+  {
+    "Key": "UGC.Analytics.CreationSamplingMod",
+    "Value": ".1"
+  },
+  {
+    "Key": "Lifecycle.Playmenu.CarouselEndpoint",
+    "Value": "foryou:Recommended For You,rising:Rising Rooms,earnroomcurrency_algo:Earn Room Currency,roleplay_algoendpoint:Roleplay,casual_algoendpoint:Casual,horror_algoendpoint:Horror,battle_algoendpoint:Battle,explore_algoendpoint:Explore,quests_algoendpoint:Quests,hangout_algoendpoint:Hangout"
+  },
+  {
+    "Key": "WatchHomeCarouselOrdering",
+    "Value": "rooms_continueplaying=23;rooms_friendsplaying=22;foryou=21;rooms_hot=20;rooms_rro=19;items_featured=8;items_featuredcustom=7;inventions_featured=6;inventions_featureddormskins=5"
+  },
+  {
+    "Key": "Lifecycle.Homemenu.CarouselEndpoint",
+    "Value": "foryou:Recommended For You"
+  },
+  {
+    "Key": "Door.Dormroom.Query",
+    "Value": ""
+  },
+  {
+    "Key": "Door.Dormroom.Title",
+    "Value": "EXIT"
+  },
+  {
+    "Key": "Lifecycle.Playmenu.DedupingExceptions",
+    "Value": ""
+  },
+  {
+    "Key": "Lifecycle.PSF.FriendRoomInviteRateLimitingCount",
+    "Value": "1"
+  },
+  {
+    "Key": "UGC.ProUXFeatureFlag",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.LimitsV2.UI.Ink.Enabled",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.LimitsV2.UI.Toggle.Description",
+    "Value": "Help us test increased Ink limits in your rooms and new performance gauges on the MakerPen UI by enabling Limits 2.0! "
+  },
+  {
+    "Key": "UGC.LimitsV2.UI.Triangles.Enabled",
+    "Value": "true"
+  },
+  {
+    "Key": "lifecycle.room_feedback.hot_rooms_probability",
+    "Value": "0.06"
+  },
+  {
+    "Key": "lifecycle.room_feedback.new_rooms_probability",
+    "Value": "0.20"
+  },
+  {
+    "Key": "Econ.StoreClothingOrderingExpOverride",
+    "Value": ""
+  },
+  {
+    "Key": "Econ.StoreFeaturedOrderingExpOverride",
+    "Value": "store_featured_carousel_ordering_v2"
+  },
+  {
+    "Key": "MobileHome.Discovery.Sections",
+    "Value": "[{\u0022title\u0022:\u0022Friends\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022friends\u0022}, {\u0022title\u0022:\u0022Featured\u0022, \u0022source\u0022:\u0022featuredRoom\u0022, \u0022sourceMetadata\u0022:\u0022PlayMenuRoomBanner\u0022}, {\u0022title\u0022:\u0022Continue Playing\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022recent\u0022}, {\u0022title\u0022:\u0022Rec Room Originals\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022hotList\u0022,\u0022sourceMetadata\u0022:\u0022rro\u0022}, {\u0022title\u0022:\u0022Hot Rooms\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022hotList\u0022}, {\u0022title\u0022:\u0022New Rooms\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022hotList\u0022,\u0022sourceMetadata\u0022:\u0022new\u0022}, {\u0022title\u0022:\u0022Battle\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022carousel\u0022,\u0022sourceMetadata\u0022:\u0022battle_algoendpoint\u0022}, {\u0022title\u0022:\u0022Horror\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022carousel\u0022,\u0022sourceMetadata\u0022:\u0022horror_algoendpoint\u0022}, {\u0022title\u0022:\u0022Quests\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022carousel\u0022,\u0022sourceMetadata\u0022:\u0022quests_algoendpoint\u0022}, {\u0022title\u0022:\u0022Casual\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022carousel\u0022,\u0022sourceMetadata\u0022:\u0022casual_algoendpoint\u0022}, {\u0022title\u0022:\u0022Roleplay\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022carousel\u0022,\u0022sourceMetadata\u0022:\u0022roleplay_algoendpoint\u0022}, {\u0022title\u0022:\u0022Hangout\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022carousel\u0022,\u0022sourceMetadata\u0022:\u0022hangout_algoendpoint\u0022}, {\u0022title\u0022:\u0022Explore\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022carousel\u0022,\u0022sourceMetadata\u0022:\u0022explore_algoendpoint\u0022}]"
+  },
+  {
+    "Key": "MatchmakingUI.AllowedLoadSources",
+    "Value": "[\u0022CAROUSEL_ENDPOINT_WATCH\u0022,\u0022HOT_ROOMS_WATCH\u0022,\u0022RRO_ROOMS_WATCH\u0022,\u0022NEW_ROOMS_WATCH\u0022,\u0022CURATED_PLAYLISTS_WATCH\u0022,\u0022RECENT_ROOMS_WATCH\u0022,\u0022FRIEND_PRESENCE_ROOMS_WATCH\u0022,\u0022FEATURED_ROOMS_WATCH\u0022]"
+  },
+  {
+    "Key": "Lifecycle.RoomDiscovery.CCUVariants.AccountCreationCutoff",
+    "Value": "2017-01-01 00:00"
+  },
+  {
+    "Key": "Lifecycle.RoomDiscovery.CCUVariants.LoggingEnabled",
+    "Value": "false"
+  },
+  {
+    "Key": "Lifecycle.RoomDiscovery.CCUVariants.RoomCardInfo",
+    "Value": "[{ \u0022CCUCountRange\u0022: { \u0022Min\u0022: 0, \u0022Max\u0022: -1 }, \u0022RoomCardInfoElementIDs\u0022: [\u0022cheersIcon\u0022, \u0022cheersText\u0022] }]"
+  },
+  {
+    "Key": "Lifecycle.RoomDiscovery.CCUVariants.UIEnabled",
+    "Value": "false"
+  },
+  {
+    "Key": "Lifecycle.RoomDiscovery.Cheers.LoggingEnabled",
+    "Value": "false"
+  },
+  {
+    "Key": "Lifecycle.PSF.PartyChatEnabled",
+    "Value": "True"
+  },
+  {
+    "Key": "Lifecycle.PSF.PartyChatMaxAutoRejoinMinutes",
+    "Value": "60"
+  },
+  {
+    "Key": "Lifecycle.PSF.PartyChatUpdatePeriod",
+    "Value": "60"
+  },
+  {
+    "Key": "UGC.ObjectModel.HierarchyViewVisible",
+    "Value": "true"
+  },
+  {
+    "Key": "Debug.Watchdog.CorruptDataRequest.RoomIdToDeviceModelsBlacklist",
+    "Value": "{ 7740359740005459806: [ \u0022iPhone10,2\u0022, \u0022iPhone10,3\u0022, \u0022iPhone10,5\u0022, \u0022iPhone10,6\u0022, \u0022iPhone11,8\u0022, \u0022iPhone12,1\u0022, \u0022iPhone12,5\u0022, \u0022iPhone12,8\u0022, \u0022iPhone13,1\u0022, \u0022iPhone13,2\u0022, \u0022iPhone14,5\u0022, \u0022iPhone14,6\u0022, \u0022iPad3,1\u0022, \u0022iPad3,2\u0022, \u0022iPad3,3\u0022, \u0022iPad7,11\u0022, \u0022iPad7,12\u0022, \u0022iPad11,1\u0022, \u0022iPad11,2\u0022, \u0022iPad11,3\u0022, \u0022iPad11,4\u0022, \u0022iPad11,6\u0022, \u0022iPad11,7\u0022, \u0022iPad12,1\u0022, \u0022iPad12,2\u0022, \u0022SM-X200\u0022, \u0022SM-X205\u0022 ] }"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.Chips.7740359740005459806",
+    "Value": "5750"
+  },
+  {
+    "Key": "FullBodyAvatars.MinLevelToUseFBAs",
+    "Value": "0"
+  },
+  {
+    "Key": "Door.OrientationExit.Query",
+    "Value": ""
+  },
+  {
+    "Key": "UGC.Room2Enabled",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.CircuitsV2.LogCV2ErrorsToAnalyticsInRooms",
+    "Value": "[7740359740005459806, 52815862, 558011494282369883]"
+  },
+  {
+    "Key": "Experience.VR.UIRaycastIgnoresClampedHeldTools",
+    "Value": "true"
+  },
+  {
+    "Key": "Experience.STN.ShowBonkyHandsWhenUsingUI",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.InventionLoading",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.RoomSaving",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.RoomPublishing",
+    "Value": "true"
+  },
+  {
+    "Key": "Lifecycle.PSF.DisableNewPlayerChallenges.AccountCreationCutoff",
+    "Value": "2023-08-01 00:00\t"
+  },
+  {
+    "Key": "Lifecycle.PSF.WatchOpenOnSessionStart.HighlightDuration",
+    "Value": "5.0"
+  },
+  {
+    "Key": "Lifecycle.PSF.WatchOpenOnSessionStart.NewAccountDaysCutoff",
+    "Value": "30"
+  },
+  {
+    "Key": "Lifecycle.PSF.WatchOpenOnSessionStart.WaitDuration",
+    "Value": "10.0"
+  },
+  {
+    "Key": "AntiHile.QD",
+    "Value": "true"
+  },
+  {
+    "Key": "CommunityBoard.HowToBuildLink",
+    "Value": "https://www.youtube.com/watch?v=O7fb3ux2nDI"
+  },
+  {
+    "Key": "UGC.ObjectModel.RoomUpgrade",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.UpgradeEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "BadgeNotifications.StartEndTimesJson",
+    "Value": "[\r\n\t\u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_10-13_10-20\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-10-13T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-10-15T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_10-13_10-20\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-10-15T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-10-18T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_10-13_10-20\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-10-18T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-10-20T10:59:59\\\u0022}\u0022,\r\n\r\n\t\u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_10-20_10-27\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-10-20T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-10-22T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_10-20_10-27\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-10-22T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-10-25T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_10-20_10-27\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-10-25T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-10-27T10:59:59\\\u0022}\u0022,\r\n\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_10-27_11-03\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-10-27T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-10-29T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_10-27_11-03\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-10-29T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-01T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_10-27_11-03\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-01T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-03T10:59:59\\\u0022}\u0022,\r\n\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-03_11-10\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-03T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-05T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-03_11-10\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-05T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-08T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-03_11-10\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-08T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-10T10:59:59\\\u0022}\u0022,\r\n  \r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-10_11-17\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-10T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-12T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-10_11-17\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-12T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-15T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-10_11-17\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-15T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-17T10:59:59\\\u0022}\u0022,\r\n\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-17_11-24\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-17T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-19T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-17_11-24\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-19T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-22T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-17_11-24\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-22T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-24T10:59:59\\\u0022}\u0022,\r\n\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-24_12-01\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-24T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-26T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-24_12-01\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-26T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-11-29T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_11-24_12-01\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-11-29T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-01T10:59:59\\\u0022}\u0022,\r\n\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-01_12-08\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-01T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-03T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-01_12-08\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-03T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-06T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-01_12-08\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-06T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-08T10:59:59\\\u0022}\u0022,\r\n\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-08_12-15\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-08T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-10T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-08_12-15\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-10T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-13T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-08_12-15\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-13T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-15T10:59:59\\\u0022}\u0022,\r\n\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-15_12-22\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-15T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-17T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-15_12-22\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-17T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-20T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-15_12-22\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-20T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-22T10:59:59\\\u0022}\u0022,\r\n\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-22_12-29\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-22T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-24T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-22_12-29\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-24T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-27T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-22_12-29\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-27T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-29T10:59:59\\\u0022}\u0022,\r\n\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-29_01-05\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-29T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222023-12-31T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-29_01-05\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222023-12-31T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222024-01-03T10:59:59\\\u0022}\u0022,\r\n  \u0022{\\\u0022title\\\u0022:\\\u0022RCStorefront_12-29_01-05\\\u0022,\\\u0022start_datetime\\\u0022:\\\u00222024-01-03T11:00:00\\\u0022,\\\u0022end_datetime\\\u0022:\\\u00222024-01-05T10:59:59\\\u0022}\u0022\r\n]"
+  },
+  {
+    "Key": "FullBodyAvatars.FeatureEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "Econ.LogEnteredStorePageSwaps",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.AllowedInRoomV1",
+    "Value": "true"
+  },
+  {
+    "Key": "Lifecycle.PSF.CannedChatOptions.CustomA",
+    "Value": "Yes,\r\nYay,\r\nAmazing!,\r\nI love this,\r\nYou look great!,\r\nYou look..., \r\nTIL,\r\nToo funny,\r\nLol,\r\nWhat!?,\r\nGood luck!,\r\nYou got this!,\r\nReally?,\r\nApplause,\r\nPerfect,\r\nDo it again!,\r\nLet\u0027s keep playing,\r\ngg"
+  },
+  {
+    "Key": "Lifecycle.PSF.CannedChatOptions.CustomB",
+    "Value": "No,\r\nSorry,\r\nMy bad,\r\nUgh,\r\nBoring,\r\nMeh,\r\nBoo,\r\nWhat the coach?,\r\nI\u0027m out,\r\nStop,\r\nLeave me alone,\r\nWhy?,\r\nWhy not?,\r\nOh geez,\r\nI\u0027m confused,\r\nNo comment"
+  },
+  {
+    "Key": "Lifecycle.PSF.CannedChatOptions.RecRoom",
+    "Value": "Hi!,\r\nHey there,\r\nBye! ,\r\nHow\u0027s it going? ,\r\nGood,\r\nOK,\r\nBad,\r\nYes,\r\nNo,\r\nThanks!,\r\nNo thanks!,\r\nWanna play?,\r\nCome with me,\r\nReady?,\r\nI gotta go,\r\nBe right back,\r\nLet\u0027s party up,\r\nLet\u0027s be friends!"
+  },
+  {
+    "Key": "Lifecycle.PSF.CannedChatOptions.Room",
+    "Value": "Cool room!,\r\nShow me the room?,\r\nWatch out!,\r\nHelp!,\r\nWhere did you get that?,\r\nRight here,\r\nOver there,\r\nI\u0027ll take you there,\r\nOf course,\r\nIt\u0027s a no from me,\r\nHow did you do that?,\r\nWanna see something cool?,\r\nI can\u0027t even,\r\nIt\u0027s giving...,\r\nI\u0027m done... new room?"
+  },
+  {
+    "Key": "Lifecycle.GameInvite.AcceptResponse",
+    "Value": ""
+  },
+  {
+    "Key": "Lifecycle.GameInvite.DeclineResponses",
+    "Value": "You should come to me!; In the middle of something... invite me again in 5?; I\u0027m about to log off; I don\u0027t really like that room; Not today, thanks\t"
+  },
+  {
+    "Key": "Lifecycle.GameInvite.ResponsePlaceholder\t",
+    "Value": "Add a decline response"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.ChipEvaluations",
+    "Value": "400"
+  },
+  {
+    "Key": "UGC.ObjectModel.Physics",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.Copy",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.Clone",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.Undo",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.UndoCreation",
+    "Value": "true"
+  },
+  {
+    "Key": "Lifecycle.WatchHome.SegmentConfigMap",
+    "Value": "CreatorSegment_EliteCreator:EliteCreatorCarouselList,CreatorSegment_AdvancedCreator:AdvancedCreatorCarouselList,CreatorSegment_MidCreator:MidCreatorCarouselList,CreatorSegment_BeginnerCreator:BeginnerCreatorCarouselList"
+  },
+  {
+    "Key": "EliteCreatorCarouselList",
+    "Value": ""
+  },
+  {
+    "Key": "AdvancedCreatorCarouselList",
+    "Value": ""
+  },
+  {
+    "Key": "MidCreatorCarouselList",
+    "Value": ""
+  },
+  {
+    "Key": "BeginnerCreatorCarouselList",
+    "Value": ""
+  },
+  {
+    "Key": "MobileHome.Discovery.Sections.v2",
+    "Value": "[{\u0022title\u0022:\u0022Friends\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022friends\u0022}, {\u0022title\u0022:\u0022Featured\u0022,\u0022source\u0022:\u0022featuredRoom\u0022,\u0022sourceMetadata\u0022:\u0022PlayMenuRoomBanner\u0022}, {\u0022title\u0022:\u0022Continue Playing\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022recent\u0022}, {\u0022title\u0022:\u0022Rec Room Originals\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022hotList\u0022,\u0022sourceMetadata\u0022:\u0022rro\u0022}, {\u0022title\u0022:\u0022Recommended For You\u0022,\u0022isHorizontal\u0022:true, \u0022hideIfNoContent\u0022:true, \u0022source\u0022:\u0022algorithmicList\u0022,\u0022sourceMetadata\u0022:\u0022{\\\u0022endpoint\\\u0022:\\\u0022foryou\\\u0022,\\\u0022entityType\\\u0022:1}\u0022}, {\u0022title\u0022:\u0022Hot Rooms\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022algorithmicList\u0022,\u0022sourceMetadata\u0022:\u0022{\\\u0022endpoint\\\u0022:\\\u0022HotList\\\u0022,\\\u0022entityType\\\u0022:1}\u0022}, {\u0022title\u0022:\u0022New Rooms\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022algorithmicList\u0022,\u0022sourceMetadata\u0022:\u0022{\\\u0022endpoint\\\u0022:\\\u0022new\\\u0022,\\\u0022entityType\\\u0022:1}\u0022}, {\u0022title\u0022:\u0022Battle\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022algorithmicList\u0022,\u0022sourceMetadata\u0022:\u0022{\\\u0022endpoint\\\u0022:\\\u0022battle_algoendpoint\\\u0022,\\\u0022entityType\\\u0022:1}\u0022}, {\u0022title\u0022:\u0022Horror\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022algorithmicList\u0022,\u0022sourceMetadata\u0022:\u0022{\\\u0022endpoint\\\u0022:\\\u0022horror_algoendpoint\\\u0022,\\\u0022entityType\\\u0022:1}\u0022}, {\u0022title\u0022:\u0022Casual\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022algorithmicList\u0022,\u0022sourceMetadata\u0022:\u0022{\\\u0022endpoint\\\u0022:\\\u0022casual_algoendpoint\\\u0022,\\\u0022entityType\\\u0022:1}\u0022}, {\u0022title\u0022:\u0022Roleplay\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022algorithmicList\u0022,\u0022sourceMetadata\u0022:\u0022{\\\u0022endpoint\\\u0022:\\\u0022roleplay_algoendpoint\\\u0022,\\\u0022entityType\\\u0022:1}\u0022}, {\u0022title\u0022:\u0022Hangout\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022algorithmicList\u0022,\u0022sourceMetadata\u0022:\u0022{\\\u0022endpoint\\\u0022:\\\u0022hangout_algoendpoint\\\u0022,\\\u0022entityType\\\u0022:1}\u0022}, {\u0022title\u0022:\u0022Explore\u0022,\u0022isHorizontal\u0022:true,\u0022source\u0022:\u0022algorithmicList\u0022,\u0022sourceMetadata\u0022:\u0022{\\\u0022endpoint\\\u0022:\\\u0022explore_algoendpoint\\\u0022,\\\u0022entityType\\\u0022:1}\u0022}]"
+  },
+  {
+    "Key": "Econ.StorefrontCarouselsToUseListsService",
+    "Value": "(StoreClothing)/HatsItems,(StoreClothing)/TorsoItems,(StoreClothing)/AccessoriesItems,(StoreClothing)/GlovesItems,(StoreClothing)/HairItems"
+  },
+  {
+    "Key": "UGC.MaxInkResourcesDefault",
+    "Value": "40000"
+  },
+  {
+    "Key": "RoomLoad.SendHeartbeatAtEmptyScene",
+    "Value": "true"
+  },
+  {
+    "Key": "DataCollection.UseHeartbeatCoroutineDelays",
+    "Value": "false"
+  },
+  {
+    "Key": "RoomInventory_SecondsBetweenFiringUseEvents",
+    "Value": "10"
+  },
+  {
+    "Key": "UGC.Room2InfoText",
+    "Value": "Rooms 2.0 enables you to create higher quality rooms than ever before. However, there are a few things you should know before creating one.\r\n    \u2022 This is an ALPHA release, so you may lose content, experience weird behaviors, etc.\r\n    \u2022 Not every feature in Rooms 1.0 will be available in Rooms 2.0\r\n        \u2022 Inventions are temporarily disabled\r\n    \u2022 Rooms 2.0 introduces powerful new features like:\r\n        \u2022 Compound Objects\r\n        \u2022 MUCH higher creation limit\r\n        \u2022 Player Properties (replaces Roles)"
+  },
+  {
+    "Key": "Lifecycle.PSF.Progression.DailyDesc",
+    "Value": "Earn up to 150 XP every 24 hours\t"
+  },
+  {
+    "Key": "Lifecycle.PSF.Progression.RewardMap",
+    "Value": "{\u00223288\u0022:\u0022153actlojyx0ktpl4dmlyrhcz.png\u0022, \u00223293\u0022:\u0022153actlojyx0ktpl4dmlyrhcz.png\u0022, \u00223292\u0022:\u00225pawwzw4hvcrxhji1qo5iszfr.png\u0022, \u00223291\u0022:\u00220dydhae740mw5sj76vmfqkk1d.png\u0022, \u00223290\u0022:\u0022erac8ves2ra4fhsuushotez9h.png\u0022}"
+  },
+  {
+    "Key": "Lifecycle.PSF.Progression.UnknownRewardImage",
+    "Value": "aaitfknii3f6qdjkvhgb7vbhe.png"
+  },
+  {
+    "Key": "Lifecycle.PSF.RestrictBlockedUnicodeStringsInPublicChat",
+    "Value": "False"
+  },
+  {
+    "Key": "Lifecycle.PSF.RestrictUnicodeSupportInClubChat",
+    "Value": "False"
+  },
+  {
+    "Key": "Lifecycle.PSF.RestrictUnicodeSupportInPartyChat",
+    "Value": "False"
+  },
+  {
+    "Key": "Lifecycle.PSF.RestrictUnicodeSupportInRoomChat",
+    "Value": "False"
+  },
+  {
+    "Key": "Econ.HideRoomOffers",
+    "Value": "false"
+  },
+  {
+    "Key": "UGC.ObjectModel.SerializationV4",
+    "Value": "true"
+  },
+  {
+    "Key": "Friends.FriendRequestCooldownSeconds",
+    "Value": "3"
+  },
+  {
+    "Key": "Lifecycle.PSF.EnableAllChatVoiceCalls",
+    "Value": "False"
+  },
+  {
+    "Key": "Lifecycle.PSF.EnablePartyVoiceCall",
+    "Value": "False"
+  },
+  {
+    "Key": "DataCollection.MaxBatchDelaySeconds",
+    "Value": "15"
+  },
+  {
+    "Key": "DataCollection.MaxBatchSize",
+    "Value": "131072"
+  },
+  {
+    "Key": "lifecycle_announcement_min_view_time",
+    "Value": "0.25"
+  },
+  {
+    "Key": "lifecycle_announcement_track_shown",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.NetworkSnapshot",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.Room2PublishingEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.ObjectModel.ScalabilityAllowed",
+    "Value": "true"
+  },
+  {
+    "Key": "HomeMenu.Carousels.ViewMoreButtonText",
+    "Value": "Similar Content"
+  },
+  {
+    "Key": "UGC.Analytics.CreationSamplingMod_Room",
+    "Value": ".2"
+  },
+  {
+    "Key": "PlayMenuDedupeSources",
+    "Value": "Hot,CarouselEndpoint"
+  },
+  {
+    "Key": "FullBodyAvatars.UberMaterialCollapsingEnabled",
+    "Value": "false"
+  },
+  {
+    "Key": "Lifecycle.MaxTimePostOrientationForFullPlayMenuPrompt",
+    "Value": "30"
+  },
+  {
+    "Key": "Econ.StorefrontUGCCarouselEndpointFriendlyNames",
+    "Value": "New:New Custom Shirts||Trending:Trending Custom Shirts||"
+  },
+  {
+    "Key": "UGC.Room2InventionsEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "HomeMenu.Carousels.MultiRowConfig",
+    "Value": "{\u0022CarouselId\u0022:\u0022Recommended For You\u0022,\u0022MaxRows\u0022:1,\u0022BackgroundColor\u0022:\u0022#F3DDCE\u0022,\u0022Enabled\u0022:true}"
+  },
+  {
+    "Key": "PlayMenu.Carousels.MultiRowConfig",
+    "Value": "{\u0022CarouselId\u0022:\u0022Recommended For You\u0022,\u0022MaxRows\u0022:1,\u0022BackgroundColor\u0022:\u0022#F3DDCE\u0022,\u0022Enabled\u0022:true}"
+  },
+  {
+    "Key": "Econ.BulkPurchaseCap",
+    "Value": "200"
+  },
+  {
+    "Key": "Discovery.UseNewDiscoveryServerAPI",
+    "Value": "True"
+  },
+  {
+    "Key": "Discovery.DiscoveryPageContent.PlayHighlight",
+    "Value": "{\u0022pageSource\u0022:1,\u0022sections\u0022:[{\u0022Id\u0022:\u0022Rooms_ForYou\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022foryou\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Recommended For You\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:2,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022#F3DDCE\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_HotRooms\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Hot\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Hot Rooms\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1}},{\u0022Id\u0022:\u0022Rooms_New\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Hot\u0022,\u0022SourceMetadata\u0022:\u0022new\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022New\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_RRO\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Hot\u0022,\u0022SourceMetadata\u0022:\u0022rro\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Rec Room Originals\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_ContinuePlaying\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Recent\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Continue Playing\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Rising\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022rising\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Rising Rooms\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_MyFavorites\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022MyFavorites\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022My Favorites\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022all=highlight_scale_150\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_FriendsPlaying\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022FriendPresence\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Friends are Playing\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_TopEarning\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022PlaylistById\u0022,\u0022SourceMetadata\u0022:\u002265380152\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Top Earning\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_MySubscriptions\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022MySubscriptions\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022My Subscriptions\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_EarnRoomCurrency_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022earnroomcurrency_algo\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Earn Room Currency\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Roleplay_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022roleplay_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Roleplay\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Casual_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022casual_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Casual\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Horror_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022horror_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Horror\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Battle_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022battle_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Battle\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Explore_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022explore_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Explore\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Quests_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022quests_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Quests\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Hangout_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022hangout_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Hangout\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_InkShowcase\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022PlaylistById\u0022,\u0022SourceMetadata\u0022:\u002252548973\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Ink Showcase\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Featured\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Featured\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Featured\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}}]}"
+  },
+  {
+    "Key": "Discovery.DiscoveryPageContent.CommunityBoard",
+    "Value": "{\u0022pageSource\u0022:2,\u0022sections\u0022:[{\u0022Id\u0022:\u0022Rooms_ForYou\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022foryou\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Recommended For You\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:2,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022#F3DDCE\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_HotRooms\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Hot\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Hot Rooms\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1}},{\u0022Id\u0022:\u0022Rooms_New\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Hot\u0022,\u0022SourceMetadata\u0022:\u0022new\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022New\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_RRO\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Hot\u0022,\u0022SourceMetadata\u0022:\u0022rro\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Rec Room Originals\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_ContinuePlaying\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Recent\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Continue Playing\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Rising\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022rising\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Rising Rooms\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_MyFavorites\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022MyFavorites\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022My Favorites\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022all=highlight_scale_150\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_FriendsPlaying\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022FriendPresence\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Friends are Playing\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_TopEarning\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022PlaylistById\u0022,\u0022SourceMetadata\u0022:\u002265380152\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Top Earning\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_MySubscriptions\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022MySubscriptions\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022My Subscriptions\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_EarnRoomCurrency_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022earnroomcurrency_algo\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Earn Room Currency\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Roleplay_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022roleplay_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Roleplay\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Casual_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022casual_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Casual\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Horror_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022horror_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Horror\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Battle_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022battle_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Battle\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Explore_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022explore_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Explore\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Quests_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022quests_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Quests\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Hangout_AlgoEndpoint\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022CarouselEndpoint\u0022,\u0022SourceMetadata\u0022:\u0022hangout_algoendpoint\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Hangout\u0022,\u0022supportsDedupe\u0022:true,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_InkShowcase\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022PlaylistById\u0022,\u0022SourceMetadata\u0022:\u002252548973\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Ink Showcase\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_Featured\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Featured\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Featured\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}}]}"
+  },
+  {
+    "Key": "Discovery.DiscoveryPageContent.WatchHome",
+    "Value": "{\u0022pageSource\u0022:0,\u0022sections\u0022:[{\u0022Id\u0022:\u0022Rooms_ContinuePlaying\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Recent\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Continue Playing\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_FriendsPlaying\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022FriendPresence\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Friends are Playing\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_HotRooms\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Hot\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Hot Rooms\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:2,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022#F3DDCE\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Rooms_RRO\u0022,\u0022DiscoveryEntityType\u0022:0,\u0022Source\u0022:\u0022Hot\u0022,\u0022SourceMetadata\u0022:\u0022rro\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022Rec Room Originals\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Items_Featured\u0022,\u0022DiscoveryEntityType\u0022:4,\u0022Source\u0022:\u0022Store\u0022,\u0022SourceMetadata\u0022:\u0022FeaturedItems\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Items_FeaturedCustom\u0022,\u0022DiscoveryEntityType\u0022:8,\u0022Source\u0022:\u0022Featured\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Inventions_Featured\u0022,\u0022DiscoveryEntityType\u0022:2,\u0022Source\u0022:\u0022FeaturedInventions\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Inventions_FeaturedDormSkins\u0022,\u0022DiscoveryEntityType\u0022:2,\u0022Source\u0022:\u0022FeaturedDormSkins\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Events_My\u0022,\u0022DiscoveryEntityType\u0022:5,\u0022Source\u0022:\u0022MyEvents\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Clubs_My\u0022,\u0022DiscoveryEntityType\u0022:3,\u0022Source\u0022:\u0022ClubsIBelongTo\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}},{\u0022Id\u0022:\u0022Top5\u0022,\u0022DiscoveryEntityType\u0022:7,\u0022Source\u0022:\u0022\u0022,\u0022SourceMetadata\u0022:\u0022\u0022,\u0022DisplayMetadata\u0022:{\u0022DisplayTitle\u0022:\u0022\u0022,\u0022supportsDedupe\u0022:false,\u0022numRows\u0022:1,\u0022sizePerPlatform\u0022:\u0022\u0022,\u0022backgroundColor\u0022:\u0022\u0022,\u0022horizontalScrollEnabled\u0022:false}}]}"
+  },
+  {
+    "Key": "UGC.Room2InventionConversionEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "Discovery.RoomSearch.CustomCarouselData",
+    "Value": "\t{ \u0022SourceText\u0022: \u0022CarouselEndpoint\u0022, \u0022SourceMetadata\u0022: \u0022HotList\u0022, \u0022Title\u0022: \u0022Visit our hot rooms instead?\u0022 }"
+  },
+  {
+    "Key": "Discovery.RoomSearch.SearchTips",
+    "Value": "1. Try other keywords\r\n2. Use more generic search terms\r\n3. Check your search for typos or spelling errors"
+  },
+  {
+    "Key": "Discovery.RoomSearch.SimilarRoomsCarouselTitle",
+    "Value": "Enjoying ^{0}? You might also like"
+  },
+  {
+    "Key": "DataCollection.LogFriendIdsWithSocialHeartbeat",
+    "Value": "False"
+  },
+  {
+    "Key": "UGC.Room2InventionsUseRruiMenu",
+    "Value": "false"
+  },
+  {
+    "Key": "UGC.Room2InventionsAlwaysPromptForAnchors",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.IncludeCurvesInDefaultShapesView",
+    "Value": "true"
+  },
+  {
+    "Key": "Foundation.NetworkTransform.ignore_truly_redundant_sync_data",
+    "Value": "true"
+  },
+  {
+    "Key": "Voice.Dissonance.ios.VoiceAudioQuality",
+    "Value": "2"
+  },
+  {
+    "Key": "Voice.Dissonance.android.VoiceAudioQuality",
+    "Value": "2"
+  },
+  {
+    "Key": "Voice.Dissonance.quest.VoiceAudioQuality",
+    "Value": "2"
+  },
+  {
+    "Key": "lifecycle.room_feedback.prob_coefficient_b",
+    "Value": "200"
+  },
+  {
+    "Key": "Experience.DormRoom.AllowRename",
+    "Value": "true"
+  },
+  {
+    "Key": "Debug.Watchdog.NintendoSwitch.IgnoreHashCheck",
+    "Value": "1"
+  },
+  {
+    "Key": "UGC.LimitsV2.DisableCloning",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC.LimitsV2.DisableLimitsV2Toggle",
+    "Value": "true"
+  },
+  {
+    "Key": "BrazeNotificationTestRoomId",
+    "Value": "558011494282369883"
+  },
+  {
+    "Key": "DataCollection.SkipPerfStatsFor",
+    "Value": ""
+  },
+  {
+    "Key": "Econ.StorefrontCarouselEndpointFriendlyNames",
+    "Value": "itemsforyou:Recommended For You||newitems:New Items||headwearitems:Headwear||topsitems:Tops||bottomsitems:Bottoms||footwearitems:Footwear||waistitems:Waist||handsitems:Hands||shoulderitems:Shoulders||skinsitems:Skins||accessoriesitems:Accessories||hairitems:Hairstyles||facialhairitems:Facial Hair"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.Chips.558011494282369883",
+    "Value": "100000"
+  },
+  {
+    "Key": "UGC.CircuitsV2.Limit.Compute.558011494282369883",
+    "Value": "6000000"
+  },
+  {
+    "Key": "Avatars.CollectAnalytics",
+    "Value": "true"
+  },
+  {
+    "Key": "UGC_MakerPen_Memory_Threshold_High",
+    "Value": "500"
+  },
+  {
+    "Key": "UGC_MakerPen_Memory_Threshold_Low",
+    "Value": "250"
+  },
+  {
+    "Key": "UGC_MakerPen_Memory_Threshold_Medium",
+    "Value": "400"
+  },
+  {
+    "Key": "Voice.Dissonance.desktop.VolumeMultiplier",
+    "Value": "1"
+  },
+  {
+    "Key": "Voice.Dissonance.quest.VolumeMultiplier",
+    "Value": "1"
+  },
+  {
+    "Key": "Voice.Dissonance.android.VolumeMultiplier",
+    "Value": "1"
+  },
+  {
+    "Key": "Voice.Dissonance.ios.VolumeMultiplier",
+    "Value": "1"
+  },
+  {
+    "Key": "Voice.Dissonance.android.HighPassFilterEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "Voice.Dissonance.android.AgcTargetLevel",
+    "Value": "0.1"
+  },
+  {
+    "Key": "Voice.Dissonance.ios.HighPassFilterEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "Voice.Dissonance.ios.AgcTargetLevel",
+    "Value": "0.1"
+  },
+  {
+    "Key": "Voice.Dissonance.quest.HighPassFilterEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "Voice.Dissonance.quest.AgcTargetLevel",
+    "Value": "0.1"
+  },
+  {
+    "Key": "Voice.Dissonance.quest.AgcCompressionGain",
+    "Value": "0.1"
+  },
+  {
+    "Key": "Voice.Dissonance.desktop.HighPassFilterEnabled",
+    "Value": "true"
+  },
+  {
+    "Key": "Voice.Dissonance.desktop.AgcTargetLevel",
+    "Value": "0.1"
+  },
+  {
+    "Key": "Voice.Dissonance.desktop.VoiceDesktopEchoCancellation",
+    "Value": "0"
+  }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "purchaseCampaignId": 591,
+        "purchaseReminder": {
+            "purchaseReminderId": 885,
+            "skuId": 25,
+            "tokenPrice": null,
+            "title": "2025 fell off :(",
+            "description": "yo where is quest, yo where is vc, yo when are we releasing to the public, oh wait we are a 2024 revival, not 2025",
+            "imageName": "Screenshot_20260831_105132.png",
+            "thumbnailImageName": "Screenshot_20260831_105132.png",
+            "mirrorImageName": "Screenshot_20260831_105132.png",
+            "endDate": "2026-02-10T05:06:23.0992676Z",
+            "bonusGiftDropsIds": [],
+            "bonusGiftDrops": [],
+            "bonusSelectableGrantableLists": [],
+            "bonusSelectableGrantables": [],
+            "statsigExperiment": null,
+            "statsigLayer": null,
+            "animationName": null,
+            "animationAvatarData": null,
+            "savingsMultiplier": null,
+            "previousCostText": null,
+            "availabilityStatus": 0
+        },
+        "name": "Me",
+        "triggerFlags": 48,
+        "triggerFlagsMetadata": null,
+        "displayMetadata": "{\r\n    \"CardWidth\": 1920,\r\n    \"CardHeight\": 1080\r\n}",
+        "daysBetweenPopups": null,
+        "maxPopups": 2,
+        "lastShown": "2026-02-10T05:06:23.0992676Z",
+        "showCount": 2
+    }
+]

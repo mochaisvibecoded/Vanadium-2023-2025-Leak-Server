@@ -1,0 +1,175 @@
+[
+    {
+    "RoomId": 2,
+    "Name": "RecCenter",
+    "Description": "A social hub to meet and mingle with friends new and old.",
+    "ImageName": "room_2_1782977616597.png",
+    "WarningMask": 0,
+    "CustomWarning": null,
+    "CreatorAccountId": 1,
+    "State": 0,
+    "Accessibility": 1,
+    "PublishState": 0,
+    "SupportsLevelVoting": false,
+    "IsRRO": true,
+    "IsRecRoomApproved": false,
+    "ExcludeFromLists": false,
+    "ExcludeFromSearch": false,
+    "SupportsScreens": true,
+    "SupportsWalkVR": true,
+    "SupportsTeleportVR": true,
+    "SupportsVRLow": true,
+    "SupportsQuest2": true,
+    "SupportsMobile": true,
+    "SupportsJuniors": true,
+    "MinLevel": 0,
+    "AgeRating": 2,
+    "CreatedAt": "2026-03-11T06:48:51.318650Z",
+    "PublishedAt": "2026-03-11T06:48:51.318650Z",
+    "BecameRRStudioRoomAt": null,
+    "Stats": {
+    "CheerCount": 66,
+    "FavoriteCount": 52,
+    "VisitorCount": 0,
+    "VisitCount": 7679
+  },
+    "RankingContext": null,
+    "IsDorm": false,
+    "IsPlacePlay": false,
+    "MaxPlayerCalculationMode": 0,
+    "MaxPlayers": 12,
+    "CloningAllowed": false,
+    "DisableMicAutoMute": false,
+    "DisableRoomComments": false,
+    "EncryptVoiceChat": false,
+    "ToxmodEnabled": true,
+    "LoadScreenLocked": false,
+    "UgcVersion": 1,
+    "PersistenceVersion": 0,
+    "UgcSubVersion": null,
+    "MinUgcSubVersion": null,
+    "AutoLocalizeRoom": false,
+    "LocalizationContext": {
+      "TargetLocale": null,
+      "Scope": null,
+      "LocalizedFields": [
+        "Description",
+        "CustomWarning"
+      ]
+    },
+    "IsDeveloperOwned": true,
+    "RankedEntityId": "2",
+    "SubRooms": [
+      {
+        "SubRoomId": 2,
+        "RoomId": 2,
+        "CreatorAccountId": null,
+        "UnitySceneId": "cbad71af-0831-44d8-b8ef-69edafa841f6",
+        "Name": "Home",
+        "LastModeratedSaveModerationState": 0,
+        "IsSandbox": false,
+        "MaxPlayers": 12,
+        "Accessibility": 1,
+        "ShouldAutoStageSaves": true,
+        "StagedSubRoomDataSaveId": null
+      }
+    ],
+    "Roles": [
+    {
+      "AccountId": 1,
+      "Role": 255,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": null
+    },
+    {
+      "AccountId": 64,
+      "Role": 30,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 2
+    },
+    {
+      "AccountId": 451,
+      "Role": 0,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 520
+    },
+    {
+      "AccountId": 464,
+      "Role": 0,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 520
+    },
+    {
+      "AccountId": 55,
+      "Role": 30,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 2
+    },
+    {
+      "AccountId": 49,
+      "Role": 30,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 2
+    },
+    {
+      "AccountId": 824,
+      "Role": 0,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 2
+    },
+    {
+      "AccountId": 932,
+      "Role": 30,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 2
+    },
+    {
+      "AccountId": 997,
+      "Role": 30,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 2
+    },
+    {
+      "AccountId": 167,
+      "Role": 30,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 2
+    },
+    {
+      "AccountId": 1067,
+      "Role": 30,
+      "InvitedRole": 0,
+      "LastChangedByAccountId": 2
+    },
+    {
+      "AccountId": 167,
+      "Role": 30,
+      "InvitedRole": 30,
+      "LastChangedByAccountId": 167
+    }
+  ],
+  "Tags": [
+    {
+      "Tag": "rro",
+      "Type": 2
+    },
+    {
+      "Tag": "hangout",
+      "Type": 0
+    },
+    {
+      "Tag": "nomp",
+      "Type": 2
+    },
+    {
+      "Tag": "beta",
+      "Type": 1
+    }
+  ],
+    "IsJuniorCreated": false,
+    "PromoImages": [],
+    "PromoExternalContent": [],
+    "LoadScreens": [],
+    "RestrictedCircuitsAllowListNames": []
+  }
+]

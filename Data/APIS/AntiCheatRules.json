@@ -1,0 +1,13 @@
+{
+  "processBlacklist": [
+    "extreme injector",
+    "extremeinjector",
+    "cheat engine",
+    "cheatengine",
+    "loader",
+    "injector",
+    "clumsy"
+  ],
+  "reportInjections": true,
+  "killOnCheat": true
+}

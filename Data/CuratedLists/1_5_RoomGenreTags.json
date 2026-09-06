@@ -1,0 +1,11 @@
+{
+  "ListId": 3348910452059717410,
+  "CreatorAccountId": 1,
+  "Name": "RoomGenreTags",
+  "Description": "The set of possible genre tags for a room. Can be used for either primary or secondary genre tags.",
+  "ImageName": "DefaultRoomImage.jpg",
+  "Type": 5,
+  "ItemIds": [ "Action", "Arcade", "Art", "BoardGame", "Casual", "Education", "game", "Hangout", "Horror", "Music", "Obby", "Puzzle", "PVP", "Racing", "Roleplay", "Sandbox", "Simulation", "Sports", "Quest" ],
+  "Accessibility": 1,
+  "CreatedAt": "2023-09-28T21:58:08.3539166Z"
+}

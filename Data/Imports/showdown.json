@@ -1,0 +1,138 @@
+[
+  {
+    "RoomId": 69421,
+    "Name": "Showdown",
+    "Description": "Deputies and Bandits fight each other for control of Sarsaparilla Springs in a 3v3 Team Battle.",
+    "ImageName": "Showdown.jpg",
+    "WarningMask": 0,
+    "CustomWarning": null,
+    "CreatorAccountId": 1,
+    "State": 0,
+    "Accessibility": 1,
+    "PublishState": 0,
+    "SupportsLevelVoting": false,
+    "IsRRO": true,
+    "IsRecRoomApproved": true,
+    "ExcludeFromLists": false,
+    "ExcludeFromSearch": false,
+    "SupportsScreens": true,
+    "SupportsWalkVR": true,
+    "SupportsTeleportVR": true,
+    "SupportsVRLow": true,
+    "SupportsQuest2": true,
+    "SupportsMobile": true,
+    "SupportsJuniors": true,
+    "MinLevel": 0,
+    "AgeRating": 0,
+    "CreatedAt": "2026-06-18T00:00:00.0000000Z",
+    "PublishedAt": "2026-06-18T00:00:00.0000000Z",
+    "BecameRRStudioRoomAt": null,
+    "Stats": {
+      "CheerCount": 0,
+      "FavoriteCount": 0,
+      "VisitorCount": 0,
+      "VisitCount": 0
+    },
+    "RankingContext": null,
+    "IsDorm": false,
+    "IsPlacePlay": false,
+    "MaxPlayerCalculationMode": 0,
+    "MaxPlayers": 6,
+    "CloningAllowed": false,
+    "DisableMicAutoMute": true,
+    "DisableRoomComments": true,
+    "EncryptVoiceChat": false,
+    "ToxmodEnabled": true,
+    "LoadScreenLocked": false,
+    "UgcVersion": 1,
+    "PersistenceVersion": 0,
+    "UgcSubVersion": 0,
+    "MinUgcSubVersion": 0,
+    "AutoLocalizeRoom": false,
+    "LocalizationContext": {
+      "TargetLocale": null,
+      "Scope": null,
+      "LocalizedFields": [
+        "Description",
+        "CustomWarning"
+      ]
+    },
+    "IsDeveloperOwned": true,
+    "RankedEntityId": "52815862",
+    "SubRooms": [
+      {
+        "SubRoomId": 69431,
+        "RoomId": 69421,
+        "CreatorAccountId": null,
+        "UnitySceneId": "a75f7547-79eb-47c6-8986-6767abcb4f92",
+        "Name": "Showdown",
+        "CurrentSave": {
+          "UnitySubAssets": [],
+          "ReferencedUnityAssets": [],
+          "SubRoomDataSaveId": 1,
+          "SubRoomId": 69431,
+          "UnityAssetId": "Showdown",
+          "DataBlob": "Showdown.room",
+          "ReferencedUnityAssetIds": [],
+          "PersistenceVersion": 0,
+          "OMVersion": 0,
+          "UgcSubVersion": 0,
+          "SavedByAccountId": 1,
+          "SavedOnPlatform": 0,
+          "SavedOnDeviceClass": 2,
+          "Description": null,
+          "Tags": [],
+          "ModerationState": 2,
+          "CreatedAt": "2026-06-18T00:00:00.0000000Z"
+        },
+        "LastModeratedSaveModerationState": 0,
+        "IsSandbox": true,
+        "MaxPlayers": 6,
+        "Accessibility": 0,
+        "ShouldAutoStageSaves": true,
+        "StagedSubRoomDataSaveId": null
+      }
+    ],
+    "Roles": [
+      {
+        "AccountId": 1,
+        "Role": 255,
+        "LastChangedByAccountId": null,
+        "InvitedRole": 0
+      },
+      {
+        "AccountId": 1909,
+        "Role": 31,
+        "LastChangedByAccountId": 1,
+        "InvitedRole": 0
+      }
+    ],
+    "IsJuniorCreated": false,
+    "Tags": [
+      {
+        "Tag": "pvp",
+        "Type": 0
+      },
+      {
+        "Tag": "beta",
+        "Type": 1
+      },
+      {
+        "Tag": "showdown",
+        "Type": 0
+      },
+      {
+        "Tag": "rro",
+        "Type": 2
+      },
+      {
+        "Tag": "rrstudio",
+        "Type": 2
+      }
+    ],
+    "PromoImages": [],
+    "PromoExternalContent": [],
+    "LoadScreens": [],
+    "RestrictedCircuitsAllowListNames": []
+  }
+]

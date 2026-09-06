@@ -1,0 +1,273 @@
+{
+  "PolicyVersion": "2024.09.05-1",
+  "ReportIntervalMs": 5000,
+  "HeartbeatIntervalMs": 15000,
+  "Detectors": [
+    {
+      "Name": "module",
+      "Enabled": true,
+      "IntervalMs": 0,
+      "MaxConfidence": 100
+    },
+    {
+      "Name": "process",
+      "Enabled": true,
+      "IntervalMs": 0,
+      "MaxConfidence": 60
+    },
+    {
+      "Name": "window",
+      "Enabled": true,
+      "IntervalMs": 0,
+      "MaxConfidence": 60
+    },
+    {
+      "Name": "debugger",
+      "Enabled": true,
+      "IntervalMs": 0,
+      "MaxConfidence": 100
+    },
+    {
+      "Name": "nativehook",
+      "Enabled": true,
+      "IntervalMs": 0,
+      "MaxConfidence": 100
+    },
+    {
+      "Name": "managedpatch",
+      "Enabled": true,
+      "IntervalMs": 0,
+      "MaxConfidence": 0
+    },
+    {
+      "Name": "il2cpp",
+      "Enabled": true,
+      "IntervalMs": 0,
+      "MaxConfidence": 100
+    }
+  ],
+  "ModuleDenyList": [
+    "minhook",
+    "easyhook",
+    "blackbone",
+    "detours",
+    "polyhook",
+    "scyllahide",
+    "scyllahook",
+    "frida-agent",
+    "frida-gadget",
+    "cheatengine",
+    "ceserver",
+    "vehdebug",
+    "speedhack",
+    "unityexplorer",
+    "monoinjector",
+    "melonsampler",
+    "vmthook",
+    "internalhack",
+    "externalhack"
+  ],
+  "ModuleAllowPrefixes": [
+    "vanadiumguard",
+    "melonloader",
+    "0harmony",
+    "il2cpp",
+    "unityplayer",
+    "unityengine",
+    "gameassembly",
+    "baselib",
+    "unitycrashhandler",
+    "recroom",
+    "easyanticheat",
+    "system.",
+    "microsoft.",
+    "mono",
+    "netstandard",
+    "mscor",
+    "clr",
+    "coreclr",
+    "hostfxr",
+    "hostpolicy",
+    "ucrtbase",
+    "vcruntime",
+    "msvcp",
+    "msvcr",
+    "ntdll",
+    "kernel32",
+    "kernelbase",
+    "user32",
+    "gdi32",
+    "win32u",
+    "advapi32",
+    "sechost",
+    "rpcrt4",
+    "combase",
+    "ole32",
+    "oleaut32",
+    "shell32",
+    "shlwapi",
+    "psapi",
+    "winhttp",
+    "wininet",
+    "crypt32",
+    "bcrypt",
+    "ncrypt",
+    "schannel",
+    "iphlpapi",
+    "ws2_32",
+    "mswsock",
+    "dnsapi",
+    "setupapi",
+    "cfgmgr32",
+    "devobj",
+    "powrprof",
+    "secur32",
+    "sspicli",
+    "userenv",
+    "profapi",
+    "winmm",
+    "dsound",
+    "xaudio",
+    "x3daudio",
+    "xinput",
+    "dinput",
+    "openal",
+    "physx",
+    "steam",
+    "nvapi",
+    "nvcuda",
+    "nvoglv",
+    "cudart",
+    "amdxc",
+    "atiadl",
+    "igd",
+    "dxgi",
+    "d3d",
+    "d3dcompiler",
+    "dcomp",
+    "dwmapi",
+    "uxtheme",
+    "propsys",
+    "version",
+    "dbghelp",
+    "dbgcore",
+    "symsrv",
+    "textinputframework",
+    "coreuicomponents",
+    "coremessaging",
+    "windows.storage",
+    "wintypes",
+    "apphelp",
+    "avrt",
+    "wtsapi32"
+  ],
+  "TrustedPathPrefixes": [
+    "\\windows\\system32\\",
+    "\\windows\\winsxs\\",
+    "\\program files\\",
+    "\\program files (x86)\\",
+    "\\steam\\steamapps\\",
+    "\\dotnet\\"
+  ],
+  "ProcessDenyList": [
+    "cheatengine-x86_64.exe",
+    "cheatengine-i386.exe",
+    "cheatengine-x86_64-SSE4-AVX2.exe",
+    "ceserver.exe",
+    "x64dbg.exe",
+    "x32dbg.exe",
+    "ollydbg.exe",
+    "immunitydebugger.exe",
+    "windbg.exe",
+    "windbgx.exe",
+    "ida.exe",
+    "ida64.exe",
+    "idaq.exe",
+    "idaq64.exe",
+    "ghidraRun.exe",
+    "dnSpy.exe",
+    "dnSpy-x86.exe",
+    "dnSpyEx.exe",
+    "ILSpy.exe",
+    "dotPeek64.exe",
+    "scylla.exe",
+    "scylla_x64.exe",
+    "ScyllaHide.exe",
+    "frida.exe",
+    "frida-server.exe",
+    "frida-trace.exe",
+    "artmoney.exe",
+    "squalr.exe",
+    "HTTPDebuggerUI.exe",
+    "HTTPDebuggerSvc.exe",
+    "extremeinjector.exe",
+    "processhacker.exe",
+    "SystemInformer.exe"
+  ],
+  "WindowClassDenyList": [
+    "TFormCheatEngine",
+    "TMemoryBrowser",
+    "Qt5152QWindowIcon",
+    "OLLYDBG",
+    "ID  Window",
+    "WinDbgFrameClass"
+  ],
+  "WindowTitleDenyList": [
+    "Cheat Engine",
+    "Memory Viewer",
+    "Add Address Manually",
+    "x64dbg",
+    "x32dbg",
+    "OllyDbg",
+    "Immunity Debugger",
+    "IDA -",
+    "Ghidra:",
+    "dnSpy",
+    "ILSpy",
+    "HTTP Debugger",
+    "Extreme Injector"
+  ],
+  "WatchedExports": [
+    {
+      "Module": "ntdll.dll",
+      "Export": "NtProtectVirtualMemory"
+    },
+    {
+      "Module": "ntdll.dll",
+      "Export": "NtWriteVirtualMemory"
+    },
+    {
+      "Module": "ntdll.dll",
+      "Export": "NtReadVirtualMemory"
+    },
+    {
+      "Module": "ntdll.dll",
+      "Export": "NtCreateThreadEx"
+    },
+    {
+      "Module": "ntdll.dll",
+      "Export": "NtOpenProcess"
+    },
+    {
+      "Module": "ntdll.dll",
+      "Export": "LdrLoadDll"
+    }
+  ],
+  "Il2CppTargets": [
+    {
+      "TypeName": "UnityEngine.Camera",
+      "MethodName": "set_fieldOfView",
+      "ParameterCount": 1
+    }
+  ],
+  "AllowedPatchOwners": [
+    "vanadiumguard",
+    "vanadium.patch",
+    "melonloader"
+  ],
+  "ChallengeableModules": [
+    "GameAssembly.dll",
+    "UnityPlayer.dll",
+    "VanadiumGuard.dll"
+  ]
+}

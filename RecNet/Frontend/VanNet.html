@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vanadium</title>
+<link rel="stylesheet" href="/RecNet/Frontend/VanNet.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-logo">Vanadium</div>
+  <div class="topbar-meta" id="topbar-meta"></div>
+</div>
+<div class="topbar-shadow"></div>
+
+<div class="loading-state" id="loading-state">Loading...</div>
+
+<div class="main-content" id="main-content">
+  <div class="card">
+    <div class="left-col">
+      <div class="thumbnail-wrap">
+        <img id="room-thumbnail" src="" alt="Room Thumbnail">
+      </div>
+      <div class="thumbnail-meta" id="thumbnail-meta"></div>
+    </div>
+    <div class="right-col">
+      <div class="room-name" id="room-name"></div>
+      <div class="room-description" id="room-description"></div>
+      <div class="stats">
+        <div class="stat-row">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"></path>
+          </svg>
+          <span id="cheer-count">0 cheers</span>
+        </div>
+        <div class="stat-row">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+            <rect x="6" y="10" width="5" height="10" style="display:none"/>
+            <path d="M8 20v-8H5.5c-.28 0-.5-.22-.5-.5V10c0-.28.22-.5.5-.5H8V7c0-2.21 1.79-4 4-4s4 1.79 4 4v2.5h2.5c.28 0 .5.22.5.5v1.5c0 .28-.22.5-.5.5H16V20h-3v-6h-2v6H8z" style="display:none"/>
+            <path d="M9 20v-9H6l6-6 6 6h-3v9H9z" style="display:none"/>
+          </svg>
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h7l-2-2H5V5h14v5l2 2V5c0-1.1-.9-2-2-2zm-5 10H8v-2h6v2zm3-4H8V7h9v2z" style="display:none"/>
+            <path d="M18 10.5V3H6v18h5v-1H7V4h10v7l1-.5zM16 14c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 1.5c.28 0 .5.22.5.5v1.5H18c.28 0 .5.22.5.5s-.22.5-.5.5h-1.5V20c0 .28-.22.5-.5.5s-.5-.22-.5-.5v-1.5H14c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h1.5V16c0-.28.22-.5.5-.5z" style="display:none"/>
+          </svg>
+          <svg class="door-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 19V5c0-1.1-.9-2-2-2H7c-1.1 0-2 .9-2 2v14H4v2h16v-2h-1zm-8-6v-2h2v2h-2zm0 0"/>
+            <path d="M5 19V5c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v14M3 21h18M9 10h1" style="display:none"/>
+          </svg>
+          <span id="visitor-count">0 visitors</span>
+        </div>
+        <div class="stat-row">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path>
+          </svg>
+          <span id="favorite-count">0 favorites</span>
+        </div>
+      </div>
+      <button class="join-btn" id="join-btn">Join Room</button>
+    </div>
+  </div>
+</div>
+
+<div class="error-state" id="error-state">
+  <h2>Link Unavailable</h2>
+  <p>This action link is invalid or has expired.</p>
+</div>
+
+<script src="/RecNet/Frontend/VanNet.js"></script>
+</body>
+</html>

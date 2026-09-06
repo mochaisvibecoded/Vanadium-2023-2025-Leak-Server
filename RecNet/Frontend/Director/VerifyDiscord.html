@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Link Discord · Vanadium</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='0' y2='1'><stop offset='0%25' stop-color='%237c5cbf'/><stop offset='100%25' stop-color='%235b8dee'/></linearGradient></defs><text y='.9em' font-size='90' fill='url(%23g)'>⬡</text></svg>">
+<style>
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --surface: rgba(255,238,215,0.88);
+  --surface2: rgba(255,228,200,0.68);
+  --border: rgba(0,0,0,0.12);
+  --accent: #f26522;
+  --accent2: #ff9a00;
+  --text: #163573;
+  --text-muted: #5a5a6a;
+  --danger: #c0392b;
+  --success: #27ae60;
+  --discord: #5865f2;
+  --discord-hover: #4752c4;
+  --font: 'Futura PT', Futura, 'Century Gothic', 'Trebuchet MS', sans-serif;
+  --radius: 8px;
+  --radius-sm: 5px;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://i.imgur.com/Z0AXeTL.png') center/cover fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-box {
+  background: linear-gradient(145deg, #ffeedd 0%, #ffeedd 60%, #d8cfc8 100%);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 16px;
+  padding: 24px 90px;
+  text-align: center;
+  width: 380px;
+  max-width: 92vw;
+  box-shadow: 0 8px 48px rgba(0,0,0,0.35);
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 42px;
+  color: #282d4c;
+  -webkit-text-fill-color: #282d4c;
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.auth-box h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #282d4c;
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+.auth-box .subtitle {
+  color: #5a5a6a;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 36px;
+  font-weight: 700;
+}
+
+.auth-box .subtitle strong {
+  color: #282d4c;
+  font-weight: 700;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  background: linear-gradient(160deg, #cc4a28 0%, #f27530 100%);
+  border: none;
+  border-radius: var(--radius);
+  color: #fff;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 13px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.18s, transform 0.12s, box-shadow 0.18s;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 14px rgba(176,62,34,0.35);
+}
+
+.cta-btn:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 22px rgba(176,62,34,0.45);
+}
+
+.cta-btn:active { transform: translateY(0); }
+
+#code-input {
+  width: 100%; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  color: var(--text); font-family: 'Consolas', ui-monospace, monospace; font-size: 28px; font-weight: 700;
+  letter-spacing: 0.4em; text-align: center; padding: 16px 12px; margin-bottom: 18px; outline: none;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+#code-input::placeholder { color: var(--text-muted); letter-spacing: 0.3em; opacity: 0.5; }
+#code-input:focus { border-color: var(--accent); box-shadow: 0 4px 22px rgba(176,62,34,0.45); }
+
+.discord-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0;
+  color: rgba(255,255,255,0.4);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.divider::before, .divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(255,255,255,0.15);
+}
+
+.requirements {
+  background: rgba(0,0,0,0.18);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.requirements .req-title {
+  color: rgba(255,255,255,0.55);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 8px;
+}
+
+.requirements ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.requirements ul li {
+  color: rgba(255,255,255,0.7);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.requirements ul li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+#status-msg {
+  margin-top: 18px;
+  min-height: 20px;
+  font-size: 12px;
+  color: #5a5a6a;
+  transition: color 0.2s;
+}
+
+#status-msg.err { color: #e74c3c; }
+#status-msg.ok { color: #4cd98a; }
+#status-msg.loading { color: var(--accent2); }
+
+.footer-note {
+  margin-top: 28px;
+  color: rgba(255,255,255,0.3);
+  font-size: 11px;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.loading-dot {
+  display: inline-block;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+</style>
+</head>
+<body>
+
+<div class="auth-box">
+  <span class="logo">⬡</span>
+  <h1>Link Discord</h1>
+  <p class="subtitle">Check your in-game Coach Messages for the<br><strong>6-digit confirmation code</strong>.</p>
+
+  <div class="input-area">
+    <div class="input-wrapper">
+      <input type="text" id="code-input" placeholder="000000" maxlength="6" autocomplete="off" spellcheck="false" />
+    </div>
+    <button id="link-btn" class="cta-btn">Confirm Link</button>
+  </div>
+
+  <div id="status-msg"></div>
+  <p class="footer-note">Vanadium Project 2023</p>
+</div>
+
+<script>
+(function () {
+  const input = document.getElementById("code-input");
+  const btn = document.getElementById("link-btn");
+  const statusEl = document.getElementById("status-msg");
+
+  function setStatus(msg, cls) { statusEl.className = cls || ""; statusEl.textContent = msg; }
+
+  input.addEventListener("input", () => {
+    input.value = input.value.replace(/[^0-9]/g, "").slice(0, 6);
+  });
+  input.addEventListener("keydown", e => { if (e.key === "Enter") btn.click(); });
+
+  btn.addEventListener("click", async () => {
+    const pin = input.value.trim();
+    if (pin.length !== 6) { setStatus("Enter the full 6-digit confirm code.", "err"); return; }
+    btn.disabled = true;
+    setStatus("Confirming…", "loading");
+    try {
+      const res = await fetch("/beta/verifydiscord/confirm", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ pin })
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
+        setStatus("Successfully linked your Discord! You can close this page.", "ok");
+        input.disabled = true;
+      } else {
+        btn.disabled = false;
+        setStatus(data.error || "That PIN is invalid or expired.", "err");
+      }
+    } catch {
+      btn.disabled = false;
+      setStatus("Network error. Please try again.", "err");
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

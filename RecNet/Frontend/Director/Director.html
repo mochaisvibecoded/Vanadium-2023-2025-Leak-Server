@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanadium Director</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='0' y2='1'><stop offset='0%25' stop-color='%237c5cbf'/><stop offset='100%25' stop-color='%235b8dee'/></linearGradient></defs><text y='.9em' font-size='90' fill='url(%23g)'>⬡</text></svg>">
+    <link rel="stylesheet" href="/vannet/Director/Asset/Director.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('https://i.imgur.com/Z0AXeTL.png') center / cover fixed !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app" style="display:none">
+
+        <aside id="sidebar">
+            <div class="sidebar-header">
+                <span class="sidebar-logo">⬡</span>
+                <span class="sidebar-title">Director</span>
+            </div>
+            <nav>
+                <div class="nav-section-label">Management</div>
+                <button class="nav-btn active" data-panel="players">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4" /><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" /></svg></span> Players
+                </button>
+                <button class="nav-btn" data-panel="rooms">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z" /><polyline points="9 21 9 12 15 12 15 21" /></svg></span> Rooms
+                </button>
+                <button class="nav-btn" data-panel="images">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></span> Images
+                </button>
+                <div class="nav-section-label">System</div>
+                <button class="nav-btn" data-panel="database">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5v4c0 1.66 4.03 3 9 3s9-1.34 9-3V5" /><path d="M3 9v4c0 1.66 4.03 3 9 3s9-1.34 9-3V9" /><path d="M3 13v4c0 1.66 4.03 3 9 3s9-1.34 9-3v-4" /></svg></span> Database
+                </button>
+                <button class="nav-btn" data-panel="moderation">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 4.418-3.134 8.548-7 10C8.134 20.548 5 16.418 5 12V6z" /></svg></span> Moderation
+                </button>
+                <button class="nav-btn" data-panel="modboard">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg></span> Mod Board
+                </button>
+                <button class="nav-btn" data-panel="anticheat">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" /><path d="M8 9c0-2.2 1.8-4 4-4s4 1.8 4 4v2" /><path d="M8 13v2" /><path d="M12 11v5" /><path d="M16 13v2" /></svg></span> Anti-Cheat
+                </button>
+                <button class="nav-btn" data-panel="server">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="5" rx="1" /><rect x="2" y="10" width="20" height="5" rx="1" /><rect x="2" y="17" width="20" height="5" rx="1" /><circle cx="6" cy="5.5" r="0.8" fill="white" stroke="none" /><circle cx="6" cy="12.5" r="0.8" fill="white" stroke="none" /><circle cx="6" cy="19.5" r="0.8" fill="white" stroke="none" /></svg></span> Server
+                </button>
+                <button class="nav-btn" data-panel="git">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2" /><circle cx="18" cy="18" r="2" /><circle cx="18" cy="6" r="2" /><path d="M8 6h8" /><path d="M18 8v8" /><path d="M6 8v4a6 6 0 0 0 6 6h4" /></svg></span> Git
+                </button>
+                <div class="nav-section-label">Session</div>
+                <button class="nav-btn" data-panel="session">
+                    <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg></span> Session
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <div id="session-timer-display">Session: <span id="timer-val">30:00</span></div>
+                <div style="margin-top:4px;opacity:0.6">Vanadium Director</div>
+            </div>
+        </aside>
+
+        <main id="content">
+
+            <div class="panel active" id="panel-players">
+                <div class="panel-header">
+                    <h2>Players</h2>
+                    <div class="search-row">
+                        <input type="text" id="player-search-input" placeholder="Search by username or ID…">
+                        <button id="player-search-btn">Search</button>
+                        <button id="player-list-all-btn" class="btn-ghost">List All</button>
+                        <button id="player-list-devs-btn" class="btn-ghost">List Developers</button>
+                        <button id="player-list-mods-btn" class="btn-ghost">List Moderators</button>
+                        <button id="player-create-toggle-btn" class="btn-ghost">+ Create Player</button>
+                    </div>
+                </div>
+
+                <div id="player-create-section" class="action-section" style="display:none">
+                    <h4>Create Player</h4>
+                    <div class="field-row">
+                        <label>Player ID</label>
+                        <input type="number" id="pc-player-id" placeholder="e.g. 1234567" min="1" max="2147483647">
+                    </div>
+                    <div class="field-row">
+                        <label>Username</label>
+                        <input type="text" id="pc-username" placeholder="optional, random if blank">
+                    </div>
+                    <div class="field-row">
+                        <label><input type="checkbox" id="pc-junior"> Junior account</label>
+                    </div>
+                    <button class="btn-action" id="pc-create-btn">Create</button>
+                </div>
+
+                <div id="player-results" class="results-list"></div>
+
+                <div id="player-detail" class="detail-pane" style="display:none">
+                    <div class="detail-header">
+                        <img id="pd-pfp" src="" alt="pfp">
+                        <div>
+                            <h3 id="pd-name"></h3>
+                            <span id="pd-username" class="muted"></span>
+                            <span id="pd-id" class="chip"></span>
+                        </div>
+                        <button id="pd-close" class="btn-ghost close-btn">✕</button>
+                    </div>
+
+                    <div class="detail-tabs">
+                        <button class="dtab active" data-tab="pd-info">Info</button>
+                        <button class="dtab" data-tab="pd-actions">Actions</button>
+                        <button class="dtab" data-tab="pd-roles">Roles</button>
+                        <button class="dtab" data-tab="pd-skins">Skins</button>
+                        <button class="dtab" data-tab="pd-ban">Moderation</button>
+                        <button class="dtab" data-tab="pd-tokens">Tokens</button>
+                        <button class="dtab" data-tab="pd-rooms">Rooms</button>
+                        <button class="dtab" data-tab="pd-beta">BETA</button>
+                    </div>
+
+                    <div class="dtab-content active" id="pd-info">
+                        <div class="info-grid" id="pd-info-grid"></div>
+                    </div>
+
+                    <div class="dtab-content" id="pd-actions">
+                        <div class="action-grid">
+                            <div class="action-section" style="grid-column:1/-1">
+                                <h4>Identity</h4>
+                                <div class="field-row">
+                                    <label>Username</label>
+                                    <input type="text" id="pa-username">
+                                    <button class="btn-action" id="pa-rename-btn">Rename</button>
+                                </div>
+                                <div class="field-row">
+                                    <div id="pa-namelock-status" style="flex:1"></div>
+                                    <button class="btn-action" id="pa-clearname-btn">Clear Name</button>
+                                    <button class="btn-danger" id="pa-namelock-btn">Lock Name</button>
+                                    <button class="btn-action" id="pa-nameunlock-btn">Unlock Name</button>
+                                </div>
+                                <div class="field-row">
+                                    <label>Bio</label>
+                                    <input type="text" id="pa-bio">
+                                    <button class="btn-action" id="pa-bio-btn">Set Bio</button>
+                                </div>
+                                <div class="field-row">
+                <label>Password</label>
+                <input type="text" id="pa-password">
+                <button class="btn-danger" id="pa-password-btn">Set Password</button>
+              </div>
+
+                                <div class="field-row">
+                                    <label>Profile Image</label>
+                                    <input type="text" id="pa-pfp-name" placeholder="filename.png">
+                                    <button class="btn-action" id="pa-pfp-set-btn">Set PFP</button>
+                                </div>
+                                <div class="field-row">
+                                    <label>Upload PFP</label>
+                                    <input type="file" id="pa-pfp-upload" accept=".jpg,.jpeg,.png" style="flex:1">
+                                    <button class="btn-action" id="pa-pfp-upload-btn">Upload</button>
+                                </div>
+                                <button class="btn-danger" id="pa-pfp-reset-btn">Reset PFP to Default</button>
+                            </div>
+
+                            <div class="action-section" style="/*grid-column:1/-1*/">
+                                <h4>Level &amp; XP</h4>
+                                <div class="field-row">
+                                    <label>Level</label>
+                                    <input type="number" id="pa-level" min="1" max="100">
+                                    <input type="number" id="pa-xp" placeholder="XP (optional)">
+                                    <button class="btn-action" id="pa-level-btn">Set Level</button>
+                                </div>
+                            </div>
+
+                            <div class="action-section" style="/*grid-column:1/-1*/">
+                                <h4>Platform ID</h4>
+                                <div class="field-row">
+                                    <label>Steam ID</label>
+                                    <input type="text" id="pa-platformid">
+                                    <button class="btn-action" id="pa-platformid-btn">Override</button>
+                                </div>
+                            </div>
+
+                            <div class="action-section" style="/*grid-column:1/-1*/">
+                                <h4>Rec Room Plus</h4>
+                                <div id="pa-rrplus-status" style="margin-bottom:6px"></div>
+                                <button class="btn-action" id="pa-rrplus-add-btn">Grant RR+</button>
+                                <button class="btn-danger" id="pa-rrplus-remove-btn">Remove RR+</button>
+                            </div>
+
+                            <div class="action-section">
+                                <h4>Junior Status</h4>
+                                <div id="pa-junior-status" style="margin-bottom:6px"></div>
+                                <div class="field-row">
+                                    <label>Reason</label>
+                                    <input type="text" id="pa-junior-reason" placeholder="Sent to the player (optional)">
+                                </div>
+                                <button class="btn-danger" id="pa-junior-set-btn">Set as Junior</button>
+                                <button class="btn-action" id="pa-junior-unset-btn">Remove Junior</button>
+                            </div>
+
+                            <div class="action-section">
+                                <h4>Heartbeat</h4>
+                                <button class="btn-danger" id="pa-hb-clear-btn">Clear Heartbeat</button>
+                                <button class="btn-action" id="pa-hb-view-btn">View Heartbeat</button>
+                            </div>
+
+								<div class="action-section">
+								    <h4>Force Bring</h4>
+								    <div class="field-row">
+								        <label>Username</label>
+								        <input type="text" id="pa-bring-username" placeholder="Username to bring to">
+								        <button class="btn-action" id="pa-bring-btn">Force Bring</button>
+								    </div>
+								</div>
+
+                            <div class="action-section">
+                                <h4>Transfer Rooms</h4>
+                                <div class="field-row">
+                                    <label>New Owner ID</label>
+                                    <input type="number" id="pa-transfer-target">
+                                    <button class="btn-action" id="pa-transfer-btn">Transfer All Rooms</button>
+                                </div>
+                                <div class="field-row" style="margin-top:8px">
+                                    <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+                                        <input type="checkbox" id="pa-transfer-coowner">
+                                        Keep original owner as co-owner in all rooms
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="action-section">
+                                <h4>Send Websocket</h4>
+                                <div class="field-row">
+                                    <textarea type="text" id="pa-sendws" style="height:10vw;resize:none;"></textarea>
+                                    <button class="btn-action" id="pa-sendws-btn">Send</button>
+                                </div>
+                            </div>
+
+                            <div class="action-section danger-section">
+                                <h4>Danger Zone</h4>
+                                <button class="btn-danger" id="pa-repair-btn">Repair Account</button>
+                                <button class="btn-danger" id="pa-del-images-btn">Delete All Images</button>
+                                <button class="btn-danger" id="pa-del-rooms-btn">Delete All Rooms</button>
+                                <button class="btn-danger" id="pa-delete-btn">Delete Account</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dtab-content" id="pd-roles">
+                        <div class="roles-grid" id="pd-roles-grid"></div>
+                        <div class="role-toggles">
+                            <h4>Toggle Roles</h4>
+                            <div class="role-btn-row">
+                                <button class="btn-role" data-role="Developer">Developer</button>
+                                <button class="btn-role" data-role="Moderator">Moderator</button>
+                                <button class="btn-role" data-role="Screenshare">Screenshare</button>
+                                <button class="btn-role" data-role="Keepsake">Keepsake</button>
+                                <button class="btn-role" data-role="gameClient">gameClient</button>
+                            </div>
+                            <h4 style="margin-top:16px">Influencer</h4>
+                            <div class="role-btn-row">
+                                <button class="btn-action" id="pa-influencer-add">Grant Influencer</button>
+                                <button class="btn-danger" id="pa-influencer-remove">Remove Influencer</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dtab-content" id="pd-skins">
+                        <div class="field-row" style="margin-bottom:12px">
+                            <input type="text" id="pa-skin-search" placeholder="Search skins…">
+                        </div>
+                        <div id="pd-skin-list" class="skin-list"></div>
+                        <div id="pd-owned-skins">
+                            <h4>Owned Skins</h4>
+                            <div id="pd-owned-list" class="owned-skin-list"></div>
+                        </div>
+                    </div>
+
+                    <div class="dtab-content" id="pd-ban">
+                        <div class="action-section">
+                            <h4>Ban Player</h4>
+                            <div class="field-row">
+                                <label>Reason</label>
+                                <input type="text" id="pa-ban-reason" placeholder="Reason for ban">
+                            </div>
+                            <div class="field-row">
+                                <label>Duration (days)</label>
+                                <input type="number" id="pa-ban-duration" value="99999">
+                                <button class="btn-danger" id="pa-ban-btn">Ban</button>
+                                <button class="btn-danger" id="pa-perm-ban-btn">Perm</button>
+                            </div>
+                        </div>
+                        <div class="action-section">
+                            <h4>Unban Player</h4>
+                            <button class="btn-action" id="pa-unban-btn">Unban</button>
+                        </div>
+                        <div class="action-section" id="pa-ban-status-section">
+                            <h4>Current Status</h4>
+                            <div id="pa-ban-status"></div>
+                        </div>
+                        <div class="action-section">
+                            <h4>Other Stuff</h4>
+                            <button class="btn-danger" id="pa-close-game-btn">Close Game</button>
+                            <button class="btn-danger" id="pa-logout-btn">Logout (dose not work)</button>
+                        </div>
+                        <div class="action-section">
+                            <h4>Coach Message</h4>
+                            <div class="field-row">
+                                <label>Message</label>
+                                <input type="text" id="pa-player-coach-msg" placeholder="Message to send…">
+                                <button class="btn-action" id="pa-player-coach-btn">Send</button>
+                            </div>
+                        </div>
+                        <div class="action-section">
+                            <h4>Edit Raw Moderation Block Details bro</h4>
+                            <div class="field-row">
+                                <label>Report Category</label>
+                                <select id="pa-rmd-category">
+                                    <option value="-1">Moderator (-1)</option>
+                                    <option value="0">Unknown (0)</option>
+                                    <option value="1">DEPRECATED_MicrophoneAbuse (1)</option>
+                                    <option value="2">Harassment (2)</option>
+                                    <option value="3">Cheating (3)</option>
+                                    <option value="4">DEPRECATED_ImmatureBehavior (4)</option>
+                                    <option value="5">AFK (5)</option>
+                                    <option value="6">Misc (6)</option>
+                                    <option value="7">Underage (7)</option>
+                                    <option value="10">VoteKick (10)</option>
+                                    <option value="11">MisleadingPurchases (11)</option>
+                                    <option value="100">CoC_Underage (100)</option>
+                                    <option value="101">CoC_Sexual (101)</option>
+                                    <option value="102">CoC_Discrimination (102)</option>
+                                    <option value="103">CoC_Trolling (103)</option>
+                                    <option value="104">CoC_NameOrProfile (104)</option>
+                                    <option value="200">InappropriateClothing (200)</option>
+                                    <option value="1000">IssuingInaccurateReports (1000)</option>
+                                </select>
+                            </div>
+                            <div class="field-row">
+                                <label>Duration (days)</label>
+                                <input type="number" id="pa-rmd-duration" value="0">
+                            </div>
+                            <div class="field-row">
+                                <label>Game Session ID</label>
+                                <input type="number" id="pa-rmd-gamesessionid" value="0">
+                            </div>
+                            <div class="field-row">
+                                <label>Message</label>
+                                <input type="text" id="pa-rmd-message" placeholder="Ban message">
+                            </div>
+                            <div class="field-row">
+                                <label>Player ID Reporter</label>
+                                <input type="number" id="pa-rmd-reporter" placeholder="optional">
+                            </div>
+                            <div class="field-row">
+                                <label>Vote Kick Reason</label>
+                                <input type="text" id="pa-rmd-votekickreason" placeholder="optional">
+                            </div>
+                            <div class="field-row">
+                                <label>Timeout Started At</label>
+                                <input type="datetime-local" id="pa-rmd-timeoutstartedat">
+                            </div>
+                            <div class="field-row">
+                                <label>Associated Account Username</label>
+                                <input type="text" id="pa-rmd-assocusername" placeholder="optional">
+                            </div>
+                            <div class="field-row">
+                                <label>Is Ban</label>
+                                <select id="pa-rmd-isban">
+                                    <option value="false">No</option>
+                                    <option value="true">Yes</option>
+                                </select>
+                            </div>
+                            <div class="field-row">
+                                <label>Is Host Kick</label>
+                                <select id="pa-rmd-ishostkick">
+                                    <option value="false">No</option>
+                                    <option value="true">Yes</option>
+                                </select>
+                            </div>
+                            <div class="field-row">
+                                <label>Is Voice Mod Autoban</label>
+                                <select id="pa-rmd-isvoicemodautoban">
+                                    <option value="false">No</option>
+                                    <option value="true">Yes</option>
+                                </select>
+                            </div>
+                            <div class="field-row">
+                                <label>Is Device Ban</label>
+                                <select id="pa-rmd-isdeviceban">
+                                    <option value="false">No</option>
+                                    <option value="true">Yes</option>
+                                </select>
+                            </div>
+                            <div class="field-row">
+                                <label>Is Warning</label>
+                                <select id="pa-rmd-iswarning">
+                                    <option value="false">No</option>
+                                    <option value="true">Yes</option>
+                                </select>
+                            </div>
+                            <div class="field-row">
+                                <label>Boot To Dorm</label>
+                                <select id="pa-rmd-boottodorm">
+                                    <option value="false">No</option>
+                                    <option value="true">Yes</option>
+                                </select>
+                            </div>
+                            <button class="btn-danger" id="pa-rmd-btn">Apply Raw Mod Details</button>
+                        </div>
+                    </div>
+
+                    <div class="dtab-content" id="pd-tokens">
+                        <div class="action-section">
+                            <h4>RecCenterTokens</h4>
+                            <div class="field-row">
+                                <label>Amount</label>
+                                <input type="number" id="pa-token-amount">
+                                <label>Type</label>
+                                <select id="pa-token-type">
+                                    <option value="0">NonPurchasedDefault</option>
+                                    <option value="1">SteamPurchased</option>
+                                    <option value="2">OculusPurchased</option>
+                                    <option value="-1">NonPurchasedNotUsableInP2P</option>
+                                </select>
+                                <button class="btn-action" id="pa-token-btn">Set Tokens</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dtab-content" id="pd-rooms">
+                        <div id="pd-rooms-list" class="results-list"></div>
+                    </div>
+
+                    <div class="dtab-content" id="pd-beta">
+                        <div class="action-section">
+                            <h4>ToxMod Voice Moderation</h4>
+                            <div id="pa-toxmod-status" style="margin-bottom:6px"></div>
+                            <div class="field-row">
+                                <label>Offense</label>
+                                <select id="pa-toxmod-category">
+                                    <option value="SevereToxicity">Severe Toxicity</option>
+                                    <option value="HateSpeech">Hate Speech</option>
+                                    <option value="Harassment">Harassment</option>
+                                    <option value="SexualContent">Sexual Content</option>
+                                    <option value="ViolentThreats">Violent Threats</option>
+                                    <option value="UnderageUser">Underage User</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="field-row">
+                                <label>Duration</label>
+                                <select id="pa-toxmod-duration">
+                                    <option value="">Auto (escalate by strikes)</option>
+                                    <option value="3600">1 hour</option>
+                                    <option value="86400">24 hours</option>
+                                    <option value="259200">3 days</option>
+                                    <option value="604800">7 days</option>
+                                    <option value="2592000">30 days</option>
+                                </select>
+                            </div>
+                            <div class="field-row">
+                                <label>Note</label>
+                                <input type="text" id="pa-toxmod-note" placeholder="Internal note (optional)">
+                            </div>
+                            <div class="field-row">
+                                <label>Mode</label>
+                                <select id="pa-toxmod-mode">
+                                    <option value="loud">Loud (quits their game)</option>
+                                    <option value="quiet">Quiet (silent mute)</option>
+                                </select>
+                            </div>
+                            <button class="btn-danger" id="pa-toxmod-ban-btn">Issue Voice Ban</button>
+                            <button class="btn-action" id="pa-toxmod-unban-btn">Lift Voice Ban</button>
+                            <button class="btn-action" id="pa-toxmod-reset-btn">Reset Strikes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-rooms">
+                <div class="panel-header">
+                    <h2>Rooms</h2>
+                    <div class="search-row">
+                        <input type="text" id="room-search-input" placeholder="Search by name or ID…">
+                        <button id="room-search-btn">Search</button>
+                        <button id="room-hot-btn" class="btn-ghost">Hot Rooms</button>
+                        <button id="room-import-btn" class="btn-ghost">Meow.Net Room Importer</button>
+                        <button id="room-import-epicquest-btn" class="btn-ghost">EpicQuest Room Importer</button>
+                    </div>
+                </div>
+
+                <div id="room-results" class="results-list"></div>
+
+                <div id="room-detail" class="detail-pane" style="display:none">
+                    <div class="detail-header">
+                        <img id="rd-img" src="" alt="room" class="room-thumb">
+                        <div>
+                            <h3 id="rd-name"></h3>
+                            <span id="rd-id" class="chip"></span>
+                            <span id="rd-creator" class="muted"></span>
+                        </div>
+                        <button id="rd-close" class="btn-ghost close-btn">✕</button>
+                    </div>
+
+                    <div class="detail-tabs">
+                        <button class="dtab active" data-tab="rd-info">Info</button>
+                        <button class="dtab" data-tab="rd-actions">Actions</button>
+                        <button class="dtab" data-tab="rd-display">Display</button>
+                        <button class="dtab" data-tab="rd-access">Access</button>
+                        <button class="dtab" data-tab="rd-tags">Tags</button>
+                        <button class="dtab" data-tab="rd-subrooms">SubRooms</button>
+                        <button class="dtab" data-tab="rd-danger">Danger</button>
+                    </div>
+
+                    <div class="dtab-content active" id="rd-info">
+                        <div class="info-grid" id="rd-info-grid"></div>
+                    </div>
+
+                    <div class="dtab-content" id="rd-actions">
+                        <div class="action-grid">
+                            <div class="action-section">
+                                <h4>Identity</h4>
+                                <div class="field-row">
+                                    <label>Name</label>
+                                    <input type="text" id="ra-name">
+                                    <button class="btn-action" id="ra-name-btn">Set Name</button>
+                                </div>
+                                <div class="field-row">
+                                    <label>Description</label>
+                                    <input type="text" id="ra-desc">
+                                    <button class="btn-action" id="ra-desc-btn">Set Description</button>
+                                </div>
+                            </div>
+                            <div class="action-section" style="grid-column:1/-1">
+                                <h4>Ownership</h4>
+                                <div class="field-row">
+                                    <label>New Owner ID</label>
+                                    <input type="number" id="ra-owner">
+                                    <button class="btn-action" id="ra-owner-btn">Transfer Ownership</button>
+                                </div>
+                            </div>
+                            <div class="action-section" style="grid-column:1/-1">
+                                <h4>Roles</h4>
+                                <div class="field-row">
+                                    <label>Player ID</label>
+                                    <input type="number" id="ra-role-player">
+                                    <label>Role</label>
+                                    <select id="ra-role-val">
+                                        <option value="0">None</option>
+                                        <option value="1">Banned</option>
+                                        <option value="10">Host</option>
+                                        <option value="20">Moderator</option>
+                                        <option value="30">Co-Owner</option>
+                                        <option value="31">Contributer</option>
+                                    </select>
+                                    <button class="btn-action" id="ra-role-btn">Set Role</button>
+                                </div>
+                            </div>
+                            <div class="action-section" style="grid-column:1/-1">
+                                <h4>Beta Tag</h4>
+                                <button class="btn-action" id="ra-beta-btn">Toggle Beta Tag</button>
+                            </div>
+                            <div class="action-section" style="grid-column:1/-1">
+                                <h4>DataBlob Import</h4>
+                                <div class="field-row" style="margin-bottom:8px">
+                                    <label>SubRoom</label>
+                                    <select id="ra-blob-subroom-select" style="flex:1">
+                                        <option value="">Select SubRoom…</option>
+                                    </select>
+                                </div>
+                                <div class="field-row">
+                                    <label>DataBlob</label>
+                                    <input type="text" id="ra-blob-name" placeholder="blobfilename">
+                                    <button class="btn-action" id="ra-blob-btn">Import DataBlob</button>
+                                    <label for="ra-blob-upload" class="btn-action" style="padding:8px 10px;cursor:pointer;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-weight:600;border-radius:var(--radius-sm)">Upload DataBlob</label>
+                                    <input type="file" id="ra-blob-upload" accept=".room" style="display:none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dtab-content" id="rd-display">
+                        <div class="action-grid">
+                            <div class="action-section">
+                                <h4>Room Image</h4>
+                                <div class="field-row">
+                                    <label>Image File</label>
+                                    <input type="text" id="ra-image" placeholder="filename.jpg">
+                                    <button class="btn-action" id="ra-image-btn">Set Image</button>
+                                </div>
+                                <div class="field-row">
+                                    <label>Upload Image</label>
+                                    <input type="file" id="ra-image-upload" accept=".jpg,.jpeg,.png" style="flex:1">
+                                    <button class="btn-action" id="ra-image-upload-btn">Upload</button>
+                                </div>
+                                <button class="btn-danger" id="ra-image-reset-btn">Reset to Default</button>
+                            </div>
+                            <div class="action-section">
+                                <h4>Stats (Read Only)</h4>
+                                <div class="info-grid" id="rd-stats-grid" style="margin-top:0"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dtab-content" id="rd-access">
+                        <div class="action-grid">
+                            <div class="action-section">
+                                <h4>Accessibility</h4>
+                                <div class="field-row">
+                                    <label>Mode</label>
+                                    <select id="ra-access">
+                                        <option value="0">Private</option>
+                                        <option value="1">Public</option>
+                                        <option value="2">Unlisted</option>
+                                        <option value="3">Dev Only</option>
+                                        <option value="4">Dev Unlisted</option>
+                                    </select>
+                                    <button class="btn-action" id="ra-access-btn">Set</button>
+                                </div>
+                            </div>
+                            <div class="action-section">
+                                <h4>Cloning</h4>
+                                <div class="field-row">
+                                    <label>Allow Cloning</label>
+                                    <select id="ra-cloning">
+                                        <option value="true">Allowed</option>
+                                        <option value="false">Disabled</option>
+                                    </select>
+                                    <button class="btn-action" id="ra-cloning-btn">Set</button>
+                                </div>
+                            </div>
+                            <div class="action-section">
+                                <h4>Platform Support</h4>
+                                <div class="field-row">
+                                    <label>Mobile</label>
+                                    <select id="ra-mobile">
+                                        <option value="true">Supported</option>
+                                        <option value="false">Not Supported</option>
+                                    </select>
+                                </div>
+                                <div class="field-row">
+                                    <label>Screens</label>
+                                    <select id="ra-screens">
+                                        <option value="true">Supported</option>
+                                        <option value="false">Not Supported</option>
+                                    </select>
+                                </div>
+                                <div class="field-row">
+                                    <label>Walk VR</label>
+                                    <select id="ra-walkvr">
+                                        <option value="true">Supported</option>
+                                        <option value="false">Not Supported</option>
+                                    </select>
+                                </div>
+                                <div class="field-row">
+                                    <label>Teleport VR</label>
+                                    <select id="ra-teleportvr">
+                                        <option value="true">Supported</option>
+                                        <option value="false">Not Supported</option>
+                                    </select>
+                                </div>
+                                <div class="field-row">
+                                    <label>Juniors</label>
+                                    <select id="ra-juniors">
+                                        <option value="true">Allowed</option>
+                                        <option value="false">Not Allowed</option>
+                                    </select>
+                                </div>
+                                <button class="btn-action" id="ra-restrictions-btn">Save Platform Settings</button>
+                            </div>
+                            <div class="action-section">
+                                <h4>Age Rating</h4>
+                                <div class="field-row">
+                                    <label>Rating</label>
+                                    <select id="ra-agerating">
+                                        <option value="0">All Ages</option>
+                                        <option value="1">Teen (13+)</option>
+                                        <option value="2">Mature (17+)</option>
+                                    </select>
+                                    <button class="btn-action" id="ra-agerating-btn">Set</button>
+                                </div>
+                            </div>
+                            <div class="action-section">
+                                <h4>Max Players</h4>
+                                <div class="field-row">
+                                    <label>Max</label>
+                                    <input type="number" id="ra-maxplayers" min="1" max="64">
+                                    <button class="btn-action" id="ra-maxplayers-btn">Set</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dtab-content" id="rd-tags">
+                        <div style="margin-bottom:14px">
+                            <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:10px">Current Tags</div>
+                            <div class="current-tags" id="rd-current-tags"></div>
+                        </div>
+                        <div class="action-section">
+                            <h4>Add / Remove Tag</h4>
+                            <div class="field-row">
+                                <label>Tag</label>
+                                <input type="text" id="ra-tag-input" placeholder="tag name">
+                                <label>Type</label>
+                                <select id="ra-tag-type">
+                                    <option value="0">General (0)</option>
+                                    <option value="1">Auto (1)</option>
+                                    <option value="2">AG Only (2)</option>
+                                    <option value="3">Banned (3)</option>
+                                </select>
+                            </div>
+                            <div class="field-row" style="margin-top:6px">
+                                <button class="btn-action" id="ra-tag-add-btn">Add Tag</button>
+                                <button class="btn-danger" id="ra-tag-remove-btn">Remove Tag</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dtab-content" id="rd-subrooms">
+                        <div id="rd-subrooms-list"></div>
+                    </div>
+
+                    <div class="dtab-content" id="rd-danger">
+                        <div class="action-section danger-section">
+                            <h4>Danger Zone</h4>
+                            <div class="field-row">
+                                <label>Room Type</label>
+                                <select id="ra-roomtype">
+                                    <option value="false">Rooms 1</option>
+                                    <option value="true">Rooms 2</option>
+                                </select>
+                                <button class="btn-action" id="ra-roomtype-btn">Set</button>
+                            </div>
+                            <button class="btn-danger" id="ra-set-modern-persistence-btn">Set Modern Persistence Values</button>
+                            <button class="btn-danger" id="ra-delete-btn">Delete Room Permanently</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-images">
+                <div class="panel-header">
+                    <h2>Images</h2>
+                    <div class="search-row">
+                        <input type="number" id="img-player-id" placeholder="Player ID">
+                        <button id="img-search-btn">Load Player Images</button>
+                        <button id="img-global-btn" class="btn-ghost">Global Feed</button>
+                        <label class="private-toggle">
+                            <span class="private-toggle-text">Show Private Images</span>
+
+                            <input type="checkbox" id="img-show-private">
+
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div id="img-results" class="img-grid"></div>
+            </div>
+
+            <div id="img-detail-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.65);z-index:5000;align-items:center;justify-content:center">
+                <div id="img-detail-drawer" style="background:var(--surface);border-radius:var(--radius);border:1px solid var(--accent);width:90%;max-width:900px;max-height:88vh;overflow-y:auto;padding:0;display:flex;flex-direction:column">
+                    <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--surface);z-index:1">
+                        <div style="font-size:15px;font-weight:700">Image Actions</div>
+                        <button id="img-detail-close" class="btn-ghost close-btn">✕</button>
+                    </div>
+                    <div style="display:flex;gap:0;flex:1;min-height:0">
+                        <div style="width:220px;flex-shrink:0;padding:20px;border-right:1px solid var(--border);display:flex;flex-direction:column;gap:10px">
+                            <img id="imgd-preview" src="" style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:var(--radius-sm);background:var(--bg3)" onerror="this.src='/imageserver/DefaultPFP.png'">
+                            <div id="imgd-type-badge" style="text-align:center;font-size:11px;padding:4px 8px;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm)"></div>
+                            <div id="imgd-access-badge" style="text-align:center;font-size:11px;padding:4px 8px;border-radius:var(--radius-sm)"></div>
+                        </div>
+                        <div style="flex:1;padding:20px;display:flex;flex-direction:column;gap:18px;overflow-y:auto">
+                            <div class="action-section" style="margin:0">
+                                <div class="info-grid" id="imgd-info-grid" style="margin-top:0"></div>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>Accessibility</h4>
+                                <div class="field-row">
+                                    <label>Mode</label>
+                                    <select id="imgd-access-select">
+                                        <option value="0">Private</option>
+                                        <option value="1">Public</option>
+                                    </select>
+                                    <button class="btn-action" id="imgd-access-btn">Set</button>
+                                </div>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>Accessibility Lock</h4>
+                                <div id="imgd-lock-status" style="margin-bottom:8px;font-size:12px"></div>
+                                <div class="field-row">
+                                    <button class="btn-danger" id="imgd-lock-btn">Lock Accessibility</button>
+                                    <button class="btn-action" id="imgd-unlock-btn">Unlock Accessibility</button>
+                                </div>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>Description</h4>
+                                <div class="field-row">
+                                    <input type="text" id="imgd-desc-input" placeholder="Image description…">
+                                    <button class="btn-action" id="imgd-desc-btn">Set</button>
+                                </div>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>Tagged Players</h4>
+                                <div id="imgd-tagged-players" style="font-size:12px;color:var(--text-muted);display:flex;flex-wrap:wrap;gap:4px"></div>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>Room</h4>
+                                <div id="imgd-room-info" style="font-size:12px"></div>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>Cheers</h4>
+                                <div id="imgd-cheer-info" style="margin-bottom:8px;font-size:12px;color:var(--text-muted)"></div>
+                                <button class="btn-danger" id="imgd-reset-cheers-btn">Reset Cheers to 0</button>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>Dev Lock</h4>
+                                <div id="imgd-devlock-status" style="margin-bottom:8px;font-size:12px"></div>
+                                <div class="field-row">
+                                    <button class="btn-danger" id="imgd-devlock-btn">Enable Dev Lock</button>
+                                    <button class="btn-action" id="imgd-devunlock-btn">Remove Dev Lock</button>
+                                </div>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>Transfer Ownership</h4>
+                                <div class="field-row">
+                                    <label>New Player ID</label>
+                                    <input type="number" id="imgd-transfer-id" placeholder="Player ID">
+                                    <button class="btn-action" id="imgd-transfer-btn">Transfer</button>
+                                </div>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>File Info</h4>
+                                <div id="imgd-filename-display" style="font-size:12px;color:var(--text-muted);margin-bottom:8px;word-break:break-all"></div>
+                                <button class="btn-ghost" id="imgd-copy-name-btn">Copy File Name</button>
+                            </div>
+
+                            <div class="action-section" style="margin:0">
+                                <h4>Full Metadata</h4>
+                                <button class="btn-ghost" id="imgd-json-btn">View Raw JSON</button>
+                                <pre id="imgd-json-block" style="display:none;margin-top:10px;background:rgba(0,0,0,0.08);border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px;font-size:11px;white-space:pre-wrap;word-break:break-all;max-height:240px;overflow-y:auto;color:var(--text)"></pre>
+                            </div>
+
+                            <div class="action-section danger-section" style="margin:0">
+                                <h4>Danger Zone</h4>
+                                <button class="btn-danger" id="imgd-delete-btn">Delete Image Permanently</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-database">
+                <div class="panel-header">
+                    <h2>Database</h2>
+                </div>
+                <div class="db-grid">
+                    <div class="db-stat-card">
+                        <span class="db-stat-label">Players</span>
+                        <span class="db-stat-value" id="dbs-players">-</span>
+                    </div>
+                    <div class="db-stat-card">
+                        <span class="db-stat-label">Rooms</span>
+                        <span class="db-stat-value" id="dbs-rooms">-</span>
+                    </div>
+                    <div class="db-stat-card">
+                        <span class="db-stat-label">SubRoom Saves</span>
+                        <span class="db-stat-value" id="dbs-saves">-</span>
+                    </div>
+                    <div class="db-stat-card">
+                        <span class="db-stat-label">Inventions</span>
+                        <span class="db-stat-value" id="dbs-inventions">-</span>
+                    </div>
+                </div>
+                <div class="action-section" style="margin-top:24px">
+                    <h4>Execute Expression</h4>
+                    <div class="field-row">
+                        <input type="text" id="db-expr-input" placeholder="e.g. RoomDB.Rooms.Count()">
+                        <button class="btn-action" id="db-exec-btn">Execute</button>
+                    </div>
+                    <pre id="db-exec-result" class="code-block"></pre>
+                </div>
+                <div class="action-section" style="margin-top:24px">
+                    <h4>Gift Every Player Tokens (doesnt send gift and is bugged)</h4>
+                    <div class="field-row">
+                        <label>Amount</label>
+                        <input type="number" id="db-gift-amount" min="1" placeholder="e.g. 100000">
+                        <label>Message</label>
+                        <input type="text" id="db-gift-msg" placeholder="A gift for you <3 (optional)">
+                    </div>
+                    <button class="btn-action" id="db-gift-tokens-btn" style="margin-top:8px">Gift All Players</button>
+                </div>
+                <button id="db-refresh-btn" class="btn-action" style="margin-top:16px">Refresh Stats</button>
+            </div>
+
+            <div class="panel" id="panel-moderation">
+                <div class="panel-header">
+                    <h2>Moderation</h2>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+    				<h4>Crash Everyone (Developers Excluded)</h4>
+    				<button class="btn-danger" id="crash-all-btn">Close everyones game that isnt a dev</button>
+				</div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Quick Ban by ID</h4>
+                    <div class="field-row">
+                        <label>Player ID</label>
+                        <input type="number" id="mod-ban-id">
+                        <label>Reason</label>
+                        <input type="text" id="mod-ban-reason" placeholder="Reason">
+                        <label>Days</label>
+                        <input type="number" id="mod-ban-days" value="99999">
+                        <button class="btn-danger" id="mod-ban-btn">Ban</button>
+                    </div>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Quick Unban by ID</h4>
+                    <div class="field-row">
+                        <label>Player ID</label>
+                        <input type="number" id="mod-unban-id">
+                        <button class="btn-action" id="mod-unban-btn">Unban</button>
+                    </div>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Shove Player</h4>
+                    <div class="field-row">
+                        <label>Player ID</label>
+                        <input type="number" id="mod-shove-player">
+                        <label>Room ID</label>
+                        <input type="number" id="mod-shove-room">
+                        <label>SubRoom</label>
+                        <input type="number" id="mod-shove-subroom" placeholder="opt">
+                    </div>
+                    <div class="field-row">
+                        <label>Instance ID</label>
+                        <input type="text" id="mod-shove-instance" placeholder="opt">
+                        <button class="btn-action" id="mod-shove-btn">Shove</button>
+                    </div>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Clear Heartbeat</h4>
+                    <div class="field-row">
+                        <label>Player ID</label>
+                        <input type="number" id="mod-hb-id">
+                        <button class="btn-danger" id="mod-hb-btn">Clear Heartbeat</button>
+                    </div>
+                </div>
+                <div class="action-section">
+                    <h4>Drag All Online to Room</h4>
+                    <div class="field-row">
+                        <label>Room ID</label>
+                        <input type="number" id="mod-dragall-room">
+                        <label>SubRoom</label>
+                        <input type="number" id="mod-dragall-subroom" placeholder="opt">
+                    </div>
+                    <div class="field-row">
+                        <label>Instance ID</label>
+                        <input type="text" id="mod-dragall-instance" placeholder="opt">
+                        <button class="btn-danger" id="mod-dragall-btn">Drag All</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-modboard">
+                <div class="panel-header">
+                    <h2>Moderator Board</h2>
+                    <div class="search-row">
+                        <input type="text" id="mb-lookup-input" placeholder="Player ID or username…">
+                        <button id="mb-lookup-btn">Lookup</button>
+                    </div>
+                </div>
+
+                <div id="mb-player-card" class="detail-pane" style="display:none">
+                    <div class="detail-header">
+                        <img id="mb-pfp" src="" alt="pfp">
+                        <div>
+                            <h3 id="mb-name"></h3>
+                            <span id="mb-username" class="muted"></span>
+                            <span id="mb-id" class="chip"></span>
+                        </div>
+                        <button id="mb-close" class="btn-ghost close-btn">✕</button>
+                    </div>
+                    <div id="mb-badges" style="margin:10px 0"></div>
+
+                    <div class="action-grid">
+                        <div class="action-section">
+                            <h4>Voice Chat</h4>
+                            <button class="btn-danger" id="mb-voiceban-btn">Voice Ban (Auto)</button>
+                            <button class="btn-action" id="mb-voiceunban-btn">Lift Voice Ban</button>
+                        </div>
+                        <div class="action-section">
+                            <h4>Account Ban</h4>
+                            <button class="btn-danger" id="mb-ban-btn">Ban</button>
+                            <button class="btn-action" id="mb-unban-btn">Unban</button>
+                        </div>
+                        <div class="action-section">
+                            <h4>Communication</h4>
+                            <div class="field-row">
+                                <input type="text" id="mb-junior-reason" placeholder="Reason (sent to player, optional)">
+                            </div>
+                            <button class="btn-danger" id="mb-junior-btn">Revoke Comms (Junior)</button>
+                            <button class="btn-action" id="mb-unjunior-btn">Restore Comms</button>
+                        </div>
+                        <div class="action-section">
+                            <h4>Session</h4>
+                            <button class="btn-danger" id="mb-close-game-btn">Close Game</button>
+                            <button class="btn-danger" id="mb-hb-clear-btn">Clear Heartbeat</button>
+                        </div>
+                        <div class="action-section">
+                            <h4>Profile</h4>
+                            <button class="btn-action" id="mb-full-profile-btn">Open Full Profile</button>
+                        </div>
+                    </div>
+
+                    <div class="action-section" style="margin-top:16px">
+                        <h4>Message as Coach (Account ID 1)</h4>
+                        <div class="field-row">
+                            <textarea id="mb-dm-text" style="height:6vw;resize:none;flex:1" placeholder="Message to send as Coach…"></textarea>
+                        </div>
+                        <div style="margin-top:8px">
+                            <button class="btn-action" id="mb-coach-popup-btn">Send Popup</button>
+                            <button class="btn-action" id="mb-dm-send-btn">Send DM</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-anticheat">
+                <div class="panel-header">
+                    <h2>Anti-Cheat</h2>
+                    <div class="search-row">
+                        <input type="text" id="ac-search-input" placeholder="Machine ID or player ID…">
+                        <button id="ac-search-btn">Search</button>
+                        <button id="ac-list-banned-btn" class="btn-ghost">Banned Machines</button>
+                    </div>
+                </div>
+
+                <div class="ac-note">
+                    A machine ID covers everyone who has played on that computer. Read the linked
+                    accounts before banning: a household or a shared PC puts unrelated people
+                    behind one ID.
+                </div>
+
+                <div id="ac-results"></div>
+
+                <div class="action-grid" style="margin-top:20px">
+                    <div class="action-section danger-section">
+                        <h4>Ban Machine</h4>
+                        <div class="field-row">
+                            <label>Machine ID</label>
+                            <input type="text" id="ac-ban-hwid" placeholder="or leave blank">
+                        </div>
+                        <div class="field-row">
+                            <label>Player ID</label>
+                            <input type="number" id="ac-ban-player" placeholder="bans every machine they use">
+                        </div>
+                        <div class="field-row">
+                            <label>Reason</label>
+                            <input type="text" id="ac-ban-reason" placeholder="Required">
+                        </div>
+                        <div class="field-row">
+                            <label>Days</label>
+                            <input type="number" id="ac-ban-days" placeholder="blank = permanent">
+                            <button class="btn-danger" id="ac-ban-btn">Ban Machine</button>
+                        </div>
+                    </div>
+
+                    <div class="action-section">
+                        <h4>Lift Hardware Ban</h4>
+                        <div class="field-row">
+                            <label>Machine ID</label>
+                            <input type="text" id="ac-unban-hwid">
+                            <button class="btn-action" id="ac-unban-btn">Unban</button>
+                        </div>
+                        <div class="muted">
+                            Accounts banned alongside the machine stay banned. Lift those from the
+                            Players panel, one at a time.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-server">
+                <div class="panel-header">
+                    <h2>Server</h2>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Maintenance Broadcast</h4>
+                    <div class="field-row">
+                        <label>Minutes</label>
+                        <input type="number" id="db-maint-minutes" value="10" min="1">
+                        <button class="btn-danger" id="db-maint-btn">Send Maintenance Alert</button>
+                    </div>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Announcement</h4>
+                    <div class="field-row">
+                        <label>Type</label>
+                        <select id="ann-type">
+                            <option value="Update">Update</option>
+                            <option value="Contest">Contest</option>
+                            <option value="Store">Store</option>
+                            <option value="Event">Event</option>
+                            <option value="Warning">Warning</option>
+                            <option value="Item">Item</option>
+                        </select>
+                    </div>
+                    <div class="field-row">
+                        <label>Title</label>
+                        <input type="text" id="ann-title" placeholder="Announcement title">
+                    </div>
+                    <div class="field-row">
+                        <label>Body</label>
+                        <input type="text" id="ann-body" placeholder="Announcement text">
+                    </div>
+                    <div class="field-row">
+                        <label>Image</label>
+                        <input type="text" id="ann-image" placeholder="imagename.png (optional)">
+                    </div>
+                    <div class="field-row">
+                        <label>Link Type</label>
+                        <select id="ann-linktype">
+                            <option value="Url">Url</option>
+                            <option value="AccountId">AccountId</option>
+                            <option value="EventId">EventId</option>
+                            <option value="RoomName">RoomName</option>
+                            <option value="Storefront">Storefront</option>
+                            <option value="Item">Item</option>
+                            <option value="CustomAvatarItem">CustomAvatarItem</option>
+                            <option value="AuthorizedRecNetUrl">AuthorizedRecNetUrl</option>
+                        </select>
+                    </div>
+                    <div class="field-row">
+                        <label>Link Text</label>
+                        <input type="text" id="ann-linkname" placeholder="optional">
+                        <label>Link URI</label>
+                        <input type="text" id="ann-linkuri" placeholder="optional">
+                    </div>
+                    <button class="btn-action" id="ann-send-btn">Publish Announcement</button>
+                    <button class="btn-danger" id="ann-clear-btn">Clear All Announcement</button>
+                    <div style="margin-top:12px">
+                        <h4 style="margin-bottom:6px">Active Announcements</h4>
+                        <button class="btn-ghost" id="ann-refresh-btn" style="margin-bottom:8px">Refresh</button>
+                        <div id="ann-list"></div>
+                    </div>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Community Board Banner</h4>
+                    <div class="field-row">
+                        <label>Message</label>
+                        <input type="text" id="cbb-message" placeholder="Banner text shown on the community board">
+                    </div>
+                    <div class="field-row">
+                        <label>More Info URL</label>
+                        <input type="text" id="cbb-url" placeholder="https://… (optional)">
+                    </div>
+                    <button class="btn-action" id="cbb-send-btn">Update Banner</button>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Coach Chat System Prompt</h4>
+                    <div class="field-row">
+                        <label>Message</label>
+                        <input type="text" id="ccsp-message" placeholder="System prompt for the coach chat">
+                    </div>
+                    <button class="btn-action" id="ccsp-send-btn">Update System Prompt</button>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Room Management</h4>
+                    <small>Button disabled as this action is scary</small>
+                    <button class="btn-danger" id="db-clear-rooms-btn" disabled>Clear &amp; Re-import Rooms</button>
+                </div>
+                <div class="action-section danger-section">
+                    <h4>Danger Zone</h4>
+                    <small>Button disabled as this action is scary</small>
+                    <button class="btn-danger" id="db-reset-btn" disabled>WIPE Database</button>
+                </div>
+                <h4>Coach Message</h4>
+                <div class="field-row">
+                    <label>Message</label>
+                    <input type="text" id="coach-msg" value="">
+                    <button class="btn-danger" id="coach-btn">Send Message</button>
+                </div>
+                <h4>Just a reminder not to use this button, because if its spammed, people will leave Vanadium, and i also hate when this button is used by ppl</h4>
+            </div>
+
+            <div class="panel" id="panel-git">
+                <div class="panel-header">
+                    <h2>Git</h2>
+                </div>
+                <textarea id="git-log" style="background: black;font-family: monospace;color: white;width: 100%;height: 16rem;margin-bottom: 20px;"></textarea>
+                <div class="action-section">
+                    <div class="field-row">
+                        <button class="btn-action" id="git-diff">Diff</button>
+                        <button class="btn-action" id="git-status">Status</button>
+                        <button class="btn-action" id="git-push">Commit &amp; Push</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-session">
+                <div class="panel-header">
+                    <h2>Session</h2>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Current Session</h4>
+                    <div class="info-grid" id="session-info-grid"></div>
+                </div>
+                <div class="action-section" style="margin-bottom:20px">
+                    <h4>Session Timer</h4>
+                    <div style="font-size:36px;font-weight:700;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:10px" id="session-big-timer">30:00</div>
+                    <div class="muted">Session expires 30 minutes after authorization. Actions reset the timer.</div>
+                    <button class="btn-action" style="margin-top:12px" id="session-extend-btn">Extend Session (Reset Timer)</button>
+                </div>
+                <div class="action-section danger-section">
+                    <h4>End Session</h4>
+                    <button class="btn-danger" id="session-logout-btn">Sign Out &amp; Return to Authorization</button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <div id="modal-overlay" style="display:none">
+        <div id="modal-box">
+            <div id="modal-title"></div>
+            <div id="modal-body"></div>
+            <div id="modal-actions">
+                <button id="modal-confirm" class="btn-danger">Confirm</button>
+                <button id="modal-cancel" class="btn-ghost">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="import-room-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:10001;align-items:center;justify-content:center;flex-direction:column">
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:28px;width:420px;max-width:92vw;display:flex;flex-direction:column;gap:14px">
+            <div style="font-size:16px;font-weight:700" id="import-modal-title">Meow.Net Room Importer</div>
+            <div style="display:flex;gap:8px;align-items:center">
+                <input type="text" id="import-room-name" placeholder="Room name" style="flex:1;padding:8px 10px;background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius);color:var(--text);font-size:13px;outline:none">
+                <button id="import-room-submit" class="btn-primary" style="white-space:nowrap">Import</button>
+            </div>
+            <div id="import-status" style="font-size:12px;color:var(--text-muted);display:none"></div>
+            <button id="import-modal-close" class="btn-ghost">Cancel</button>
+        </div>
+    </div>
+
+    <script src="/vannet/Director/Asset/Director.js"></script>
+</body>
+</html>

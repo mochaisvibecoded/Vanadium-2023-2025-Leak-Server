@@ -1,0 +1,90 @@
+[
+    {
+        "id": "Accounts_OnlineFriends_WatchHome",
+        "sectionType": 1,
+        "sectionSubType": "Accounts_OnlineFriends",
+        "source": "OnlineFriends",
+        "sourceMetadata": null,
+        "displayMetadata": "{\"DisplayTitle\":\"Online Friends\",\"itemCount\":3,\"cardStyle\":\"Horizontal\", \"ctaTarget\":\"\"}"
+    },
+    {
+        "id": "Rooms_RRO_CommunityBoard_New",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_RRO_NewPlayer",
+        "source": "Hot",
+        "sourceMetadata": "rro",
+        "displayMetadata": "{\"DisplayTitle\":\"Rec Room Originals\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\",\"accountAgeMaxDays\":2}"
+    },
+    {
+        "id": "Friendship_New_Users",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_Friendship",
+        "source": "PlaylistById",
+        "sourceMetadata": "7732248245192312892",
+        "displayMetadata": "{\"DisplayTitle\":\"Fun with Friends\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\", \"accountAgeMinDays\":0, \"accountAgeMaxDays\":3}"
+    },
+    {
+        "id": "Rooms_RRO_CommunityBoard_Tenured",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_RRO",
+        "source": "Hot",
+        "sourceMetadata": "rro",
+        "displayMetadata": "{\"DisplayTitle\":\"Rec Room Originals\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\",\"accountAgeMinDays\":2}"
+    },
+    {
+        "id": "Discovery_FeaturedCreator",
+        "sectionType": 13,
+        "sectionSubType": "featured_creator",
+        "source": "PlayerCreatedRooms",
+        "sourceMetadata": "49",
+        "displayMetadata": "{\"DisplayTitle\":\"Featured Creator\", \"descriptionText\":\"Designing fresh, beautiful spaces to discover\",\"itemCount\":\"4\", \"unsupportedPlatforms\":[\"Switch\"]}"
+    },
+    {
+        "id": "Rooms_CreatorsYouFollow",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_PlayerSubscriptions",
+        "source": "MySubscriptions",
+        "sourceMetadata": null,
+        "displayMetadata": "{\"DisplayTitle\":\"From Creators You Follow\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\"}"
+    },
+    {
+        "id": "RoomCategories_MoodPlaylists_FeelingLucky",
+        "sectionType": 12,
+        "sectionSubType": "RoomCategories",
+        "source": "CuratedList",
+        "sourceMetadata": "RoomCategories.MoodPlaylists.AlgoEndpoint.FeelingLucky",
+        "displayMetadata": "{\"DisplayTitle\":\"I'm Feeling Lucky\",\"unsupportedPlatforms\":[\"Switch\",\"Pico\",\"Oculus\"], \"unsupportedInteractionCategories\":[\"VR\"]}"
+    },
+    {
+        "id": "Rooms_New_PlayHighlight_TabsTest_Explore",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_New",
+        "source": "Hot",
+        "sourceMetadata": "new",
+        "displayMetadata": "{\"DisplayTitle\":\"New\",\"supportsDedupe\":\"true\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\",\"unsupportedPlatforms\":[\"Switch\"]}"
+    },
+    {
+        "id": "Rooms_ContinuePlaying_PlayHighlight",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_ContinuePlaying",
+        "source": "Recent",
+        "sourceMetadata": null,
+        "displayMetadata": "{\"DisplayTitle\":\"Continue Playing\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\"}"
+    },
+    {
+        "id": "Rooms_SavedForLater_PlayHighlight",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_SavedForLater",
+        "source": "MyPlaylistByName",
+        "sourceMetadata": "__SavedForLater_Rooms",
+        "displayMetadata": "{\"DisplayTitle\":\"Saved for Later\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\", \"minItemsToShowSection\": 1}"
+    },
+    {
+        "id": "Rooms_Favorites",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_PlayerFavorites",
+        "source": "MyFavorites",
+        "sourceMetadata": null,
+        "displayMetadata": "{\"DisplayTitle\":\"Favorites\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\"}"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "id": "ItemsRoomStore_RoomInventoryAndStore",
+        "sectionType": 14,
+        "sectionSubType": "RoomStore",
+        "source": null,
+        "sourceMetadata": null,
+        "displayMetadata": "{\"DisplayTitle\":\"Room Store\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\",\"sizePerPlatform\":\"all=highlight_scale_75\"}"
+    },
+    {
+        "id": "Accounts_OnlineFriends_WatchHome",
+        "sectionType": 1,
+        "sectionSubType": "Accounts_OnlineFriends",
+        "source": "OnlineFriends",
+        "sourceMetadata": null,
+        "displayMetadata": "{\"DisplayTitle\":\"Online Friends\",\"itemCount\":3,\"cardStyle\":\"Horizontal\", \"ctaTarget\":\"\"}"
+    },
+    {
+        "id": "Rooms_ContinuePlaying_WatchHome",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_ContinuePlaying",
+        "source": "Recent",
+        "sourceMetadata": null,
+        "displayMetadata": "{\"DisplayTitle\":\"Continue Playing\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\", \"ctaTarget\":\"PlayTabs_Library\"}"
+    },
+    {
+        "id": "Rooms_TopEngagement",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_TopEngagement",
+        "source": "CarouselEndpoint",
+        "sourceMetadata": "topengagementrooms",
+        "displayMetadata": "{\"DisplayTitle\":\"Top Twelve\",\"supportsDedupe\":\"false\",\"numRows\":\"2\"}"
+    },
+    {
+        "id": "SkuCarousel_Deals_HomeCampaigns",
+        "sectionType": 10,
+        "sectionSubType": "HomeCampaignCarousel",
+        "source": "OnlyPurchaseCampaigns",
+        "sourceMetadata": "OnlyPurchaseCampaigns",
+        "displayMetadata": "{\r\n\"DisplayTitle\":\"Deals!\",\r\n\"HideSkuInfoOnCards\":true,\r\n\"horizontalScrollEnabled\":true,\r\n\"ctaTarget\":\"StoreCategory_Deals\",\r\n\"itemCount\":5,\r\n\"IdOverrides\": [620, 619, 618, 617, 616]\r\n}"
+    },
+    {
+        "id": "SkuCarousel_BoostDeals_HomeCampaigns",
+        "sectionType": 10,
+        "sectionSubType": "HomeBoostCampaignCarousel",
+        "source": "OnlyPurchaseCampaigns",
+        "sourceMetadata": "OnlyPurchaseCampaigns",
+        "displayMetadata": "{\r\n\"DisplayTitle\":\"XP Boost Deals!\",\r\n\"HideSkuInfoOnCards\":true,\r\n\"horizontalScrollEnabled\":true,\r\n\"ctaTarget\":\"StoreCategory_Deals\",\r\n\"itemCount\":3,\r\n\"IdOverrides\": [591, 592, 593]\r\n}"
+    },
+    {
+        "id": "Rooms_Trending",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_Trending",
+        "source": "CarouselEndpoint",
+        "sourceMetadata": "trendingrooms",
+        "displayMetadata": "{\"DisplayTitle\":\"Trending\",\"supportsDedupe\":\"true\",\"numRows\":\"1\"}"
+    },
+    {
+        "id": "StoreItemCarousel_UnifiedAlgorithmicList_BestSellers_1Row",
+        "sectionType": 4,
+        "sectionSubType": "BestSellingItems",
+        "source": "UnifiedAlgorithmicList",
+        "sourceMetadata": "bestsellingitems",
+        "displayMetadata": "{\r\n\"DisplayTitle\":\"Best Sellers\"\r\n}"
+    }
+]

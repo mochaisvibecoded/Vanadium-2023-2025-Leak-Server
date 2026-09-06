@@ -1,0 +1,26 @@
+[
+    {
+        "id": "StoreItemCarousel_Storefront_PopUpShop_7",
+        "sectionType": 4,
+        "sectionSubType": "Storefront_PopUpShop7",
+        "source": "Storefront",
+        "sourceMetadata": "PopUpShop_7",
+        "displayMetadata": "{\r\n    \"itemCount\": 5,\"numRows\":\"2\"\r\n}"
+    },
+    {
+        "id": "StoreItemCarousel_Storefront_PopUpShop_18",
+        "sectionType": 4,
+        "sectionSubType": "Storefront_PopUpShop_18",
+        "source": "Storefront",
+        "sourceMetadata": "PopUpShop_18",
+        "displayMetadata": null
+    },
+    {
+        "id": "StoreItemCarousel_Store_FoodItems",
+        "sectionType": 4,
+        "sectionSubType": "Store_FoodItems",
+        "source": "Store",
+        "sourceMetadata": "FoodItems",
+        "displayMetadata": "{\r\n    \"itemCount\": 5, \r\n    \"numRows\":\"2\"\r\n}"
+    }
+]

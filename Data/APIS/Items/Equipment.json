@@ -1,0 +1,2450 @@
+[
+  {
+    "PrefabName": "[DiscGolfDisc]",
+    "ModificationGuid": "19ef59c7-f74b-4c63-935a-1d4b1abd8518",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Disc (Coop)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DiscGolfDisc]",
+    "ModificationGuid": "2b70a76e-6f48-402e-90ff-40b06aa23eb8",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Disc (Coach Select)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DiscGolfDisc]",
+    "ModificationGuid": "9d2a3618-12b3-4ca0-be59-ed15d7926d77",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Disc (Laser)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DiscGolfDisc]",
+    "ModificationGuid": "7877964e-3a2b-4818-8513-0e26a707bd7c",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Disc (Clear)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DiscGolfDisc]",
+    "ModificationGuid": "bd3f6aa5-c6e0-4e06-901d-1176accf1003",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Disc (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DiscGolfDisc]",
+    "ModificationGuid": "5d3c3b16-713e-43d8-88e0-7633063091da",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Disc (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "bc4254be-60e0-4cc5-a233-6a0bd4137118",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "33c84c50-7c2e-4a80-ad06-79c4f20f829e",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "7ef5d1d9-24db-428c-85e0-107c1bfcc026",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Orange)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "4aff20ee-0b20-434b-a030-d3e1764fe4e7",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Purple)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "36751c4a-86a9-40e1-bef2-84f962ab678d",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Vitton)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "ec5ef0f3-c072-45ec-bb8f-3781fb16e067",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "b8d5612b-2c6f-46d6-9412-decddac7d4c1",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Pirate)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "Dg9PFcg-JUia72PnYJqkQg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "z0Xw8_BUZUODrGHSZcLHHQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Valentines)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun]",
+    "ModificationGuid": "p70jO7t0OEyaCWGrpUQa0Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Pistol (Watermelon)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShotgun]",
+    "ModificationGuid": "61e49c13-b414-425f-8e8b-bdcf3d12a5bf",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shotgun (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShotgun]",
+    "ModificationGuid": "f27af5d7-c741-4457-8c98-8e8791f1a41c",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shotgun (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShotgun]",
+    "ModificationGuid": "053c24a0-82a2-43f5-b0e7-e56db05a10ba",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shotgun (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShotgun]",
+    "ModificationGuid": "ZMAx_-B_7kWy6-TLXx8g6Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shotgun (Watermelon)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShotgun]",
+    "ModificationGuid": "CwIBKjm3G0-xUGt_9Gf7UQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shotgun (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShotgun]",
+    "ModificationGuid": "HSAwF_uBgkC0mBXyLSayWA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shotgun (Cactus)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "5dcf8a2e-6fa6-4007-ac1e-73dd53c4c247",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Purple)",
+    "Tooltip": "",
+    "Rarity": 1
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "e6899422-ab2f-4bd9-8e98-aef950ec27b6",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Blue)",
+    "Tooltip": "",
+    "Rarity": 1
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "d6d22997-fe39-4ffa-b1b3-4955368c829a",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Vitton)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "56582acf-c7a0-4aff-b3aa-2fdea4d254a3",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Rainbow)",
+    "Tooltip": "",
+    "Rarity": 1
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "56c9a6db-0f54-482c-aba9-e265f899771d",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Coach Select)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "WOWwmg7jg0mH2g4LJUp6fA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Cozy)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "bNEcMJOzokeEVKDeXk_cDQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "G0b2rKv0iEyXCEUVRcxmTQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (NBA)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Basketball]",
+    "ModificationGuid": "Vit6nO2nHEqvoYLf_6jHQw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Basketball (NBA 75)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "174adb53-bc6e-4fcf-b03d-a00fc3deeb49",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "fd367329-b8b2-4d44-825a-da16092751e3",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (Purple)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "a6c869d9-8f30-4ce6-a7ea-cb7ea9f9d492",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (Pirate)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "jZ7wlwRxgUuWYuLasbnG8w",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (80s Sunset)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "QTyRLpDB3UuReHQqrKxb5A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (Gingerbread)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "gfGhbEMx_kCRdO-6vPOh3g",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (Paint Shield Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "ClJApV0LC0mxh0UiYhaXGQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "TleGVT9enUigvfBoWz6kvA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (Galaxy)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballShield]",
+    "ModificationGuid": "nb1BXq0jxE2nXihd0RBgLw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Shield (Halo)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "a9a3292c-8ccf-4564-aeb1-124c52057ef2",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Black Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "2389fce4-3ab2-4e05-918c-845eb8538bed",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Goblin)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "93f5418e-a03d-4074-804c-daa0e374dd9f",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Purple)",
+    "Tooltip": "",
+    "Rarity": 1
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "735b06c6-1b78-4f60-9291-a414a96cd228",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "affbab2d-3200-4512-a140-685fdc5570c6",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Yellow)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "a363ba1b-2f70-4c5f-943a-f45cfa59122b",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Rock)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "eb90210a-6d2d-4429-b1e0-3285333685fc",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Valentine)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "439be0eb-4d1e-4c80-97f8-b4636d0ce94b",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Pride)",
+    "Tooltip": "",
+    "Rarity": 1
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "k0BVix46IEmgVrqUmFU3-Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "RQCgWA3Pf0KTqznUR58-lw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "-rbKD_ztMUq69Nv4tLrrVA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Snowflake)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "L9usPszLFkiA6xs32es2Lw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Electric Bloom)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestShield]",
+    "ModificationGuid": "_uaO1FvF5Euw3tMPGfPo2A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Shield (Sunflower)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Pistol]",
+    "ModificationGuid": "33a7a3dc-5266-4075-b56f-5eaa2c400e9f",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Pistol (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Pistol]",
+    "ModificationGuid": "db91b61b-ab32-4895-8f5a-0212c1283cbb",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Pistol (Vitton)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Pistol]",
+    "ModificationGuid": "89b1fbbc-e7be-440b-8b22-8fd379c1a568",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Pistol (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Pistol]",
+    "ModificationGuid": "8a2a3219-fed0-4403-9061-451d162307c2",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Pistol (Candy Cane)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Pistol]",
+    "ModificationGuid": "5nQ2kF6h6kunbk5z18Lozg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Pistol (Frankenblaster)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Pistol]",
+    "ModificationGuid": "0cFcVYCLTU6CKhr9uADrbw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Pistol (Recasso)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Pistol]",
+    "ModificationGuid": "aByJShU520OzdOXBV8o0Dg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Pistol (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Pistol]",
+    "ModificationGuid": "dRvcMuM__02iMsRwKEPtXQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Pistol (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Pistol]",
+    "ModificationGuid": "fdqopuA1qUiK_jg-G5gr3w",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Pistol (Galaxy)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_AutomaticGun]",
+    "ModificationGuid": "546b3a57-13d4-4c35-ab3a-bbb7d466f0b8",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Burst Gun (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_AutomaticGun]",
+    "ModificationGuid": "bafacc36-02c6-408c-a3f5-8c2aa07a68db",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Burst Gun (Arbor)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_AutomaticGun]",
+    "ModificationGuid": "u60IW1Gt10eC-8SlZmQUNQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Burst Gun (Recasso)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_AutomaticGun]",
+    "ModificationGuid": "dEmh0tniCkeYBY1EdD09jA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Burst Gun (Zombie)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_AutomaticGun]",
+    "ModificationGuid": "jzgz_HrPAUqOeqx3uNXVUA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Burst Gun (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_AutomaticGun]",
+    "ModificationGuid": "TK9ybLf7xUSi6F1bVfyaRg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Burst Gun (Physics Construction)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Shotgun]",
+    "ModificationGuid": "55a9c1e8-07e2-4457-86f2-75fd5e67b1f3",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Shotgun (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Shotgun]",
+    "ModificationGuid": "83d7cca0-2c5d-41b2-a5b2-f79fd89f3037",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Shotgun (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Shotgun]",
+    "ModificationGuid": "bb36b722-16dc-4172-b61f-237dc1240040",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Shotgun (Jack-O-Lantern)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Shotgun]",
+    "ModificationGuid": "cd497ae2-6382-42f2-9f92-93d5141588c3",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Shotgun (Valentine)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Shotgun]",
+    "ModificationGuid": "pIRihZheSEW2Ld3VTLkB-g",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Shotgun (Laser Shotgun Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Shotgun]",
+    "ModificationGuid": "gjuFgDp-LUWPi1mPCKyqbA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Shotgun (Shamrock)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Shotgun]",
+    "ModificationGuid": "xHEZCBn5D0iUxIDp3swd9g",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Shotgun (Galaxy)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_Shotgun]",
+    "ModificationGuid": "5wzKTogcskSYvv1HaiU57Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Shotgun (Alien Blaster)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_RailGun]",
+    "ModificationGuid": "63a867d7-ccea-4905-b6e0-e6dcfba06f9e",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Railgun (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_RailGun]",
+    "ModificationGuid": "46977ca7-ee75-4e2a-b8aa-0763879f8a96",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Railgun (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_RailGun]",
+    "ModificationGuid": "X9gTAbp0Sk6nadpTBseRrg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Railgun (Lifeguard)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_RailGun]",
+    "ModificationGuid": "_flhynGnykyZL7F83B7rJQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Railgun (Laser Railgun Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_SciFi_RailGun]",
+    "ModificationGuid": "uvbozCned0igzscgeBlRpQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Railgun (Galaxy)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "c4d70545-cdf1-4fb1-924b-613de0327faf",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Vitton)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "6bba14be-f207-4933-b09f-f0fd3e28c10c",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Candy Cane)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "1d09c8e4-78c2-49f9-acb7-8f0b3ff6a5ed",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Recasso)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "MsFoMeUZ8Eq2qX9SrOtRPA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Waves)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "T6PzFfg41UaQ7EAqts6gsw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Bone)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "jHaoDSAtikyAI82lO53o9g",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Dryad)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "ESQ0qOlgrkCc8MbUXGnF8A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "QEwDZYj_OEi5l86LBnuYGw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Rock)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "VHFKZVhiRkylcxnxzCKUuw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "Ys9UQ5b7fEyKxnaek-ihfQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Dryad Fall)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "CZAIad-ME0O0iIy77MRxBw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Winter)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow]",
+    "ModificationGuid": "ych0ntYcK0eiq67bCLlbew",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow (Spring)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "f5901f11-b315-4261-9474-2da207e4a229",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Vitton)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "52c6a138-10c5-4aab-9c3b-04b50c9a2dc5",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Ghost)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "Jkg-OGXdIUyfEwaQIh6EGA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "e738d936-0f75-423b-88bb-f626ffba573a",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Rock)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "XpxqrY6RYkafs-sd3Z0ZLw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Rainbow)",
+    "Tooltip": "",
+    "Rarity": 1
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "JBp7CxPhrUC5hnn2EISUFA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Dryad)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "T8666vuehkObksBdVbla9g",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "YajcGvBcTEaf_MjCbxOciw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "XKFuhM3zikyxTYtTzuPb_A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Dryad Fall)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "uPwTBnfWwkWXuyAaAMqeQA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Winter)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Longbow]",
+    "ModificationGuid": "gl_tlo_t7U-H308Omy13lw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bow (Spring)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "79090a4b-e191-4788-9210-88a7bdf6d828",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Luxury)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "204f84a2-6ee2-45e1-9168-87f43e893e32",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "wultE5yRpkuJREeJw4prKg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Dragon)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "HyL83wPtf06DG6nsHofoeA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Steampunk)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "juFHwn9UjEiGaWyNnoxbtA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Pumpkin)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "Pw1XcUfAck2tNh0fIAu8LA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Waves)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "4HJ3wRmSZUuhMRUTA67dpA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Professor)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "i3NgZvTwkUSMsXRpqCgSZA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Wonderland)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "BGhlN3FKGEy6w-vwc28V4A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Beach)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "BwIscV_YnE6iG4brl389Hg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Mystery)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "JtMeQRvo00yVwAliICTP0w",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Movie Magic)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "h4xKGsHcTUy3iH7PVFjb2w",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Daytime)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "cUBvDvybvEu5eZDPn57ExQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Night)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "VYF9NGZBgU6TOo9ayjgBEQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Green)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "WwtFcRluQkmnCI_qH75L_Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Orange)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "iRtlLKI-X0S9oYUWLenAKQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Purple)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "tvjYGeRdwEqnr9mf84WgcQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Red)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "Q7Tr_0DXAkOdr61UXiocow",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Yellow)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "c1VRbmDGHUS7KiSgwj5prQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "MODdVYrjaEy-iy6quALNuA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (White)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "H91DVbHzR06oie8fLjdE1A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Hidden Worlds)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "RPWXRfZwfUeC9PFlvcbmxw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Carnival)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "j83FD3aSQ0OUcrp4QIIZsA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "L12C6OfxB0y53bLXZQ4rFg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Contest Stranded)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "xDSDJJX2w0ySwtiE6w6ghg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Maker Pen Contest Folklore)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "_rlnwZWJrk2eiQi4f_FhWQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Premium)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "ht4zv6ZFi0yrohyBm39o6A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Contest Summer Camp)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "TpaRhLqVc02Oyr769imtnQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Diamond Universe)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "Z_mBcmlIHUWE0ox9Dn_kHA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Solstice)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[MakerPen]",
+    "ModificationGuid": "OcixCg4jbUyLb6DFSTjrPg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Maker Pen (Rhythm And Rooms)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballRifleScoped]",
+    "ModificationGuid": "6a6b0ecf-286d-4361-92ff-7027c440dc3c",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Scope Rifle (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballRifleScoped]",
+    "ModificationGuid": "d906709c-e08e-4273-8ba1-e072e0d25957",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Scope Rifle (Candy Cane)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballRifleScoped]",
+    "ModificationGuid": "3rBevbIk1EusFnFaXAh3qA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Scope Rifle (Gingerbread)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballRifleScoped]",
+    "ModificationGuid": "OSrMlhVVSEqb-0AzVzOH9w",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Scope Rifle (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballRifleScoped]",
+    "ModificationGuid": "0dM2SfqGR0SmtO5ufTWfUQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Scope Rifle (Comic)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballRifleScoped]",
+    "ModificationGuid": "btB2z7ybskSYrn9Nzhfhxg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Scope Rifle (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballRifleScoped]",
+    "ModificationGuid": "b_iiMMYayU-an7hOlCzPIA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Scope Rifle (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow_Hunter]",
+    "ModificationGuid": "d217ee4c-22f3-4f33-bf7c-9d4ee9c30e29",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow Hunter (Rock)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow_Hunter]",
+    "ModificationGuid": "cFMh54GoHEeHZEERSRR8kQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow Hunter (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow_Hunter]",
+    "ModificationGuid": "RRCvths6eUmAAr9hzGFT0g",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow Hunter (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow_Hunter]",
+    "ModificationGuid": "-X_Hm6dIekqoHTY2VMMLeA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow Hunter (Shark)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Crossbow_Hunter]",
+    "ModificationGuid": "BSO9Ahi-2EiwYxE7lkHhlA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Crossbow Hunter (Valentines)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "0ee04d78-5a17-4a38-ae67-b576a41fc200",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Extra)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "431567d2-4df2-43eb-b632-3d79aa7c013c",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Classic)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "f03dee6a-79b8-4906-9abb-a821748d97a9",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Red)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "3e46fb2d-bb3f-42ed-83ef-f5716860725c",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Rock)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "eecdf81c-7ba2-40ba-9d6c-f461708cce16",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Comic)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "SbEIObEmhkKQniANHqNekg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Pumpkin)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "Kitcy2AVB0-OdljiEAI2Pw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Recasso)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "K9TzHZPDwU-ewzLYkr_1cg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Gingerbread)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "wioj1rR1lkCx7f-oiCHcOw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Corn Cob)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "m1JMjJYpSUiXj5897orm2Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "d97pbQMk9UWpEN0yoOE9Rg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "DRXoMS9phEG2fkasja7sEw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Lava)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "uLNdhrrAC0ybxC2XkBnnVQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "-ybFpUxTsUKWFSIS-8fOOw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Electric Bloom)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "X8B2M3hltEKyEnX0dcJi7Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Umbrella)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[QuestSword]",
+    "ModificationGuid": "SRl7xh9z8kGU2OO5viCykw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sword (Clarinet)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Grenade]",
+    "ModificationGuid": "993f8b81-cb2e-44e4-88a1-b841af1f0e69",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Grenade (Pirate)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Grenade]",
+    "ModificationGuid": "vlpFc1j820i5n7Y2sTW8Vw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Grenade (Grenade Chick)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Grenade]",
+    "ModificationGuid": "0tfDNC0I2kiEVrJttrE0bw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Grenade (Gum Drop)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Grenade]",
+    "ModificationGuid": "8Ex4aO2GpEqwvow6bEu_ag",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Grenade (Spring Egg)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_Goblin_Wand]",
+    "ModificationGuid": "e8e42ef6-9ab6-44f4-84d5-117154a4d13e",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Quest Goblin Wand (Ghost)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_Goblin_Wand]",
+    "ModificationGuid": "yG6xFxkoS0iIDt7wEj5Hqw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Quest Goblin Wand (Witch Star)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_Goblin_Wand]",
+    "ModificationGuid": "3pE7zA-DjkqP1Ch7__-31w",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Quest Goblin Wand (Ice)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_Goblin_Wand]",
+    "ModificationGuid": "m_otHTEKF0KQljsOc-JENg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Quest Goblin Wand (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_Goblin_Wand]",
+    "ModificationGuid": "CyrdBvIbXUq_TsXFliWk1A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Quest Goblin Wand (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_Goblin_Wand]",
+    "ModificationGuid": "vfzrRHn24E67BK8Bgy60xA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Quest Goblin Wand (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_Goblin_Wand]",
+    "ModificationGuid": "QnLM4Qw-L0ml_mgReFweIw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Quest Goblin Wand (Trident)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_Goblin_Wand]",
+    "ModificationGuid": "M6BHcdDZnU6UEDa3wLUUhg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Quest Goblin Wand (Butterfly)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Quest_Goblin_Wand]",
+    "ModificationGuid": "7Kdm8AYIkky-N1biw5ljPg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Quest Goblin Wand (Flowers)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGrenadeLauncher]",
+    "ModificationGuid": "502f40c3-1c00-4c3f-bfc7-c897df8af37e",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Launcher (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGrenadeLauncher]",
+    "ModificationGuid": "f34e6270-bcfa-42f2-80d5-69c1bbd34983",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Launcher (Comic)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGrenadeLauncher]",
+    "ModificationGuid": "8ZAwSDtXlkqlnBLOpfVTVg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Launcher (Gingerbread)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGrenadeLauncher]",
+    "ModificationGuid": "3UmIhvqmkU-aWxFDFd4QDg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Launcher (Honey)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGrenadeLauncher]",
+    "ModificationGuid": "pPpYY9j0Dku2gtbKoUOCCg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Launcher (Easter Egg)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGrenadeLauncher]",
+    "ModificationGuid": "9gBl778RvUeSC8837Gurog",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Launcher (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGrenadeLauncher]",
+    "ModificationGuid": "tcMMGKcmhkuM82ISCZ-3AQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Launcher (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGrenadeLauncher]",
+    "ModificationGuid": "L-_iZgicHUajydSvUWVJhw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Launcher (Jumbotron)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DodgeballBall]",
+    "ModificationGuid": "6261a846-e4f8-4e6e-8aa0-68f38cd788d4",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Dodgeball (Comic)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DodgeballBall]",
+    "ModificationGuid": "6ff63f8f-4bcc-4b69-8d89-8b886d19e239",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Dodgeball (Recasso)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DodgeballBall]",
+    "ModificationGuid": "f55dda45-c17e-4237-a638-9f326d306e7d",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Dodgeball (Goblin)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DodgeballBall]",
+    "ModificationGuid": "Jkg-OGXdIUyfEwaQIh6EGA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Dodgeball (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DodgeballBall]",
+    "ModificationGuid": "lIpyvEMWqUyv41gTp3YZ1A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Dodgeball (Pumpkin)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DodgeballBall]",
+    "ModificationGuid": "Ms8LD3TqBkiukhUlHxVBfw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Dodgeball (Billiards)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[DodgeballBall]",
+    "ModificationGuid": "dpTV4UmrJkCsz6WXD6YeKQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Dodgeball (Cactus)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[SoccerShield]",
+    "ModificationGuid": "fae1abe3-6bfd-4407-b34e-e2c1b3b03032",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Soccer Shield (Gingerbread)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[RecRoyale_Backpack]",
+    "ModificationGuid": "523e3615-4633-41a3-9b2d-17d3207a684b",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Backpack (Camo)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[RecRoyale_Backpack]",
+    "ModificationGuid": "6c3b26cd-b38e-492b-a124-759cbcec1396",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Backpack (Camping Pattern)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[RecRoyale_Backpack]",
+    "ModificationGuid": "12b54ad2-3847-41db-9ed4-88e8dad63024",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Backpack (Tiger)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[RecRoyale_Backpack]",
+    "ModificationGuid": "5c848a04-f528-423b-8be1-4b5cd43a75c2",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Backpack (Denim)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[RecRoyale_Backpack]",
+    "ModificationGuid": "e93f5ab7-e9bf-4652-8a7c-2ae120f25f87",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Backpack (Recasso)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[RecRoyale_Backpack]",
+    "ModificationGuid": "w2NNBTTCVEah2WlP0JHezQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Backpack (Valentine)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[RecRoyale_Backpack]",
+    "ModificationGuid": "70uy5UJhhEy1aynKM4MAsQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Backpack (Fall Leaves)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[RecRoyale_Backpack]",
+    "ModificationGuid": "ujZ4Hl0HO06OysqZcqHhmg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Backpack (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "d218ae45-8534-4f96-b2ed-1cf281bc3578",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "e2844f84-ab44-4141-9a0a-bd5da7caa4f6",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Disposable)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "1838fa61-de10-4e09-b24a-f5a1bc942600",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Green)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "fSbzGxsjKE-cwtFFX6dJQw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Carpet)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "ATGtNjai20miFwBUOVIMuw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Two Tone)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "znrJSCX_SkS-kIPqMERoDg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Camping)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "g5u0weNLmkCLeUXFUVn74Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Comic)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "QQALCzCF-0ClDWqmmciHAQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Heart)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "SkTa53OzM0u82YPuZAl9aw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "sE4_-ZVa2EC4MZfGGsExzQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "5dx423rtM0ygWqMBwJHBOQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Retro Gamer)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "T465YyOavEqTqH3s91uBHQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Video Partner)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "SFz15JbasU-gShl_GHnspw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Galaxy)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[ShareCamera]",
+    "ModificationGuid": "1B8utXzBWUSGJ4Va8Hm1xA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Camera (Holographic)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D4]",
+    "ModificationGuid": "KiVWBp5_J0qCLuizAJGcAg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D4 (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D4]",
+    "ModificationGuid": "x3Cv42hIkkaNIy7fHZiWYg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D4 (Bone White)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D4]",
+    "ModificationGuid": "_2jxSTYSpEykZ_O91oDAzg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D4 (Turquoise)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D4]",
+    "ModificationGuid": "WxWaXY61mUuNe_f6SgECnA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D4 (Pewter)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D6]",
+    "ModificationGuid": "TxIu8CUjykGDMr5RIJcNVQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D6 (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D6]",
+    "ModificationGuid": "Fn0gcj17c06tA9s98CKwAg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D6 (Bone White)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D6]",
+    "ModificationGuid": "HnVo08F-zk-YeikERFa1Yw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D6 (Turquoise)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D6]",
+    "ModificationGuid": "5U_KiCi_90-eWucQ68VdZQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D6 (Pewter)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D8]",
+    "ModificationGuid": "AQXXckjNZ0uzPMTcP1C3Kg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D8 (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D8]",
+    "ModificationGuid": "d_CbCG3DmUCtWGWYHioghg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D8 (Bone White)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D8]",
+    "ModificationGuid": "f45tTZp4KUextmAsX8X9Hw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D8 (Turquoise)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D8]",
+    "ModificationGuid": "77cRA0O4GUqd6nr9QLefQA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D8 (Pewter)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D10]",
+    "ModificationGuid": "ZM543HEyl0G6n7P5rDMEWw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D10 (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D10]",
+    "ModificationGuid": "GjQwBmNnK0ukv0hEEHK8tw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D10 (Bone White)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D10]",
+    "ModificationGuid": "SnSOf-GZ2kastpF5KWxT-Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D10 (Turquoise)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D10]",
+    "ModificationGuid": "I161QAym2kqPi5wXIHCt8A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D10 (Pewter)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D12]",
+    "ModificationGuid": "EoV2ZoLR2UWY898p8j7qGQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D12 (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D12]",
+    "ModificationGuid": "heFLfpPNd0-nhLOFpUCnpA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D12 (Bone White)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D12]",
+    "ModificationGuid": "ub6apg3zEUiCp3k81JjQGw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D12 (Turquoise)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D12]",
+    "ModificationGuid": "2gYYjbVGqkiOefY2xjOxiQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D12 (Pewter)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D20]",
+    "ModificationGuid": "Des7txtX0EO-7NiooR0-ow",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D20 (Pink)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D20]",
+    "ModificationGuid": "gXOOKrQEYE-FmS3uXWj1hA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D20 (Bone White)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D20]",
+    "ModificationGuid": "DrG0ntsyPUSv8ra0m-Hhaw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D20 (Turquoise)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Sandbox_D20]",
+    "ModificationGuid": "H3vrSi45AU6lshChLnr19Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Sandbox D20 (Pewter)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballAssaultRifle]",
+    "ModificationGuid": "VOOdhP5qg0WWv2m0qLRVCw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Burst Gun (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballAssaultRifle]",
+    "ModificationGuid": "c458a6ae-a1ea-468a-89b8-4c9a85cd3cde",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Burst Gun (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballAssaultRifle]",
+    "ModificationGuid": "m_qzPvDPF0KPhLd59wzr5A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Burst Gun (Fall)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballAssaultRifle]",
+    "ModificationGuid": "996662ad-631d-4a81-8a8b-74ace4833279",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Burst Gun (Pirate)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballAssaultRifle]",
+    "ModificationGuid": "3aaef60d-142f-4a0a-bea3-f5d99ab62dd5",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Burst Gun (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballAssaultRifle]",
+    "ModificationGuid": "49d88b73-3c8a-4f4d-8a69-128fa5474e82",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Burst Gun (PSPLUS)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballAssaultRifle]",
+    "ModificationGuid": "357fe573-fee7-467f-93a7-5e61afb024b8",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Burst Gun (wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballAssaultRifle]",
+    "ModificationGuid": "2vhCtZjRd0i_nYo04ij__w",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Burst Gun (Ghost)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun] Confetti",
+    "ModificationGuid": "bfrFOdnHzEaIwHqem2dXkg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Confetti Gun (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun] Confetti",
+    "ModificationGuid": "PDyoY2oYKEuzGPxhvk4Lvg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Confetti Gun (Android)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun] Confetti",
+    "ModificationGuid": "NNAG0bLnKUGNxeUs4sss2w",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Confetti Gun (Apple)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun] Confetti",
+    "ModificationGuid": "tlvJnebYeUKMxDGzEM6SKQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Confetti Gun (PS5)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun] Confetti",
+    "ModificationGuid": "3S2KMdBa8EOI4pnZQxQ95Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Confetti Gun (Steam)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[PaintballGun] Confetti",
+    "ModificationGuid": "3o8Wqyxh5UyZ9klvkIp-Pg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Confetti Gun (Xbox)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Paintball_PaintThrower]",
+    "ModificationGuid": "y_FesIT5jkmb61JIu7tfsw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Thrower (Wood)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Paintball_PaintThrower]",
+    "ModificationGuid": "GbHNkVbVgUCoirMhOGkSTA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Thrower (Plaid)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Paintball_PaintThrower]",
+    "ModificationGuid": "qhhhJeHVx0KLnGJrAGIn9g",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Thrower (Caution)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Paintball_PaintThrower]",
+    "ModificationGuid": "OFEdf4dRC0a3nHugXVOXnA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Thrower (Fireworks)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Paintball_PaintThrower]",
+    "ModificationGuid": "VTVy8cweC0K2ca1nTXMu0g",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Thrower (Double Drencher)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Paintball_PaintThrower]",
+    "ModificationGuid": "0YfCdfAt2kiN0LQcPKSm_Q",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Thrower (Candy Cane)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Paintball_PaintThrower]",
+    "ModificationGuid": "JZQaa_BwkEuEx-ODac4Dfw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Paint Thrower (Jack-O-Lantern)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[BowlingBall]",
+    "ModificationGuid": "BvUZUamUh0uDbjDOrQrX1A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bowling Ball (Gold)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Bucket]",
+    "ModificationGuid": "VW3WV6oQOkqYshf1xc9n3A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bucket (Black Light Swirl)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Bucket]",
+    "ModificationGuid": "ou23DX__T0qFPjAXC5WrOQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bucket (Fashion)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Bucket]",
+    "ModificationGuid": "Yy0byohkZEWsiO4q0bQqBQ",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bucket (Bucket Bat)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Bucket]",
+    "ModificationGuid": "tFvjv1gAYkaDAlHLTsHelg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bucket (Premium)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Bucket]",
+    "ModificationGuid": "_6HDWw-8-k67ZbGLfJ7cQw",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bucket (Barrel)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Bucket]",
+    "ModificationGuid": "MKeaiXxCwUiDDI5c0W6ShA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bucket (Festive)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Bucket]",
+    "ModificationGuid": "U_3PE9Qc10OsVPTXyXsI_w",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Bucket (Tennis Rock)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Arena_Grenade]",
+    "ModificationGuid": "A3XXaBH1eUuchWVVPdrY_A",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Grenade (Easter Egg)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Arena_Grenade]",
+    "ModificationGuid": "af3LZrxEgUuB5KAT3q2NLA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Grenade (Pirate)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Arena_Grenade]",
+    "ModificationGuid": "kx25AlxB5E-cuIwfOPlqSg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Laser Grenade (Spring 2)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Vehicle_RallyBuggy]",
+    "ModificationGuid": "6akn-KjyNEiqBrREYwVg4g",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Rally Buggy (Sport)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[Vehicle_RallyBuggy]",
+    "ModificationGuid": "SQwd0QdyjkOjdIAQdMyiFg",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Rally Buggy (Moon)",
+    "Tooltip": "",
+    "Rarity": 0
+  },
+  {
+    "PrefabName": "[RecCenter_Cafe_Mug]",
+    "ModificationGuid": "5p2_8W69NkCTjym9ecWqzA",
+    "Favorited": false,
+    "PlatformMask": -1,
+    "FriendlyName": "Mug (Caution Tape)",
+    "Tooltip": "",
+    "Rarity": 0
+  }
+]

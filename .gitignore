@@ -1,0 +1,34 @@
+# GENERATED USING AKNK'S GITIGNORE GENERATOR 3.0
+
+# ====================================================================
+# --- Dotnet / VS ---
+# ====================================================================
+**/bin/
+**/obj/
+**/.dotnet/
+**/.local/
+**/.vs/
+
+# ====================================================================
+# --- Persistance ---
+# ====================================================================
+**/Data/Images/
+**/Data/DBs/
+**/Data/cdn/
+**/Data/equipment.json
+**/Data/upload_log.txt
+**/Data/TempReports/
+**/Data/systemprompt.txt
+
+# ====================================================================
+# --- Heavy Files ---
+# ====================================================================
+*.tar.gz
+*.gz
+cloudflared
+.cloudflared/
+vanadium/
+*.
+errors.txt
+# just in case someone uses claude and forgets to hide it
+.claude/

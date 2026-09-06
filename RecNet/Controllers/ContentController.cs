@@ -1,0 +1,1 @@
+// supposed to show VanNet html css and js

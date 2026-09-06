@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <SystemDrawingEnableUnixSupport>true</SystemDrawingEnableUnixSupport>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>$(NoWarn);CS0472;CS8600;CS8601;CS8602;CS8603;CS8604;CS8618;CS8619;CS8620;CS8621;CS8625;CS8631;CS8632;CS8633;CS8765;CS8766;CS8767;CS8768;CS8769;CS8612;CS8613;CS8614;CS8615;CS8616;CS8617;CS1998;CS0162;CS0168;CS0169;CS0219;CS0414;CS4014;CS0649;CS0108;CS0114;CS0618;CS0628;CS0659;CS0660;CS0661;CS0693</NoWarn>
+    <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <!-- Stale build output in nested folders (old copies, extracted archives) otherwise gets
+         globbed into the compile items and redefines TargetFrameworkAttribute (CS0579). -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);**/bin/**;**/obj/**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.0" />
+    <PackageReference Include="LiteDB" Version="5.0.21" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
+    <PackageReference Include="Discord.Net" Version="3.15.3" />
+    <PackageReference Include="NAudio" Version="2.*" />
+	<PackageReference Include="NAudio.Lame" Version="2.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Hubs\Vanadium.cs" />
+    <Compile Remove="Hubs\WSEvents.cs" />
+    <Compile Remove="Hubs\VanadiumMiddleware.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\cdn\data\" />
+    <Folder Include="Data\cdn\invention\" />
+    <Folder Include="Data\cdn\custom\" />
+    <Folder Include="Data\DBs\" />
+    <Folder Include="Data\TempReports\" />
+  </ItemGroup>
+</Project>

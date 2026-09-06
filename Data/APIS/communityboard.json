@@ -1,0 +1,36 @@
+{
+  "CurrentAnnouncement": {
+    "Message": "discord.gg/rec-room",
+    "MoreInfoUrl": "https://discord.gg/rec-room"
+  },
+  "FeaturedPlayer": {
+    "Id": 1,
+    "TitleOverride": null
+  },
+  "FeaturedRoomGroup": {
+    "FeaturedRoomGroupId": 1,
+    "Name": null,
+    "Rooms": [
+      {
+        "ImageName": "CrimsonCauldron.jpg",
+        "RoomId": 15,
+        "RoomName": "CrimsonCauldron"
+      }
+    ]
+  },
+  "InstagramImages": [
+    {
+      "ImageName": "Pewdiepie.png",
+      "ImageUrl": null
+    }
+  ],
+  "Videos": [
+    {
+      "BlobName": "Family Guy S05E10 Petersex.mp4",
+      "Description": "30,622KB",
+      "SourceUrl": null,
+      "ThumbnailBlobName": "Capture2.PNG",
+      "Title": "Family Guy S05E10 Petersex.mp4"
+    }
+  ]
+}

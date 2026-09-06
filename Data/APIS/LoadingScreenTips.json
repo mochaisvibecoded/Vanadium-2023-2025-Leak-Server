@@ -1,0 +1,72 @@
+﻿[
+  {
+    "Name": "uiranium",
+    "Title": "uranium",
+    "Message": "yum",
+    "RoomNames": [],
+    "Context": 0,
+    "InputType": 0,
+    "Visibility": 0,
+    "AllowCycling": true,
+    "RestrictToNewUsers": false,
+    "ImageName": "blunt.png",
+    "PlatformMask": 495,
+    "CreatedAt": "2023-10-13T16:16:42Z"
+  },
+  {
+    "Name": "jog",
+    "Title": "jogmanson real",
+    "Message": "hes sexy",
+    "RoomNames": [],
+    "Context": 0,
+    "InputType": 0,
+    "Visibility": 0,
+    "AllowCycling": true,
+    "RestrictToNewUsers": false,
+    "ImageName": "images_2.png",
+    "PlatformMask": 495,
+    "CreatedAt": "2023-10-13T16:16:42Z"
+  },
+  {
+    "Name": "netanyahu",
+    "Title": "glory to israel",
+    "Message": "god bless benjamin netanyahu",
+    "RoomNames": [],
+    "Context": 0,
+    "InputType": 0,
+    "Visibility": 0,
+    "AllowCycling": true,
+    "RestrictToNewUsers": false,
+    "ImageName": "netanyahu.jpg",
+    "PlatformMask": 495,
+    "CreatedAt": "2023-10-13T16:16:42Z"
+  },
+  {
+    "Name": "yeee",
+    "Title": "ye",
+    "Message": "late",
+    "RoomNames": [],
+    "Context": 0,
+    "InputType": 0,
+    "Visibility": 0,
+    "AllowCycling": true,
+    "RestrictToNewUsers": false,
+    "ImageName": "ye.jpg",
+    "PlatformMask": 495,
+    "CreatedAt": "2023-10-13T16:16:42Z"
+  },
+  {
+    "Name": "omer",
+    "Title": "omer",
+    "Message": "omer",
+    "RoomNames": [],
+    "Context": 0,
+    "InputType": 0,
+    "Visibility": 0,
+    "AllowCycling": true,
+    "RestrictToNewUsers": false,
+    "ImageName": "homer-default.png",
+    "PlatformMask": 495,
+    "CreatedAt": "2023-10-13T16:16:42Z"
+  }
+]

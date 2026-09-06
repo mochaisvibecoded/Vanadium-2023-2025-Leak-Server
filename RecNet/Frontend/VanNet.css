@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+  background: linear-gradient(135deg, #ffffff 0%, #f0eeec 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  background: linear-gradient(to bottom right, #f97316 0%, #ea580c 100%);
+  padding: 14px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.topbar-logo {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+}
+
+.topbar-meta {
+  color: #fff;
+  font-size: 0.85rem;
+  text-align: right;
+  line-height: 1.6;
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+}
+
+.topbar-shadow {
+  height: 6px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.12), transparent);
+}
+
+.main-content {
+  display: none;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 32px;
+}
+
+.main-content.visible {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 860px;
+  width: 100%;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.thumbnail-wrap {
+  width: 300px;
+  height: 200px;
+  background: #111;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.thumbnail-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.thumbnail-meta {
+  font-size: 0.82rem;
+  color: #555;
+  text-align: center;
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.right-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 4px;
+}
+
+.room-name {
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #111;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
+.room-description {
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+  max-width: 440px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+  color: #222;
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+}
+
+.stat-row svg {
+  width: 22px;
+  height: 22px;
+  fill: #111;
+  flex-shrink: 0;
+}
+
+.join-btn {
+  margin-top: 18px;
+  background: linear-gradient(to bottom right, #f97316, #ea580c);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: opacity 0.15s;
+  align-self: flex-start;
+}
+
+.join-btn:hover {
+  opacity: 0.88;
+}
+
+.error-state {
+  display: none;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 60px 32px;
+  text-align: center;
+}
+
+.error-state.visible {
+  display: flex;
+}
+
+.error-state h2 {
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #111;
+}
+
+.error-state p {
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+  color: #666;
+  font-size: 1rem;
+}
+
+.loading-state {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Futura PT', 'Futura', 'Century Gothic', sans-serif;
+  color: #888;
+  font-size: 1rem;
+}
+
+.loading-state.hidden {
+  display: none;
+}

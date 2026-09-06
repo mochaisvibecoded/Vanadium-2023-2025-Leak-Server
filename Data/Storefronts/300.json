@@ -1,0 +1,607 @@
+{
+   "NextUpdate" : "2026-06-29T22:15:42.5476842Z",
+   "StoreItems" : [
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "iiGTvhOCHkOTNJhb16Zbyw",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Fancy Bubbly",
+            "GiftDropId" : 2183,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "",
+            "ItemSetId" : 0,
+            "Rarity" : 50,
+            "SubscribersOnly" : false,
+            "Tooltip" : "",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 1000,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2183,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 1000,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "K9RbXo-4U0q6NbGu8VL1Sw",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Assorted Chocolates",
+            "GiftDropId" : 2189,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "Snickety Snacks",
+            "ItemSetId" : 18,
+            "Rarity" : 30,
+            "SubscribersOnly" : false,
+            "Tooltip" : "Assorted chocolates to share with friends!",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 250,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2189,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 250,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+       {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "Efd3_dy4ZEqWr7i6j5x0aA",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Cake Pops",
+            "GiftDropId" : 8112,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "",
+            "ItemSetId" : 0,
+            "Rarity" : 40,
+            "SubscribersOnly" : true,
+            "Tooltip" : "YUMMY CAKEPOPS IM CREAMING",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 400,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 8113,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 280,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "P15H1ONBhk-5DYYjid1ttg",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Tray of Lattes",
+            "GiftDropId" : 2192,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "",
+            "ItemSetId" : 0,
+            "Rarity" : 10,
+            "SubscribersOnly" : false,
+            "Tooltip" : "Four hot lattes to share with friends.",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 95,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2192,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 95,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "LwaotjVEBUir0-w8126n_g",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Red Velvet Cake",
+            "GiftDropId" : 2196,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "",
+            "ItemSetId" : 0,
+            "Rarity" : 30,
+            "SubscribersOnly" : false,
+            "Tooltip" : "Eight slices of tasty cake to share with friends.",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 500,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2196,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 500,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "JfnVXFmilU6ysv-VbTAe3A",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Root Beer",
+            "GiftDropId" : 2197,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "",
+            "ItemSetId" : 0,
+            "Rarity" : 0,
+            "SubscribersOnly" : false,
+            "Tooltip" : "A sixer of root beer to share with friends.",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 50,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2197,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 50,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+             {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "LwaotjVEBUir0-w8126n_g",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Red Velvet Cake",
+            "GiftDropId" : 2196,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "",
+            "ItemSetId" : 0,
+            "Rarity" : 30,
+            "SubscribersOnly" : false,
+            "Tooltip" : "Eight slices of tasty cake to share with friends.",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 500,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2196,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 500,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "JxAl1wVJ1UGAjoT3m3ilug",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Bubble Tea",
+            "GiftDropId" : 9914,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "",
+            "ItemSetId" : 0,
+            "Rarity" : 0,
+            "SubscribersOnly" : true,
+            "Tooltip" : "Yummy Bubble-Tea to share with 3 other friends! Straight from the Cum Factory!",
+            "Unique" : false
+         },
+         "IsFeatured" : true,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 500,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 9915,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 367,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "mq23W-RSP0G8iGNLdrcpUw",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Pepperoni Pizza",
+            "GiftDropId" : 2193,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "Pizza Aplenty",
+            "ItemSetId" : 17,
+            "Rarity" : 10,
+            "SubscribersOnly" : false,
+            "Tooltip" : "A pepperoni pizza to share with friends.",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 90,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2193,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 90,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "5hIAZ9wg5EyG1cILf4FS2A",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Cheese Pizza",
+            "GiftDropId" : 2186,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "Pizza Aplenty",
+            "ItemSetId" : 17,
+            "Rarity" : 0,
+            "SubscribersOnly" : false,
+            "Tooltip" : "A cheese pizza to share with friends.",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 85,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2186,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 85,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "wUCIKdJSvEmiQHYMyx4X4w",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Supreme Pizza",
+            "GiftDropId" : 2199,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "Pizza Aplenty",
+            "ItemSetId" : 17,
+            "Rarity" : 20,
+            "SubscribersOnly" : false,
+            "Tooltip" : "A supreme pizza to share with friends.",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 95,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2199,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 95,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "_jnjYGBcyEWY5Ub4OezXcA",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Hawaiian Pizza",
+            "GiftDropId" : 2191,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "Pizza Aplenty",
+            "ItemSetId" : 17,
+            "Rarity" : 10,
+            "SubscribersOnly" : false,
+            "Tooltip" : "A ham and pineapple pizza to share with friends.",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 95,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2191,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 95,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "InQ25wQMGkG_bvuD5rf2Ag",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Salted Pretzels",
+            "GiftDropId" : 2198,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "Snickety Snacks",
+            "ItemSetId" : 18,
+            "Rarity" : 0,
+            "SubscribersOnly" : false,
+            "Tooltip" : "A great snack to share with friends!",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 75,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2198,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 75,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "QRx0aSTT9keMFdAJMQHdTg",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Popcorn",
+            "GiftDropId" : 2194,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "Snickety Snacks",
+            "ItemSetId" : 18,
+            "Rarity" : 30,
+            "SubscribersOnly" : false,
+            "Tooltip" : "",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 100,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2194,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 100,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      },
+      {
+         "GiftDrop" : {
+            "AvatarItemDesc" : "",
+            "AvatarItemType" : 0,
+            "ConsumableItemDesc" : "K9RbXo-4U0q6NbGu8VL1Sw",
+            "Context" : 110000,
+            "Currency" : 0,
+            "CurrencyType" : 0,
+            "EquipmentModificationGuid" : "",
+            "EquipmentPrefabName" : "",
+            "FriendlyName" : "Assorted Chocolates",
+            "GiftDropId" : 2189,
+            "IsQuery" : false,
+            "ItemSetFriendlyName" : "Snickety Snacks",
+            "ItemSetId" : 18,
+            "Rarity" : 30,
+            "SubscribersOnly" : false,
+            "Tooltip" : "Assorted chocolates to share with friends!",
+            "Unique" : false
+         },
+         "IsFeatured" : false,
+         "Prices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 250,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "PurchasableItemId" : 2189,
+         "SubscriberPrices" : [
+            {
+               "CurrencyType" : 2,
+               "Price" : 250,
+               "StorefrontSaleData" : null,
+               "Type" : 0
+            }
+         ],
+         "Type" : 0
+      }
+   ],
+   "StorefrontType" : 300,
+   "SubscriberDiscountPercent" : 0
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "composite": "512d74c56be2758e8c53a343ba0cc3995a87d4bec7d5b9c675f98d4449d02222",
+    "components": {
+      "machineGuid": "f9eda23b04133f2eb8d2e73bd1888461b0b5d63f3c855c667d9dcaf6b9fd32ab",
+      "systemVolume": "0cce7790b36507d54749851cbd90c72a93d16d949a89151e51f7af6f1f4c7a14",
+      "bios": "6ecd41f1ce5204c6b41f9c341906f005aa53ec7ddbbe0573a17648462fcd152c",
+      "processor": "09390ce1d520ae87a7a56705e356d3e17a56faa3affccef0eae7906b13883ea7",
+      "osBuild": "2a0c5ce341003e13ffc739ec3d848dd875cda3ab2022f091c34711c63851d80a"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T21:27:48.3308569+00:00",
+    "lastSeenUtc": "2026-09-06T21:47:36.9847087+00:00",
+    "ban": null
+  },
+  {
+    "composite": "c4043f114b9e03ab7f3c083ec7f0eb33a3dce4e01723bca471080c65e7f6f2e9",
+    "components": {
+      "machineGuid": "c9595d8723c4f83e0bcfce0e17a80c2d57416df4d17a4ad68d06aae7957103fc",
+      "systemVolume": "44cbb935b05aea12583d15cc63edf4f0041d9e3499123ac6418f511addc587b4",
+      "bios": "d4bebb48a157fe241bfafd218b8b21207efdc27ae1188b3e410e02f105cc58ef",
+      "processor": "6dd5568e83b486eafcaff37474bbd3a77add52aacf05bdd0b7ca26a5eb52b5ad",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T21:50:03.1208241+00:00",
+    "lastSeenUtc": "2026-09-06T22:10:05.3980456+00:00",
+    "ban": null
+  },
+  {
+    "composite": "ec91b4bcc47dd4166329a005c2a7c44d7d21aa84dd9006087c04f654e2c77d97",
+    "components": {
+      "machineGuid": "d1ab3937eeccfcb0f28796b3be0b0140654d958c3d3f2f6d5658df859248e51d",
+      "systemVolume": "7327e928744eabbe9872fb9e76e8d3de3a038d0e89f95ed98dddccd9d8c44688",
+      "bios": "49acb4c52d81e4d4f669bf9ca435cd989f261f93aadf113c09265618fbc75dd9",
+      "processor": "ae5a12d7445f0829e23da98fb4cbc674d8cb8923943945acae23996e34f8239b",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T21:52:01.9527861+00:00",
+    "lastSeenUtc": "2026-09-06T21:52:01.9527867+00:00",
+    "ban": null
+  },
+  {
+    "composite": "ebeaaa035a255da0727ad36b7326f2833e0ff553c3399b56203347b93f10c5a5",
+    "components": {
+      "machineGuid": "7aa134fdfb78af512c75de110452b0320b1ecfbac72072e6b66264c5c6db2c1a",
+      "systemVolume": "9675776d85a5097ad1ecc6fd8bb42d113defd2d6ed051dc96fe08f2b2bde7b60",
+      "bios": "fdb01b87f91759c69f24b4eb342ce95e08c46f0889b5d37473b42af6fc8beb85",
+      "processor": "8efceab836ef5ad3dbae95703aad6a331f64256830ba0b4454f4b8530b834545",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T21:53:23.3940512+00:00",
+    "lastSeenUtc": "2026-09-06T21:53:23.394052+00:00",
+    "ban": null
+  },
+  {
+    "composite": "7cb919733b790a2968b9520c223aba9c4054aaa5f5e8a52d0a1524ea2edb7503",
+    "components": {
+      "machineGuid": "4eea2b8edb1942cd4eb76e95269219b8380e60625c309e5fa23bd974216095a3",
+      "systemVolume": "c79636b929ad2b84e17e0ae97fa9331a6f67b3de38fab952914858754f8534fd",
+      "bios": "e020fc72681d894c4f5f135c3e713fa368985686558f259361b6657927e23a9f",
+      "processor": "f1fe10531b41036b46a8e506350faec2830c42cc0caed9dc53f375e5c48a454a",
+      "osBuild": "d62b1f4801916bb81b206ad462863dc73f6529bd82e1cfb67aea08de77f0cc55"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T21:54:36.9667245+00:00",
+    "lastSeenUtc": "2026-09-06T21:54:36.966725+00:00",
+    "ban": null
+  },
+  {
+    "composite": "0f08595d349a93c6070cab555e0f05fb158b0bfef3d4030b8e993b7091fadb40",
+    "components": {
+      "machineGuid": "b3335deec2857ae87fe1e61b27984727f3a9af1db93ac9f1ce3f55a4472072a8",
+      "systemVolume": "7f8c2177658a6575eb84130f2f4ddb5e84d9d39a2c8b955a14d3a1c12d642b84",
+      "bios": "ff3e93900396466c325128dd2ace4ddb377bd08a4d742ded77bf4e3806e22934",
+      "processor": "68f1cc8d691658a068d87c729ab818a70eaa4e2246c931ab480ffafde9fda294",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T21:57:06.2544861+00:00",
+    "lastSeenUtc": "2026-09-06T22:08:29.2170278+00:00",
+    "ban": null
+  },
+  {
+    "composite": "b27d2e368f1f5f9cc64f823ef7210c366aec75ff3d4b7b3bdd22e611d936eb6d",
+    "components": {
+      "machineGuid": "5c8616365d934f02fb9a6ef1c4bf1f07635562ae1355c04fe48e59715811daa8",
+      "systemVolume": "2f7001193ae5eb3890799ddbd25ab8d1dcd692367bb0680bbe0a169b84edeeef",
+      "bios": "930b544b0787d8adabdc6cbcf825ad1d6811b8a2017021013db298cdff72882d",
+      "processor": "ae5a12d7445f0829e23da98fb4cbc674d8cb8923943945acae23996e34f8239b",
+      "osBuild": "2a0c5ce341003e13ffc739ec3d848dd875cda3ab2022f091c34711c63851d80a"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T21:58:21.8191331+00:00",
+    "lastSeenUtc": "2026-09-06T22:09:38.4723464+00:00",
+    "ban": null
+  },
+  {
+    "composite": "62a5a7e87fd6d62274af87f1cc6422133676cf7c7a91cc165eae28da7ee4d1d9",
+    "components": {
+      "machineGuid": "632b8820eb427d38b9cd14fbfb07613c2fbd4eeb00a2c5b6029cfa289b1d1a63",
+      "systemVolume": "09f918bdc47d5b37cf7ffbf526740c010cf8ed132708e961a66d28263a51036f",
+      "bios": "c85c6dcece454c5bb7f42975ecef8a613bcaf0207990b76eda8a22184e128689",
+      "processor": "f888a85c0abd6b1b179a5d320230b3fcf337c10d7429c99fa148b66080bad0f3",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T21:59:54.9464196+00:00",
+    "lastSeenUtc": "2026-09-06T22:08:38.2914442+00:00",
+    "ban": null
+  },
+  {
+    "composite": "5f5e5441eda628d58b27e855ec01dcc42430b56e74ddbc0a98b131ba8e8ac6fb",
+    "components": {
+      "machineGuid": "6e2bf4e5f700df7bf1a4b3306a7f09675150791ec9e1a6572b57bb98a7e227b6",
+      "systemVolume": "21f4d5758124613325ad6d7e17beb97807cb930c09e1023658ec6955280ab5df",
+      "bios": "072b529231c44b335c2c59c156d9a47a9658ed5170ed477a7e08af58a6e46a6c",
+      "processor": "42d1fb31f3f80f9011de6891613a247464cbeab76df4346e20dacd3754f08d69",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:01:03.1411868+00:00",
+    "lastSeenUtc": "2026-09-06T22:01:03.1411878+00:00",
+    "ban": null
+  },
+  {
+    "composite": "1d8f8a56c44dbe583919a3f6ef0cbc7f2fb00a3a685ca690ea61c68b3725bd42",
+    "components": {
+      "machineGuid": "f35c2e02e41bbd3bc309970bdf84fba40061f44e55d2db6cc8a91953d3cf330f",
+      "systemVolume": "61f080939884c60fb61add1e5a32c7fcdaefd74c7225a8af86337a08aba639d4",
+      "bios": "5b6030f068047577b9aec07b7ac0b0c47668fff3dcb2e3e6dbff58c0afa2664b",
+      "processor": "e900ebf7e6782448dbdc45ea0e5e66668b43220f2bbb8c32fe574205482ee965",
+      "osBuild": "c61b40fdacee27c1f2cb5674ec0fd6a5069d1f0dcd5fa0935146e0b2d62795f9"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:09:06.9648153+00:00",
+    "lastSeenUtc": "2026-09-06T22:10:27.042989+00:00",
+    "ban": null
+  },
+  {
+    "composite": "7a9ea88ece43e229bcd9ee08ecdc92188b911eea1c7c052c4e8ab1b88c3d61ea",
+    "components": {
+      "machineGuid": "80c9c671e86ac776650a4378c0549e54252568826ca1903c268ded4b89389221",
+      "systemVolume": "74e32d3fa36e09d12b113848035a121a448a08c519b10825b1e5c24f82ac3547",
+      "bios": "097c6085a4e9a7f9eac4f353e9bc9bec9351234b8c413b282c01c475699d115b",
+      "processor": "52601cd83768bf55a9e19a48096c17a733b27f1f111e52fc4bf06b0a7299bd47",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:18:04.1500995+00:00",
+    "lastSeenUtc": "2026-09-06T22:18:04.1501+00:00",
+    "ban": null
+  },
+  {
+    "composite": "d70a478cf36fe767ce6afb0656b8172493af19beef6e12cb02657ec962d541ab",
+    "components": {
+      "machineGuid": "95b1639ed3194d5603ff118e8052eac342c300802c59946b3c02c34b662458d6",
+      "systemVolume": "27bceb174c352e133b7306be53b0a866be65bfd9936722457c17459f9b03a6f3",
+      "bios": "253e0b6ffd83eaef713a10e6f1041d3b0148ec9252355c311677ae98c066813f",
+      "processor": "d27d0524c8f84078b7eb398a4086408d79f99dc16db2fe0dc0ecc391a322aefb",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:25:16.7106151+00:00",
+    "lastSeenUtc": "2026-09-06T22:38:10.1118503+00:00",
+    "ban": null
+  },
+  {
+    "composite": "9cf32157af43e6c701744bcca947d76d709c7b9d63c5eb4d0d337b8f1d4cdaad",
+    "components": {
+      "machineGuid": "1491997d133254dbd54fd6627b5e7b28066bf213a8c92c26cec587e852a1470b",
+      "systemVolume": "e65ec1af09e7e417dee07894bbcb252cf4afa1ad2d66f9fe49b2909e10afd7a1",
+      "bios": "4884b3f5290f39f4ff1fdd213edf88d4b7c00a642ac91b17204e1d209807d20d",
+      "processor": "afe58630b2333343b668326a9553c34187c536d7b50354d90f208e776bbfa473",
+      "osBuild": "2a0c5ce341003e13ffc739ec3d848dd875cda3ab2022f091c34711c63851d80a"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:28:18.3528285+00:00",
+    "lastSeenUtc": "2026-09-06T22:35:43.8762597+00:00",
+    "ban": null
+  },
+  {
+    "composite": "4ac7ab7966afd0ab53b9ff463aedfc408bca44f42eee75d27f53c855f6666491",
+    "components": {
+      "machineGuid": "d9ea46e8285f1a6f822acdbcecad29dede517f218f2c30a06fdd0e1ff12b369a",
+      "systemVolume": "0efae5a447cfdf5b1faaa87aaccf7034b8d19447c9bdf9dc844ec616b9d2698c",
+      "bios": "d0af4cdbd6bb2c169924544d8854815ae1879f11e63b9878cec9d8d5d8c55d3a",
+      "processor": "52601cd83768bf55a9e19a48096c17a733b27f1f111e52fc4bf06b0a7299bd47",
+      "osBuild": "665465a4a23e1cd30d50c28a1c5040eedd5fb789d369b5c811598150c362e1b7"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:31:45.5833708+00:00",
+    "lastSeenUtc": "2026-09-06T22:35:30.2024288+00:00",
+    "ban": null
+  },
+  {
+    "composite": "f1a5b402763c76263e20163adea94b59f420ae36df499fd861a545d4efb94c12",
+    "components": {
+      "machineGuid": "f821e0acc1d9336342ef59daa1bde88ce0ef9b229eb16b8e79f1a344a2babe37",
+      "systemVolume": "1d3f01821fb04cff9864251d97efc37adb0bc97721433a6549ad920d3c471cdc",
+      "bios": "f09b6e8ce744e3cfbe24f9b9cd0c26a4ab03c3304ed97b3e1c436d31a7cf42d0",
+      "processor": "ea7a659cd79ee6ae879669f265a7fa590f07ff7a7bcf7d15f336620af8082e03",
+      "osBuild": "665465a4a23e1cd30d50c28a1c5040eedd5fb789d369b5c811598150c362e1b7"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:34:01.3648759+00:00",
+    "lastSeenUtc": "2026-09-06T22:34:01.3648764+00:00",
+    "ban": null
+  },
+  {
+    "composite": "29813e6c90c354eec28ffcb26bde0d380bbafc985770ef2767fd68bb7f684163",
+    "components": {
+      "machineGuid": "aae15e48abc7f5a72eaf92f9dfb19c7ec8b2aa997591ab7052c6c05249939930",
+      "systemVolume": "4bea1045b3a09030a37eaba0f6faebdd2748aedd219e59c9fa0fabeab8377885",
+      "bios": "cd47e6bc026fec0a6c18299a0cf6e58dc6e454ca8c5063d384f7d596dd181bb3",
+      "processor": "ae5a12d7445f0829e23da98fb4cbc674d8cb8923943945acae23996e34f8239b",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:35:14.5417434+00:00",
+    "lastSeenUtc": "2026-09-06T22:35:14.5417439+00:00",
+    "ban": null
+  },
+  {
+    "composite": "2201b3b2db7c2e87f8b8e4857f7acdb5e056036b41ba61079c252b2af78ddb9a",
+    "components": {
+      "machineGuid": "10c025ebbf3640d74bbb7bba161cc56ce3beac3dc0cc6ad1b5cd7fb301686de9",
+      "systemVolume": "4c8827decb075955639bff338616d0e571bce4aa54410bd47161b45ca507cd25",
+      "bios": "35c3ddd0424dc2a76285c539439c768f3a4e2a3c7ff8ef349b76b32717d16245",
+      "processor": "51dabb8c183b72452b3cdd8d0bfc6735d24aee1fd4b09f362d59a85255e130bd",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:38:26.8837536+00:00",
+    "lastSeenUtc": "2026-09-06T22:38:26.883754+00:00",
+    "ban": null
+  },
+  {
+    "composite": "34c078aa4ad4ac78c3dea60b5c9d95385d322bd3fb7441ea588fc4b2ff4ffa58",
+    "components": {
+      "machineGuid": "41d45e5002e0e6b5ad2279eb4a1137783d90bb76835d2ff3d0d76009877299a8",
+      "systemVolume": "34008abd024cd2f6f6c50904e28546873cc7354870007cc5fc0d0117ad00177a",
+      "bios": "acf72885781c5cbb7a5cd3b2da40c19674ce2b7e146ee640967a8bed3df50270",
+      "processor": "a66c7687b4204c85881462b854272a283908ea7b9efab117fff7667182194bcb",
+      "osBuild": "665465a4a23e1cd30d50c28a1c5040eedd5fb789d369b5c811598150c362e1b7"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T22:39:39.403415+00:00",
+    "lastSeenUtc": "2026-09-06T22:39:39.4034158+00:00",
+    "ban": null
+  },
+  {
+    "composite": "22bb697d875df4f40718c607cfe0df5452e5b51d3b23a036f383eae439bdcb20",
+    "components": {
+      "machineGuid": "479356da454f0240e54251a19b14077e51dc8306ca63018d0d10ff3e89c6698a",
+      "systemVolume": "93ba712963ac7a6b7f21209cd8107890ac91fca2a40124f779b72dffb88e3d78",
+      "bios": "15b1f9e7d9b8710a04f765fffefa92a5e857507881779545289853d53e022623",
+      "processor": "d149137afa8cd7d2c73d8189afc31afc2353c544546ae971fdc73a4a76bf99dc",
+      "osBuild": "878fe31ddf47bdf8ddc73f92adf6718ad60f758702ce2f1e0a1d5171623d95e4"
+    },
+    "playerIds": [
+      "anon"
+    ],
+    "firstSeenUtc": "2026-09-06T23:19:16.3795789+00:00",
+    "lastSeenUtc": "2026-09-06T23:19:16.3795954+00:00",
+    "ban": null
+  }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "id": "Rooms_RoomBanner_GoldenTrophy",
+        "sectionType": 6,
+        "sectionSubType": "RoomBanner",
+        "source": "170134",
+        "sourceMetadata": "170134",
+        "displayMetadata": null
+    },
+    {
+        "id": "Rooms_TopEngagement",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_TopEngagement",
+        "source": "CarouselEndpoint",
+        "sourceMetadata": "topengagementrooms",
+        "displayMetadata": "{\"DisplayTitle\":\"Top Twelve\",\"supportsDedupe\":\"false\",\"numRows\":\"2\"}"
+    },
+    {
+        "id": "Rooms_Trending",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_Trending",
+        "source": "CarouselEndpoint",
+        "sourceMetadata": "trendingrooms",
+        "displayMetadata": "{\"DisplayTitle\":\"Trending\",\"supportsDedupe\":\"true\",\"numRows\":\"1\"}"
+    },
+    {
+        "id": "Rooms_Featured_PlayHighlight",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_Featured2",
+        "source": "Featured",
+        "sourceMetadata": null,
+        "displayMetadata": "{\"DisplayTitle\":\"Featured\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\"}"
+    },
+    {
+        "id": "Discovery_FeaturedCreator",
+        "sectionType": 13,
+        "sectionSubType": "featured_creator",
+        "source": "PlayerCreatedRooms",
+        "sourceMetadata": "49",
+        "displayMetadata": "{\"DisplayTitle\":\"Featured Creator\", \"descriptionText\":\"Designing fresh, beautiful spaces to discover\",\"itemCount\":\"4\", \"unsupportedPlatforms\":[\"Switch\"]}"
+    },
+    {
+        "id": "Events_CreatorWorkshops_New_Users",
+        "sectionType": 5,
+        "sectionSubType": "Creator_Workshop_New_Users",
+        "source": "ClubEventsById",
+        "sourceMetadata": "69",
+        "displayMetadata": "{\"DisplayTitle\":\"Creative Workshops\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\",\"excludeJuniors\":\"true\",\"unsupportedPlatforms\":[\"Switch\"],\"accountAgeMaxDays\":3}"
+    },
+    {
+        "id": "Rooms_RRO_PlayHighlight",
+        "sectionType": 0,
+        "sectionSubType": "Rooms_RRO",
+        "source": "Hot",
+        "sourceMetadata": "rro",
+        "displayMetadata": "{\"DisplayTitle\":\"Rec Room Originals\",\"supportsDedupe\":\"false\",\"numRows\":\"1\",\"sizePerPlatform\":\"\",\"backgroundColor\":\"\",\"horizontalScrollEnabled\":\"false\"}"
+    }
+]

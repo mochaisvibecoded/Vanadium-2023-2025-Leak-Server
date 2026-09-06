@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vanadium Director</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='0' y2='1'><stop offset='0%25' stop-color='%237c5cbf'/><stop offset='100%25' stop-color='%235b8dee'/></linearGradient></defs><text y='.9em' font-size='90' fill='url(%23g)'>⬡</text></svg>">
+<style>
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --surface: rgba(255,238,215,0.88);
+  --surface2: rgba(255,228,200,0.68);
+  --border: rgba(0,0,0,0.12);
+  --accent: #f26522;
+  --accent2: #ff9a00;
+  --text: #163573;
+  --text-muted: #5a5a6a;
+  --danger: #c0392b;
+  --success: #27ae60;
+  --discord: #5865f2;
+  --discord-hover: #4752c4;
+  --font: 'Futura PT', Futura, 'Century Gothic', 'Trebuchet MS', sans-serif;
+  --radius: 8px;
+  --radius-sm: 5px;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://i.imgur.com/Z0AXeTL.png') center/cover fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-box {
+  background: linear-gradient(145deg, #ffeedd 0%, #ffeedd 60%, #d8cfc8 100%);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 16px;
+  padding: 24px 90px;
+  text-align: center;
+  width: 380px;
+  max-width: 92vw;
+  box-shadow: 0 8px 48px rgba(0,0,0,0.35);
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 42px;
+  color: #282d4c;
+  -webkit-text-fill-color: #282d4c;
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.auth-box h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #282d4c;
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+.auth-box .subtitle {
+  color: #5a5a6a;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 36px;
+  font-weight: 700;
+}
+
+.auth-box .subtitle strong {
+  color: #282d4c;
+  font-weight: 700;
+}
+
+.btn-discord {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  background: linear-gradient(160deg, #cc4a28 0%, #f27530 100%);
+  border: none;
+  border-radius: var(--radius);
+  color: #fff;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 13px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.18s, transform 0.12s, box-shadow 0.18s;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 14px rgba(176,62,34,0.35);
+}
+
+.btn-discord:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 22px rgba(176,62,34,0.45);
+}
+
+.btn-discord:active { transform: translateY(0); }
+
+.discord-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0;
+  color: rgba(255,255,255,0.4);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.divider::before, .divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(255,255,255,0.15);
+}
+
+.requirements {
+  background: rgba(0,0,0,0.18);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.requirements .req-title {
+  color: rgba(255,255,255,0.55);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 8px;
+}
+
+.requirements ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.requirements ul li {
+  color: rgba(255,255,255,0.7);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.requirements ul li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+#status-msg {
+  margin-top: 18px;
+  min-height: 20px;
+  font-size: 12px;
+  color: #5a5a6a;
+  transition: color 0.2s;
+}
+
+#status-msg.err { color: #e74c3c; }
+#status-msg.ok { color: #4cd98a; }
+#status-msg.loading { color: var(--accent2); }
+
+.footer-note {
+  margin-top: 28px;
+  color: rgba(255,255,255,0.3);
+  font-size: 11px;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.loading-dot {
+  display: inline-block;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+</style>
+</head>
+<body>
+
+<div class="auth-box">
+  <span class="logo">⬡</span>
+  <h1>Vanadium Director</h1>
+
+  <a id="discord-btn" class="btn-discord" href="https://discord.com/oauth2/authorize?client_id=1512856861374812281&response_type=code&redirect_uri=https%3A%2F%2Freloxa.xyz%2FVanNet%2FDirector&scope=identify+guilds+guilds.members.read">
+    <svg class="discord-icon" viewBox="0 -28.5 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z"/>
+    </svg>
+    Sign-In Using Discord
+  </a>
+
+  <div id="status-msg"></div>
+</div>
+
+<script>
+(function () {
+  const params = new URLSearchParams(window.location.search);
+  const code = params.get("code");
+  const error = params.get("error");
+  const statusEl = document.getElementById("status-msg");
+  const btn = document.getElementById("discord-btn");
+
+  function setStatus(msg, cls) {
+    statusEl.className = cls || "";
+    statusEl.textContent = msg;
+  }
+
+  if (error) {
+    setStatus("Authorization was cancelled or denied.", "err");
+    return;
+  }
+
+  if (code) {
+    btn.style.pointerEvents = "none";
+    btn.style.opacity = "0.5";
+    setStatus("Verifying authorization\u2026", "loading");
+
+    fetch("/vannet/api/director/discord-callback", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ code })
+    })
+      .then(r => r.json())
+      .then(data => {
+        if (data.success && data.token) {
+          sessionStorage.setItem("director_token", data.token);
+          sessionStorage.setItem("director_token_expiry", Date.now() + 30 * 60 * 1000);
+          setStatus("Authorized! Redirecting\u2026", "ok");
+          setTimeout(() => {
+            window.location.href = "/vannet/Director/Panel";
+          }, 600);
+        } else {
+          btn.style.pointerEvents = "";
+          btn.style.opacity = "";
+          setStatus(data.error || "You do not have the required role to access this panel.", "err");
+        }
+      })
+      .catch(() => {
+        btn.style.pointerEvents = "";
+        btn.style.opacity = "";
+        setStatus("Network error. Please try again.", "err");
+      });
+  }
+})();
+</script>
+
+</body>
+</html>
